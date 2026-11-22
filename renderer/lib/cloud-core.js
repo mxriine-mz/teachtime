@@ -53,6 +53,29 @@
       return session.user;
     }
 
+    // Connexion avec Google : Supabase renvoie vers redirectTo avec les jetons dans la partie « # » de l'adresse.
+    function googleUrl(redirectTo) {
+      return `${base}/auth/v1/authorize?provider=google&redirect_to=${encodeURIComponent(redirectTo)}`;
+    }
+
+    // params : les paramètres reçus au retour (URLSearchParams). Renvoie l'utilisateur, ou null s'il n'y a rien.
+    async function fromRedirect(params) {
+      const p = params instanceof URLSearchParams ? params : new URLSearchParams(String(params || '').replace(/^#/, ''));
+      if (p.get('error') || p.get('error_description')) {
+        const d = String(p.get('error_description') || p.get('error'));
+        if (/signup|not allowed|disabled/i.test(d)) throw new Error('Ce compte Google n\'est pas relié à TEAch Time : utilise la même adresse que ton compte.');
+        throw new Error(d);
+      }
+      const at = p.get('access_token');
+      const rt = p.get('refresh_token');
+      if (!at || !rt) return null;
+      const r = await f(`${base}/auth/v1/user`, { headers: { apikey: key, Authorization: `Bearer ${at}` } });
+      const user = await readJson(r);
+      if (!r.ok) throw errorOf(user, r.status);
+      keep({ access_token: at, refresh_token: rt, expires_in: Number(p.get('expires_in')) || 3600, user });
+      return session.user;
+    }
+
     function signOut() {
       session = null;
       storage.set('session', null);
@@ -88,19 +111,22 @@
       const cur = storage.get('cursor') || { pushT: 0, pushU: 0, ev: 0, it: 0 };
       const data = cache();
 
-      const newEv = (own.events || []).filter((e) => e.t > cur.pushT);
+      // On envoie tout ce que la base n'a pas encore (comparé à ce qu'on en a déjà reçu) : rien ne se perd,
+      // même ce qui arrive plus tard d'un autre appareil par le Drive. Les doublons sont ignorés par la base.
+      const known = new Set(data.events.map((e) => e.id));
+      const newEv = (own.events || []).filter((e) => e && e.id && !known.has(e.id));
       for (let i = 0; i < newEv.length; i += 500) {
         const rows = newEv.slice(i, i + 500).map((e) => ({ id: e.id, dev: e.dev || null, t: e.t, day: e.day, kind: e.kind, pts: e.pts || 0, ref: e.ref || null }));
         await rest('POST', 'tt_events?on_conflict=id', rows, { Prefer: 'resolution=ignore-duplicates,return=minimal' });
       }
-      if (newEv.length) cur.pushT = Math.max(cur.pushT, ...newEv.map((e) => e.t));
 
-      const newIt = Object.entries(own.items || {}).filter(([, it]) => it && it.u > cur.pushU);
+
+      const newIt = Object.entries(own.items || {}).filter(([k, it]) => it && (!data.items[k] || it.u > data.items[k].u));
       for (let i = 0; i < newIt.length; i += 200) {
         const rows = newIt.slice(i, i + 200).map(([k, it]) => ({ key: k, v: it.deleted ? null : it.v, u: it.u, deleted: !!it.deleted }));
         await rest('POST', 'rpc/tt_put_items', { rows });
       }
-      if (newIt.length) cur.pushU = Math.max(cur.pushU, ...newIt.map(([, it]) => it.u));
+
 
       // Événements : par date d'arrivée sur le serveur.
       const seen = new Set(data.events.map((e) => e.id));
@@ -132,6 +158,8 @@
 
     return {
       signIn,
+      googleUrl,
+      fromRedirect,
       signOut,
       sync,
       cache,

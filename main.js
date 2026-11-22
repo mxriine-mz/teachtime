@@ -320,6 +320,7 @@ function registerIpc() {
   // Base en ligne (Supabase), partagée avec la version web.
   ipcMain.handle('cloud:status', () => cloud.status());
   ipcMain.handle('cloud:connect', (_e, p) => cloud.connect(p || {}).then((r) => { pushState(); return r; }));
+  ipcMain.handle('cloud:google', () => cloud.google().then((r) => { pushState(); if (r.ok) showWindow(); return r; }));
   ipcMain.handle('cloud:logout', () => { cloud.logout(); pushState(); return true; });
   ipcMain.handle('cloud:sync', () => cloud.run().then((s) => { pushState(); return s; }));
   ipcMain.handle('cloud:link', (_e, webUrl) => cloud.link(String(webUrl || '')));
@@ -430,7 +431,7 @@ function start() {
     store.init(app.getPath('userData'), config.get().deviceId, { useDrive: !SELFTEST });
     stt.init(path.join(app.getPath('userData'), 'models'), path.join(__dirname, 'models'));
     voice.init(path.join(app.getPath('userData'), 'models'), path.join(__dirname, 'models'));
-    cloud.init(app.getPath('userData'), { store, config, onChange: () => pushState() });
+    cloud.init(app.getPath('userData'), { store, config, onChange: () => pushState(), envFile: SELFTEST ? null : path.join(__dirname, '.env') });
     lastRefresh = Date.now();
     registerAppProtocol();
 

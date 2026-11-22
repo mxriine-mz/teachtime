@@ -25,7 +25,9 @@ const saveSettings = () => LS.set('tt.settings', settings);
 
 // ---------- Base en ligne ----------
 const cloudStorage = { get: (k) => LS.get(`tt.cloud.${k}`), set: (k, v) => LS.set(`tt.cloud.${k}`, v) };
-let cloudCfg = LS.get('tt.cloudcfg');
+// Adresse et clé publique : celles du site publié (config.js, rempli au déploiement), sinon celles saisies ici.
+const BUILT = window.TT_CONFIG && window.TT_CONFIG.url && window.TT_CONFIG.key ? window.TT_CONFIG : null;
+let cloudCfg = BUILT || LS.get('tt.cloudcfg');
 const fromLink = TTCloud.decodeLink(location.hash);
 if (fromLink) {
   cloudCfg = fromLink;
@@ -37,6 +39,16 @@ const makeCloud = () => { cloud = cloudCfg ? TTCloud.create({ url: cloudCfg.url,
 makeCloud();
 let remote = cloud ? cloud.cache() : { events: [], items: {} };
 const sync = { status: cloud && cloud.user() ? 'ok' : 'off', at: LS.get('tt.cloud.at'), error: null };
+
+// Retour de la connexion Google : les jetons sont dans la partie « # » de l'adresse, qu'on efface aussitôt.
+if (cloud && /access_token=|error_description=/.test(location.hash)) {
+  const params = new URLSearchParams(location.hash.slice(1));
+  history.replaceState(null, '', location.pathname + location.search);
+  cloud.fromRedirect(params)
+    .then((u) => { if (u) { settings.mode = 'cloud'; saveSettings(); doSync(); } })
+    .catch((e) => { LS.set('tt.loginError', String(e.message || e)); })
+    .finally(() => emit());
+}
 
 // ---------- Fusion (comme lib/store.js sur le PC) ----------
 function allEvents() {
@@ -220,10 +232,16 @@ window.api = {
       return { ok: false, error: String(e.message || e) };
     }
   },
+  cloudGoogle: async () => {
+    if (!cloud) return { ok: false, error: 'Base non configurée.' };
+    location.href = cloud.googleUrl(location.origin + location.pathname);
+    return { ok: true, redirecting: true };
+  },
+  lastLoginError: async () => { const e = LS.get('tt.loginError'); LS.set('tt.loginError', null); return e; },
   cloudLogout: async () => { if (cloud) cloud.signOut(); remote = { events: [], items: {} }; settings.mode = null; saveSettings(); emit(); return true; },
   cloudSync: async () => { await doSync(); return getState().cloud; },
   cloudLink: async () => (cloudCfg ? `${location.origin}${location.pathname}#${TTCloud.encodeLink(cloudCfg)}` : null),
-  cloudConfig: async () => (cloudCfg ? { url: cloudCfg.url, hasKey: true } : null),
+  cloudConfig: async () => (cloudCfg ? { url: cloudCfg.url, hasKey: true, fromEnv: !!BUILT } : null),
   useLocal: async () => { settings.mode = 'local'; saveSettings(); emit(); return true; },
 
   // Reconnaissance vocale.

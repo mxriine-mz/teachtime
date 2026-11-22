@@ -161,7 +161,11 @@ async function boot() {
     if (setupChanged) navigate('home');
   });
   window.teachtime = { navigate, ctx, theme }; // utilisé par l'autotest
-  navigate(state.setupDone ? 'home' : state.platform === 'web' ? 'login' : 'setup');
+  // PC pas encore connecté à la base en ligne : la page de connexion d'abord (sauf si « Plus tard »).
+  let later = false;
+  try { later = localStorage.getItem('tt.loginLater') === '1'; } catch { /* rien */ }
+  const needLogin = state.platform !== 'web' && state.setupDone && !state.locked && !(state.cloud && state.cloud.user) && !later;
+  navigate(!state.setupDone ? (state.platform === 'web' ? 'login' : 'setup') : needLogin ? 'login' : 'home');
 }
 
 boot();

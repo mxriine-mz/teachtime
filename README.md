@@ -72,10 +72,13 @@ Une base Supabase gratuite garde la progression pour le PC, l'iPad et l'iPhone. 
 2. **SQL Editor** : colle le contenu de `supabase/schema.sql`, puis **Run**.
 3. **Authentication › Users › Add user** : crée ton utilisateur (e-mail, mot de passe), avec **Auto Confirm User**.
 4. **Authentication › Sign In / Providers** : décoche **Allow new users to sign up**, pour que personne d'autre ne puisse créer de compte.
-5. **Project Settings › API Keys** : copie l'**URL du projet** et la **clé publique** (*publishable* ou *anon*, jamais la clé *secret* / *service_role*).
-6. Sur le PC : Réglages › Compte en ligne, colle l'adresse et la clé, puis connecte-toi. Le bouton **Lien pour un autre appareil** copie un lien à ouvrir dans Safari sur l'iPhone et l'iPad : il contient l'adresse et la clé publique, il ne reste plus qu'à se connecter.
+5. **Project Settings › API Keys** : récupère l'**URL du projet** et la **clé publique** (*publishable*, jamais la clé *secret*).
+6. **PC** : copie `.env.example` en `.env` dans le dossier du projet et remplis-le. Le `.env` n'est jamais envoyé sur GitHub.
+7. **Site web** : dans le dépôt GitHub, **Settings › Secrets and variables › Actions**, crée deux secrets `SUPABASE_URL` et `SUPABASE_KEY`. Dans **Settings › Pages**, choisis la source **GitHub Actions** : le site est publié par `.github/workflows/pages.yml`, qui écrit la configuration dans `renderer/web/config.js` au moment du déploiement.
 
-L'adresse et la clé publique ne sont jamais écrites dans le code : elles restent dans les réglages de chaque appareil.
+Ensuite, la page de connexion ne demande plus que l'e-mail et le mot de passe, sur le PC comme sur l'iPhone et l'iPad.
+
+Sécurité : la clé publique sert seulement à trouver la base. Ce sont les règles de `supabase/schema.sql` (chaque compte ne voit que ses lignes, rien pour un visiteur non connecté) et la fermeture des inscriptions qui protègent les données. Le mot de passe n'est jamais gardé par l'app : Supabase le stocke haché, l'app ne garde qu'un jeton de session.
 
 ## Dessiner son propre personnage
 

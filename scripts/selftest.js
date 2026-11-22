@@ -132,7 +132,7 @@ async function run({ app, ensureWindow, getState, shouldLock, tick, config, stor
       ['home', {}], ['game', {}], ['lessons', {}], ['lessons', { id: 'conditionals' }],
       ['memorize', {}], ['memorize', { id: 'demo' }], ['memorize', { id: 'demo', mode: 'hide' }], ['memorize', { id: 'demo', mode: 'order' }],
       ['vocab', {}], ['vocab', { id: 'demo' }], ['vocab', { preset: 'toeic-finance' }], ['vocab', { id: 'demo', mode: 'all' }],
-      ['speak', {}], ['speak', { mode: 'roleplay' }], ['speak', { mode: 'free' }], ['settings', {}],
+      ['speak', {}], ['speak', { mode: 'roleplay' }], ['speak', { mode: 'free' }], ['settings', {}], ['login', {}],
     ];
     const garbled = [];
     for (const [v, p] of views) {

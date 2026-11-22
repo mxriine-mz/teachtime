@@ -1,0 +1,46 @@
+# Met en ligne la version web sur GitHub Pages à chaque envoi sur main.
+# L'adresse et la clé publique de la base viennent des secrets du dépôt (Settings › Secrets and variables › Actions) :
+# elles ne sont jamais écrites dans le code, seulement dans le site publié.
+name: Mise en ligne du site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configuration de la base (secrets du dépôt)
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+        run: |
+          node -e "const u=process.env.SUPABASE_URL||'',k=process.env.SUPABASE_KEY||'';require('fs').writeFileSync('renderer/web/config.js','window.TT_CONFIG = '+(u&&k?JSON.stringify({url:u,key:k}):'null')+';\n');console.log(u&&k?'configuration écrite':'secrets absents : connexion manuelle')"
+
+      - name: Fichiers du site
+        run: |
+          mkdir _site
+          cp -r index.html manifest.webmanifest sw.js .nojekyll assets content renderer _site/
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

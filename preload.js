@@ -30,6 +30,7 @@ contextBridge.exposeInMainWorld('api', {
 
   cloudStatus: () => ipcRenderer.invoke('cloud:status'),
   cloudConnect: (p) => ipcRenderer.invoke('cloud:connect', p),
+  cloudGoogle: () => ipcRenderer.invoke('cloud:google'),
   cloudLogout: () => ipcRenderer.invoke('cloud:logout'),
   cloudSync: () => ipcRenderer.invoke('cloud:sync'),
   cloudLink: (webUrl) => ipcRenderer.invoke('cloud:link', webUrl),

@@ -1,10 +1,10 @@
 // Service worker de la version web : l'app s'ouvre même sans réseau.
 // Fichiers de l'app : réseau d'abord (pour avoir la dernière version), cache en secours.
 // La base en ligne et les modèles (Whisper) ne passent pas par ici.
-const CACHE = 'teachtime-v1';
+const CACHE = 'teachtime-v2';
 
 self.addEventListener('install', (e) => {
-  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', 'index.html', 'renderer/style.css', 'renderer/app.js', 'renderer/web/boot.js', 'renderer/web/web-api.js', 'renderer/lib/cloud-core.js', 'manifest.webmanifest'])).then(() => self.skipWaiting()));
+  e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', 'index.html', 'renderer/style.css', 'renderer/app.js', 'renderer/web/boot.js', 'renderer/web/web-api.js', 'renderer/web/config.js', 'renderer/lib/cloud-core.js', 'manifest.webmanifest'])).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (e) => {

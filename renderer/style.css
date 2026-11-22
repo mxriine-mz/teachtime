@@ -473,3 +473,16 @@ body.web .modal { max-height: calc(100dvh - 40px - env(safe-area-inset-top) - en
 @media (max-width: 600px) {
   .grid.c2, .grid.c3 { grid-template-columns: minmax(0, 1fr); }
 }
+
+/* Bouton « Continuer avec Google » (page de connexion). */
+.btn.google { width: 100%; justify-content: center; gap: 10px; background: var(--panel); border: 1px solid var(--line); font-weight: 600; padding: 11px 16px; }
+.btn.google .g-logo { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent-ink); font-family: Fredoka, sans-serif; font-weight: 700; font-size: 14px; }
+.or-line { display: flex; align-items: center; gap: 10px; margin: 14px 0 6px; color: var(--muted); font-size: 13px; }
+.or-line::before, .or-line::after { content: ''; flex: 1; height: 1px; background: var(--line); }
+/* Réglages tout en bas du menu, sous la série de jours. */
+#nav .nav-end { margin-top: 6px; padding-top: 8px; border-top: 1px solid color-mix(in srgb, var(--nav-ink) 12%, transparent); }
+.nav-foot { padding-bottom: 4px; }
+@media (max-width: 900px) {
+  #nav nav:not(.nav-end) { flex: 6 1 0; }
+  #nav .nav-end { flex: 1 1 0; margin-top: 0; padding-top: 0; border-top: 0; }
+}

@@ -100,27 +100,10 @@ export async function render(root, ctx) {
         msg);
       return;
     }
-    const url = h('input', { type: 'url', placeholder: 'https://xxxx.supabase.co', value: (c && c.url) || '', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false' });
-    const key = h('input', { type: 'text', placeholder: c && c.configured ? 'Déjà enregistrée (laisser vide)' : 'Clé publique (publishable / anon)', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false' });
-    const email = h('input', { type: 'email', placeholder: 'E-mail', autocomplete: 'username', autocapitalize: 'off' });
-    const pass = h('input', { type: 'password', placeholder: 'Mot de passe', autocomplete: 'current-password' });
-    const go = async () => {
-      msg.style.color = '';
-      msg.textContent = 'Connexion…';
-      const r = await ctx.api.cloudConnect({ url: url.value || null, key: key.value || null, email: email.value, password: pass.value });
-      pass.value = '';
-      if (!r.ok) { msg.style.color = 'var(--bad)'; msg.textContent = r.error || 'Connexion impossible.'; return; }
-      await ctx.refresh();
-      drawAccount();
-    };
+    // Pas connectée : la connexion se fait sur sa propre page.
     accountCard.append(
-      h('p', { class: 'small muted', style: { marginTop: 0 } }, 'Une base Supabase garde ta progression pour le PC, l\'iPad et l\'iPhone. Ce que tu as déjà fait ici y sera envoyé.'),
-      h('label', { class: 'field' }, h('span', {}, 'Adresse de la base'), url),
-      h('label', { class: 'field' }, h('span', {}, 'Clé publique'), key),
-      h('label', { class: 'field' }, h('span', {}, 'E-mail'), email),
-      h('label', { class: 'field' }, h('span', {}, 'Mot de passe'), pass),
-      msg,
-      h('button', { class: 'btn primary', onclick: go }, 'Se connecter'));
+      h('p', { class: 'muted', style: { marginTop: 0 } }, 'Pas encore connectée. Avec ton compte, tes points, tes textes et tes listes sont partagés entre le PC, l\'iPad et l\'iPhone.'),
+      h('button', { class: 'btn primary', onclick: () => ctx.go('login') }, 'Se connecter'));
   };
   drawAccount();
 

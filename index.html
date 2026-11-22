@@ -33,9 +33,12 @@
         <button data-view="memorize"><span class="ico"></span><span class="lbl">Mémoriser</span><span class="lbl-s">Textes</span></button>
         <button data-view="vocab"><span class="ico"></span><span class="lbl">Vocabulaire</span><span class="lbl-s">Mots</span></button>
         <button data-view="speak"><span class="ico"></span><span class="lbl">Oral</span></button>
-        <button data-view="settings"><span class="ico"></span><span class="lbl">Réglages</span></button>
       </nav>
       <div class="nav-foot" id="streak"></div>
+      <!-- Réglages tout en bas, sous la série (choix de Marine). -->
+      <nav class="nav-end">
+        <button data-view="settings"><span class="ico"></span><span class="lbl">Réglages</span></button>
+      </nav>
     </aside>
     <main>
       <header id="topbar">
@@ -50,7 +53,7 @@
     </main>
   </div>
   <div id="toasts"></div>
-  <script src="renderer/lib/cloud-core.js"></script>
+  <script src="renderer/web/config.js"></script>
   <script type="module" src="renderer/web/boot.js"></script>
 </body>
 </html>

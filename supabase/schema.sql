@@ -31,6 +31,11 @@ create index if not exists tt_items_user_srv on public.tt_items (user_id, srv);
 alter table public.tt_events enable row level security;
 alter table public.tt_items enable row level security;
 
+-- Accès par l'API : seulement pour les comptes connectés (jamais pour les visiteurs anonymes).
+revoke all on public.tt_events, public.tt_items from anon;
+grant select, insert on public.tt_events to authenticated;
+grant select, insert, update on public.tt_items to authenticated;
+
 drop policy if exists "tt_events lecture" on public.tt_events;
 drop policy if exists "tt_events ajout" on public.tt_events;
 create policy "tt_events lecture" on public.tt_events for select to authenticated using (user_id = auth.uid());

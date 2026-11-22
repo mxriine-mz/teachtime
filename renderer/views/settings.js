@@ -4,7 +4,7 @@ import { startRecording } from '../lib/audio.js';
 import { icon } from '../lib/icons.js';
 
 // Adresse de la version web (GitHub Pages), pour le lien d'installation envoyé depuis le PC.
-const WEB_URL = 'https://mxriine-mz.github.io/teachtime/';
+const WEB_URL = 'https://teach-time.mxrine-mz.dev/';
 
 export async function render(root, ctx) {
   const s = await ctx.refresh();

@@ -56,7 +56,7 @@ La progression est rangée dans `Mon Drive\TeachTime\devices` : un fichier par P
 
 ## Version web : iPhone et iPad
 
-La même app tourne dans Safari, à l'adresse <https://mxriine-mz.github.io/teachtime/> (GitHub Pages, fichier `index.html` à la racine). Différences avec le PC :
+La même app tourne dans Safari, à l'adresse <https://teach-time.mxrine-mz.dev/> (GitHub Pages, fichier `index.html` à la racine). Différences avec le PC :
 
 - pas de verrou (Safari ne peut pas bloquer un iPhone), mais le quota, les points et la série restent ;
 - la voix anglaise est celle d'iOS (choix dans Réglages) ;

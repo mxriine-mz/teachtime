@@ -1,0 +1,4556 @@
+{
+  "grammar": [
+    {
+      "id": "g01",
+      "level": "B1",
+      "tags": [
+        "articles"
+      ],
+      "q": "She is ___ engineer at a large company.",
+      "choices": [
+        "a",
+        "an",
+        "the",
+        "(rien)"
+      ],
+      "a": 1,
+      "ex": "On met « an » devant un son voyelle : an engineer, an hour, an MBA."
+    },
+    {
+      "id": "g02",
+      "level": "B1",
+      "tags": [
+        "articles"
+      ],
+      "q": "___ sun rises in the east.",
+      "choices": [
+        "A",
+        "An",
+        "The",
+        "(rien)"
+      ],
+      "a": 2,
+      "ex": "Ce qui est unique (le soleil, la lune, Internet) prend « the »."
+    },
+    {
+      "id": "g03",
+      "level": "B1",
+      "tags": [
+        "articles"
+      ],
+      "q": "I usually go to work by ___ bus.",
+      "choices": [
+        "a",
+        "the",
+        "(rien)",
+        "an"
+      ],
+      "a": 2,
+      "ex": "« by » + moyen de transport s'emploie sans article : by bus, by car, by train."
+    },
+    {
+      "id": "g04",
+      "level": "B1",
+      "tags": [
+        "articles"
+      ],
+      "q": "He's ___ honest man.",
+      "choices": [
+        "a",
+        "an",
+        "the",
+        "(rien)"
+      ],
+      "a": 1,
+      "ex": "Le h de « honest » ne se prononce pas : le son est voyelle, donc « an »."
+    },
+    {
+      "id": "g05",
+      "level": "B1",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "The meeting is scheduled ___ Monday morning.",
+      "choices": [
+        "in",
+        "at",
+        "on",
+        "by"
+      ],
+      "a": 2,
+      "ex": "« on » + jour, même suivi d'un moment de la journée : on Monday morning."
+    },
+    {
+      "id": "g06",
+      "level": "B1",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "Our office closes ___ 6 p.m.",
+      "choices": [
+        "in",
+        "on",
+        "at",
+        "during"
+      ],
+      "a": 2,
+      "ex": "« at » + heure précise : at 6 p.m., at noon, at midnight."
+    },
+    {
+      "id": "g07",
+      "level": "B1",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "The company was founded ___ 1998.",
+      "choices": [
+        "on",
+        "at",
+        "in",
+        "since"
+      ],
+      "a": 2,
+      "ex": "« in » + année, mois ou saison : in 1998, in May, in winter."
+    },
+    {
+      "id": "g08",
+      "level": "B2",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "Please submit the report ___ Friday at the latest.",
+      "choices": [
+        "until",
+        "by",
+        "since",
+        "for"
+      ],
+      "a": 1,
+      "ex": "« by » = au plus tard (une échéance). « until » = jusqu'à, pour une action qui dure."
+    },
+    {
+      "id": "g09",
+      "level": "B1",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "I have worked here ___ five years.",
+      "choices": [
+        "since",
+        "for",
+        "during",
+        "from"
+      ],
+      "a": 1,
+      "ex": "« for » + durée (five years). « since » + point de départ (2019, Monday)."
+    },
+    {
+      "id": "g10",
+      "level": "B1",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "She has lived in London ___ 2019.",
+      "choices": [
+        "for",
+        "since",
+        "from",
+        "ago"
+      ],
+      "a": 1,
+      "ex": "« since » + point de départ dans le temps, avec le present perfect."
+    },
+    {
+      "id": "g11",
+      "level": "B1",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "This laptop is ___ than the old one.",
+      "choices": [
+        "more light",
+        "lighter",
+        "the lightest",
+        "most light"
+      ],
+      "a": 1,
+      "ex": "Adjectif court (une syllabe) : on ajoute -er. light → lighter than."
+    },
+    {
+      "id": "g12",
+      "level": "B1",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "It was the ___ presentation of the conference.",
+      "choices": [
+        "more interesting",
+        "most interesting",
+        "interestingest",
+        "much interesting"
+      ],
+      "a": 1,
+      "ex": "Adjectif long : superlatif avec « the most » : the most interesting."
+    },
+    {
+      "id": "g13",
+      "level": "B2",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "The new process is twice ___ efficient as the old one.",
+      "choices": [
+        "as",
+        "so",
+        "more",
+        "than"
+      ],
+      "a": 0,
+      "ex": "« twice as … as » = deux fois plus … que."
+    },
+    {
+      "id": "g14",
+      "level": "B1",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "Sales were ___ this year than last year.",
+      "choices": [
+        "badder",
+        "worse",
+        "worst",
+        "more bad"
+      ],
+      "a": 1,
+      "ex": "bad est irrégulier : bad → worse (comparatif) → the worst (superlatif)."
+    },
+    {
+      "id": "g15",
+      "level": "B1",
+      "tags": [
+        "relatives"
+      ],
+      "q": "The candidate ___ we interviewed yesterday has accepted the offer.",
+      "choices": [
+        "which",
+        "whose",
+        "who",
+        "what"
+      ],
+      "a": 2,
+      "ex": "Pour une personne : who (ou whom, that). « which » est pour les choses."
+    },
+    {
+      "id": "g16",
+      "level": "B1",
+      "tags": [
+        "relatives"
+      ],
+      "q": "This is the report ___ I told you about.",
+      "choices": [
+        "who",
+        "which",
+        "whose",
+        "where"
+      ],
+      "a": 1,
+      "ex": "Pour une chose : which (ou that)."
+    },
+    {
+      "id": "g17",
+      "level": "B2",
+      "tags": [
+        "relatives"
+      ],
+      "q": "We need a supplier ___ products are certified.",
+      "choices": [
+        "who",
+        "which",
+        "whose",
+        "whom"
+      ],
+      "a": 2,
+      "ex": "« whose » = dont, indique la possession : a supplier whose products… (le fournisseur dont les produits…)."
+    },
+    {
+      "id": "g18",
+      "level": "B1",
+      "tags": [
+        "relatives"
+      ],
+      "q": "That's the hotel ___ we stayed last year.",
+      "choices": [
+        "which",
+        "where",
+        "who",
+        "when"
+      ],
+      "a": 1,
+      "ex": "« where » remplace un lieu : the hotel where we stayed (= in which we stayed)."
+    },
+    {
+      "id": "g19",
+      "level": "B1",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "If it rains tomorrow, we ___ the picnic.",
+      "choices": [
+        "cancel",
+        "will cancel",
+        "would cancel",
+        "cancelled"
+      ],
+      "a": 1,
+      "ex": "Condition réelle (1er conditionnel) : If + présent, will + verbe."
+    },
+    {
+      "id": "g20",
+      "level": "B1",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "If I ___ more time, I would learn Japanese.",
+      "choices": [
+        "have",
+        "had",
+        "will have",
+        "would have"
+      ],
+      "a": 1,
+      "ex": "Situation imaginaire (2e conditionnel) : If + prétérit, would + verbe."
+    },
+    {
+      "id": "g21",
+      "level": "B2",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "If she had left earlier, she ___ the train.",
+      "choices": [
+        "would catch",
+        "will catch",
+        "would have caught",
+        "caught"
+      ],
+      "a": 2,
+      "ex": "Regret sur le passé (3e conditionnel) : If + past perfect, would have + participe passé."
+    },
+    {
+      "id": "g22",
+      "level": "B2",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "Unless you ___ now, you will miss the deadline.",
+      "choices": [
+        "start",
+        "don't start",
+        "will start",
+        "started"
+      ],
+      "a": 0,
+      "ex": "« unless » = if … not. Il contient déjà la négation : unless you start = if you don't start."
+    },
+    {
+      "id": "g23",
+      "level": "B1",
+      "tags": [
+        "passive"
+      ],
+      "q": "The new product ___ next month.",
+      "choices": [
+        "will launch",
+        "will be launched",
+        "is launching by",
+        "launched"
+      ],
+      "a": 1,
+      "ex": "Le produit ne se lance pas tout seul : passif = be + participe passé. Au futur : will be launched."
+    },
+    {
+      "id": "g24",
+      "level": "B1",
+      "tags": [
+        "passive"
+      ],
+      "q": "All the invoices ___ by the accounting department last week.",
+      "choices": [
+        "checked",
+        "were checked",
+        "have checked",
+        "are checking"
+      ],
+      "a": 1,
+      "ex": "« by the accounting department » signale le passif ; « last week » impose le prétérit : were checked."
+    },
+    {
+      "id": "g25",
+      "level": "B2",
+      "tags": [
+        "passive"
+      ],
+      "q": "The conference room is ___ cleaned at the moment.",
+      "choices": [
+        "be",
+        "been",
+        "being",
+        "to be"
+      ],
+      "a": 2,
+      "ex": "Passif au présent continu : is being + participe passé (en train d'être nettoyée)."
+    },
+    {
+      "id": "g26",
+      "level": "B1",
+      "tags": [
+        "modals"
+      ],
+      "q": "You ___ wear a helmet on the construction site. It's compulsory.",
+      "choices": [
+        "must",
+        "might",
+        "could",
+        "would"
+      ],
+      "a": 0,
+      "ex": "Obligation : must. « compulsory » = obligatoire."
+    },
+    {
+      "id": "g27",
+      "level": "B2",
+      "tags": [
+        "modals"
+      ],
+      "q": "You ___ bring your laptop; we have computers here.",
+      "choices": [
+        "mustn't",
+        "don't have to",
+        "can't",
+        "shouldn't to"
+      ],
+      "a": 1,
+      "ex": "« don't have to » = pas obligé. « mustn't » = interdit. Ici, ce n'est pas interdit, juste inutile."
+    },
+    {
+      "id": "g28",
+      "level": "B1",
+      "tags": [
+        "modals"
+      ],
+      "q": "___ you help me carry these boxes, please?",
+      "choices": [
+        "Could",
+        "Should",
+        "Must",
+        "Might"
+      ],
+      "a": 0,
+      "ex": "Pour demander poliment : Could you…? (Can you…? est plus familier)."
+    },
+    {
+      "id": "g29",
+      "level": "B1",
+      "tags": [
+        "gerund"
+      ],
+      "q": "I look forward to ___ from you.",
+      "choices": [
+        "hear",
+        "hearing",
+        "heard",
+        "to hear"
+      ],
+      "a": 1,
+      "ex": "Dans « look forward to », « to » est une préposition : elle est suivie de -ing. Formule classique de fin d'e-mail."
+    },
+    {
+      "id": "g30",
+      "level": "B1",
+      "tags": [
+        "gerund"
+      ],
+      "q": "She decided ___ the job offer.",
+      "choices": [
+        "accept",
+        "accepting",
+        "to accept",
+        "accepted"
+      ],
+      "a": 2,
+      "ex": "decide, want, hope, plan, agree sont suivis de « to » + verbe."
+    },
+    {
+      "id": "g31",
+      "level": "B1",
+      "tags": [
+        "gerund"
+      ],
+      "q": "Would you mind ___ the window?",
+      "choices": [
+        "close",
+        "closing",
+        "to close",
+        "closed"
+      ],
+      "a": 1,
+      "ex": "mind, enjoy, avoid, finish, suggest sont suivis de -ing."
+    },
+    {
+      "id": "g32",
+      "level": "B2",
+      "tags": [
+        "gerund"
+      ],
+      "q": "He stopped ___ two years ago and feels much better.",
+      "choices": [
+        "smoke",
+        "smoking",
+        "to smoke",
+        "smoked"
+      ],
+      "a": 1,
+      "ex": "stop + -ing = arrêter de faire. stop + to = s'arrêter pour faire (He stopped to smoke = il s'est arrêté pour fumer)."
+    },
+    {
+      "id": "g33",
+      "level": "B2",
+      "tags": [
+        "connectors"
+      ],
+      "q": "___ the heavy traffic, she arrived on time.",
+      "choices": [
+        "Although",
+        "Despite",
+        "However",
+        "Because"
+      ],
+      "a": 1,
+      "ex": "« Despite » + nom (the heavy traffic). « Although » + sujet + verbe."
+    },
+    {
+      "id": "g34",
+      "level": "B2",
+      "tags": [
+        "connectors"
+      ],
+      "q": "___ it was raining, the event took place outside.",
+      "choices": [
+        "Despite",
+        "In spite of",
+        "Although",
+        "Because of"
+      ],
+      "a": 2,
+      "ex": "Après le blanc vient une proposition complète (it was raining) : il faut « Although »."
+    },
+    {
+      "id": "g35",
+      "level": "B1",
+      "tags": [
+        "connectors"
+      ],
+      "q": "The flight was cancelled ___ the storm.",
+      "choices": [
+        "because",
+        "because of",
+        "although",
+        "so"
+      ],
+      "a": 1,
+      "ex": "« because of » + nom. « because » + sujet + verbe (because there was a storm)."
+    },
+    {
+      "id": "g36",
+      "level": "B2",
+      "tags": [
+        "wordform"
+      ],
+      "q": "The manager gave a very ___ presentation.",
+      "choices": [
+        "inform",
+        "information",
+        "informative",
+        "informatively"
+      ],
+      "a": 2,
+      "ex": "Entre « a very » et un nom, il faut un adjectif : informative. Repère les suffixes -ive, -ful, -able, -ous."
+    },
+    {
+      "id": "g37",
+      "level": "B2",
+      "tags": [
+        "wordform"
+      ],
+      "q": "Please read the instructions ___ before using the machine.",
+      "choices": [
+        "care",
+        "careful",
+        "carefully",
+        "carefulness"
+      ],
+      "a": 2,
+      "ex": "Le mot décrit la façon de lire (le verbe) : adverbe en -ly : carefully."
+    },
+    {
+      "id": "g38",
+      "level": "B2",
+      "tags": [
+        "wordform"
+      ],
+      "q": "The ___ of the new branch is planned for June.",
+      "choices": [
+        "open",
+        "opened",
+        "opening",
+        "opens"
+      ],
+      "a": 2,
+      "ex": "Après « The » et avant « of », il faut un nom : the opening (l'ouverture)."
+    },
+    {
+      "id": "g39",
+      "level": "B1",
+      "tags": [
+        "pronouns"
+      ],
+      "q": "The director wrote the speech ___.",
+      "choices": [
+        "him",
+        "his",
+        "himself",
+        "he"
+      ],
+      "a": 2,
+      "ex": "Pronom réfléchi pour « lui-même » : himself, herself, themselves."
+    },
+    {
+      "id": "g40",
+      "level": "B1",
+      "tags": [
+        "quantifiers"
+      ],
+      "q": "We have very ___ time left, so let's hurry.",
+      "choices": [
+        "few",
+        "little",
+        "many",
+        "a few"
+      ],
+      "a": 1,
+      "ex": "time est indénombrable : little (peu de). few s'emploie avec un pluriel dénombrable (few people)."
+    },
+    {
+      "id": "g41",
+      "level": "B1",
+      "tags": [
+        "quantifiers"
+      ],
+      "q": "There aren't ___ seats left for the concert.",
+      "choices": [
+        "much",
+        "many",
+        "little",
+        "a little"
+      ],
+      "a": 1,
+      "ex": "seats est dénombrable et au pluriel : many. much s'emploie avec l'indénombrable (much money)."
+    },
+    {
+      "id": "gx101",
+      "level": "B1",
+      "tags": [
+        "articles"
+      ],
+      "q": "Could you send me ___ invoice we discussed yesterday?",
+      "choices": [
+        "a",
+        "an",
+        "the",
+        "(rien)"
+      ],
+      "a": 2,
+      "ex": "On parle d'une facture précise, déjà connue des deux personnes : on emploie « the »."
+    },
+    {
+      "id": "gx102",
+      "level": "B1",
+      "tags": [
+        "articles"
+      ],
+      "q": "She works as ___ university lecturer.",
+      "choices": [
+        "an",
+        "a",
+        "the",
+        "(rien)"
+      ],
+      "a": 1,
+      "ex": "« University » commence par le son /juː/ (une consonne), donc « a » et non « an »."
+    },
+    {
+      "id": "gx103",
+      "level": "B1",
+      "tags": [
+        "articles"
+      ],
+      "q": "Paris is ___ capital of France.",
+      "choices": [
+        "a",
+        "the",
+        "an",
+        "(rien)"
+      ],
+      "a": 1,
+      "ex": "La capitale de la France est unique : on emploie « the »."
+    },
+    {
+      "id": "gx104",
+      "level": "B1",
+      "tags": [
+        "articles"
+      ],
+      "q": "My brother plays ___ guitar in a band.",
+      "choices": [
+        "the",
+        "an",
+        "any",
+        "those"
+      ],
+      "a": 0,
+      "ex": "Avec « play » et un instrument de musique, on met « the » : play the guitar (en anglais américain, on entend aussi « play guitar » sans article)."
+    },
+    {
+      "id": "gx105",
+      "level": "B1",
+      "tags": [
+        "articles"
+      ],
+      "q": "I usually have ___ lunch at my desk.",
+      "choices": [
+        "(rien)",
+        "a",
+        "the",
+        "an"
+      ],
+      "a": 0,
+      "ex": "Pas d'article devant les repas (breakfast, lunch, dinner) quand on parle de l'habitude en général."
+    },
+    {
+      "id": "gx106",
+      "level": "B1",
+      "tags": [
+        "articles"
+      ],
+      "q": "The freelancer earns forty euros ___ hour.",
+      "choices": [
+        "a",
+        "the",
+        "an",
+        "(rien)"
+      ],
+      "a": 2,
+      "ex": "« Hour » commence par un h muet : le son est une voyelle, donc « an hour »."
+    },
+    {
+      "id": "gx107",
+      "level": "B2",
+      "tags": [
+        "articles"
+      ],
+      "q": "She is ___ only person who knows the password.",
+      "choices": [
+        "an",
+        "a",
+        "(rien)",
+        "the"
+      ],
+      "a": 3,
+      "ex": "Après « only », « first », « last » ou un superlatif, on emploie « the »."
+    },
+    {
+      "id": "gx108",
+      "level": "B2",
+      "tags": [
+        "articles"
+      ],
+      "q": "___ Smiths are coming to the meeting this afternoon.",
+      "choices": [
+        "A",
+        "The",
+        "(rien)",
+        "An"
+      ],
+      "a": 1,
+      "ex": "Pour parler d'une famille au pluriel, on utilise « the » devant le nom au pluriel : the Smiths."
+    },
+    {
+      "id": "gx109",
+      "level": "B2",
+      "tags": [
+        "articles"
+      ],
+      "q": "He has ___ MBA from a top business school.",
+      "choices": [
+        "a",
+        "an",
+        "the",
+        "(rien)"
+      ],
+      "a": 1,
+      "ex": "On choisit l'article selon le son : « MBA » se prononce « em-bi-ei », donc « an »."
+    },
+    {
+      "id": "gx110",
+      "level": "B2",
+      "tags": [
+        "articles"
+      ],
+      "q": "___ life is full of surprises.",
+      "choices": [
+        "A",
+        "(rien)",
+        "The",
+        "An"
+      ],
+      "a": 1,
+      "ex": "Pour une idée générale (la vie, le bonheur), on n'emploie pas d'article."
+    },
+    {
+      "id": "gx111",
+      "level": "B2",
+      "tags": [
+        "articles"
+      ],
+      "q": "He travels to ___ United States twice a year.",
+      "choices": [
+        "(rien)",
+        "a",
+        "the",
+        "an"
+      ],
+      "a": 2,
+      "ex": "Les noms de pays qui contiennent « States », « Kingdom » ou « Republic » prennent « the »."
+    },
+    {
+      "id": "gx112",
+      "level": "B1",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "I usually answer my emails ___ the morning.",
+      "choices": [
+        "on",
+        "at",
+        "in",
+        "by"
+      ],
+      "a": 2,
+      "ex": "On dit « in the morning », « in the afternoon », « in the evening »."
+    },
+    {
+      "id": "gx113",
+      "level": "B1",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "She is interested ___ working abroad.",
+      "choices": [
+        "of",
+        "in",
+        "on",
+        "for"
+      ],
+      "a": 1,
+      "ex": "« Interested » se construit avec « in » : interested in + verbe en -ing."
+    },
+    {
+      "id": "gx114",
+      "level": "B1",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "He is responsible ___ the marketing team.",
+      "choices": [
+        "of",
+        "to",
+        "for",
+        "with"
+      ],
+      "a": 2,
+      "ex": "« Responsible » est suivi de « for » : être responsable de quelque chose."
+    },
+    {
+      "id": "gx115",
+      "level": "B1",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "I'm not very good ___ speaking in public.",
+      "choices": [
+        "at",
+        "in",
+        "on",
+        "for"
+      ],
+      "a": 0,
+      "ex": "« Good » se construit avec « at » pour parler d'un domaine de compétence : good at something."
+    },
+    {
+      "id": "gx116",
+      "level": "B1",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "We arrived ___ the airport two hours early.",
+      "choices": [
+        "in",
+        "to",
+        "at",
+        "on"
+      ],
+      "a": 2,
+      "ex": "On dit « arrive at » pour un lieu précis (l'aéroport, la gare, le bureau), et « arrive in » pour une ville ou un pays."
+    },
+    {
+      "id": "gx117",
+      "level": "B1",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "The phone rang ___ the meeting.",
+      "choices": [
+        "while",
+        "during",
+        "for",
+        "since"
+      ],
+      "a": 1,
+      "ex": "« During » est suivi d'un nom (during the meeting). « While » serait suivi d'un sujet et d'un verbe."
+    },
+    {
+      "id": "gx118",
+      "level": "B1",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "I agree ___ you on this point.",
+      "choices": [
+        "to",
+        "with",
+        "for",
+        "on"
+      ],
+      "a": 1,
+      "ex": "On dit « agree with someone » : être d'accord avec quelqu'un."
+    },
+    {
+      "id": "gx119",
+      "level": "B2",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "The price will increase ___ 5% next year.",
+      "choices": [
+        "of",
+        "with",
+        "by",
+        "at"
+      ],
+      "a": 2,
+      "ex": "Après le verbe « increase », « by » indique l'écart : increase by 5 %."
+    },
+    {
+      "id": "gx120",
+      "level": "B2",
+      "tags": [
+        "prepositions"
+      ],
+      "q": "She has just been promoted ___ sales manager.",
+      "choices": [
+        "to",
+        "as",
+        "in",
+        "for"
+      ],
+      "a": 0,
+      "ex": "On dit « be promoted to » + le poste : promoted to sales manager."
+    },
+    {
+      "id": "gx121",
+      "level": "B1",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "Train tickets are ___ than plane tickets on this route.",
+      "choices": [
+        "more cheap",
+        "cheaper",
+        "cheapest",
+        "more cheaper"
+      ],
+      "a": 1,
+      "ex": "Adjectif court (une syllabe) : on ajoute -er, donc « cheaper »."
+    },
+    {
+      "id": "gx122",
+      "level": "B1",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "This is the ___ office in the building.",
+      "choices": [
+        "bigger",
+        "most big",
+        "biggest",
+        "more big"
+      ],
+      "a": 2,
+      "ex": "Superlatif d'un adjectif court : the + adjectif + -est (the biggest). Le « g » est doublé."
+    },
+    {
+      "id": "gx123",
+      "level": "B1",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "She is ___ experienced than her colleague.",
+      "choices": [
+        "more",
+        "most",
+        "as",
+        "very"
+      ],
+      "a": 0,
+      "ex": "Adjectif long (experienced) : « more » + adjectif + « than »."
+    },
+    {
+      "id": "gx124",
+      "level": "B2",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "The faster you work, ___ you will finish.",
+      "choices": [
+        "sooner",
+        "the sooner",
+        "the soonest",
+        "more soon"
+      ],
+      "a": 1,
+      "ex": "La structure « the + comparatif, the + comparatif » exprime que deux choses évoluent ensemble."
+    },
+    {
+      "id": "gx125",
+      "level": "B1",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "The open-plan office is ___ than my old one.",
+      "choices": [
+        "more noisy",
+        "noisier",
+        "noisiest",
+        "most noisy"
+      ],
+      "a": 1,
+      "ex": "Adjectif en -y de deux syllabes : le « y » devient « i » et on ajoute -er (noisier)."
+    },
+    {
+      "id": "gx126",
+      "level": "B1",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "Of all the candidates, Tom has ___ experience.",
+      "choices": [
+        "more",
+        "the most",
+        "most of",
+        "the more"
+      ],
+      "a": 1,
+      "ex": "On compare Tom à plusieurs personnes : superlatif, donc « the most »."
+    },
+    {
+      "id": "gx127",
+      "level": "B2",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "Prices are getting ___ every month.",
+      "choices": [
+        "high and high",
+        "more and more high",
+        "the highest",
+        "higher and higher"
+      ],
+      "a": 3,
+      "ex": "Pour dire qu'une chose augmente sans cesse, on répète le comparatif : higher and higher."
+    },
+    {
+      "id": "gx128",
+      "level": "B2",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "He speaks English ___ than I do.",
+      "choices": [
+        "more fluent",
+        "fluentlier",
+        "more fluently",
+        "most fluently"
+      ],
+      "a": 2,
+      "ex": "On modifie un verbe avec un adverbe, et l'adverbe en -ly forme son comparatif avec « more » : more fluently."
+    },
+    {
+      "id": "gx129",
+      "level": "B2",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "She works ___ of all my colleagues.",
+      "choices": [
+        "harder",
+        "most hard",
+        "the hardest",
+        "more hardly"
+      ],
+      "a": 2,
+      "ex": "« Of all » appelle un superlatif : the hardest. « Hardly » signifie « à peine », pas « durement »."
+    },
+    {
+      "id": "gx130",
+      "level": "B1",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "This printer is ___ reliable than the one we had before.",
+      "choices": [
+        "less",
+        "least",
+        "fewer",
+        "lesser"
+      ],
+      "a": 0,
+      "ex": "Pour le contraire de « more », on emploie « less » devant l'adjectif : less reliable than."
+    },
+    {
+      "id": "gx131",
+      "level": "B2",
+      "tags": [
+        "comparatives"
+      ],
+      "q": "Our results are ___ better than last year's.",
+      "choices": [
+        "very",
+        "much",
+        "most",
+        "more"
+      ],
+      "a": 1,
+      "ex": "Pour renforcer un comparatif, on emploie « much » ou « far » (much better), jamais « very »."
+    },
+    {
+      "id": "gx132",
+      "level": "B1",
+      "tags": [
+        "relatives"
+      ],
+      "q": "The software ___ we use for invoices is outdated.",
+      "choices": [
+        "who",
+        "what",
+        "that",
+        "whom"
+      ],
+      "a": 2,
+      "ex": "Pour une chose, on emploie « that » ou « which ». « Who » et « whom » sont réservés aux personnes, et « what » ne s'utilise pas ainsi."
+    },
+    {
+      "id": "gx133",
+      "level": "B2",
+      "tags": [
+        "relatives"
+      ],
+      "q": "Everything ___ he said in the meeting was true.",
+      "choices": [
+        "what",
+        "which",
+        "that",
+        "who"
+      ],
+      "a": 2,
+      "ex": "Après « everything », « all », « nothing » ou « something », le pronom relatif est « that »."
+    },
+    {
+      "id": "gx134",
+      "level": "B2",
+      "tags": [
+        "relatives"
+      ],
+      "q": "The colleague with ___ I share an office is on leave.",
+      "choices": [
+        "whose",
+        "whom",
+        "which",
+        "what"
+      ],
+      "a": 1,
+      "ex": "Après une préposition, le pronom relatif pour une personne est « whom » : with whom."
+    },
+    {
+      "id": "gx135",
+      "level": "B2",
+      "tags": [
+        "relatives"
+      ],
+      "q": "Her new book, ___ came out in May, is already a bestseller.",
+      "choices": [
+        "that",
+        "which",
+        "who",
+        "what"
+      ],
+      "a": 1,
+      "ex": "Dans une relative entre virgules (non déterminative), « that » est impossible : on emploie « which » pour une chose."
+    },
+    {
+      "id": "gx136",
+      "level": "B2",
+      "tags": [
+        "relatives"
+      ],
+      "q": "That is the reason ___ I left the company.",
+      "choices": [
+        "which",
+        "what",
+        "why",
+        "who"
+      ],
+      "a": 2,
+      "ex": "Après « reason », on emploie « why » : the reason why."
+    },
+    {
+      "id": "gx137",
+      "level": "B1",
+      "tags": [
+        "relatives"
+      ],
+      "q": "I remember the day ___ we first met.",
+      "choices": [
+        "where",
+        "what",
+        "when",
+        "who"
+      ],
+      "a": 2,
+      "ex": "Pour un moment (a day, a year, a time), on emploie « when » : the day when."
+    },
+    {
+      "id": "gx138",
+      "level": "B2",
+      "tags": [
+        "relatives"
+      ],
+      "q": "He is late again, ___ annoys everyone.",
+      "choices": [
+        "who",
+        "that",
+        "what",
+        "which"
+      ],
+      "a": 3,
+      "ex": "« Which » peut reprendre toute la phrase précédente (son retard). « That » est impossible après une virgule."
+    },
+    {
+      "id": "gx139",
+      "level": "B2",
+      "tags": [
+        "relatives"
+      ],
+      "q": "We interviewed ten candidates, ___ three were women.",
+      "choices": [
+        "of whom",
+        "of which",
+        "whose",
+        "who"
+      ],
+      "a": 0,
+      "ex": "Pour parler d'une partie de personnes déjà citées, on dit « of whom » : three of whom."
+    },
+    {
+      "id": "gx140",
+      "level": "B2",
+      "tags": [
+        "relatives"
+      ],
+      "q": "___ I need is a quiet place to work.",
+      "choices": [
+        "Which",
+        "That",
+        "What",
+        "Who"
+      ],
+      "a": 2,
+      "ex": "« What » signifie « la chose que » et peut ouvrir la phrase : What I need is..."
+    },
+    {
+      "id": "gx141",
+      "level": "B2",
+      "tags": [
+        "relatives"
+      ],
+      "q": "The method by ___ the data was collected is explained below.",
+      "choices": [
+        "who",
+        "whom",
+        "what",
+        "which"
+      ],
+      "a": 3,
+      "ex": "Après une préposition, on emploie « which » pour une chose : by which."
+    },
+    {
+      "id": "gx142",
+      "level": "B2",
+      "tags": [
+        "relatives"
+      ],
+      "q": "Our CEO, ___ joined the company in 2015, is retiring next year.",
+      "choices": [
+        "which",
+        "whose",
+        "who",
+        "that"
+      ],
+      "a": 2,
+      "ex": "C'est une personne et la relative est entre virgules : « who » convient, « that » est impossible."
+    },
+    {
+      "id": "gx143",
+      "level": "B1",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "If you ___ the manager, ask her about the schedule.",
+      "choices": [
+        "will see",
+        "see",
+        "would see",
+        "saw"
+      ],
+      "a": 1,
+      "ex": "Dans la proposition en « if », on met le présent simple, pas « will »."
+    },
+    {
+      "id": "gx144",
+      "level": "B1",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "If I were you, I ___ the job offer.",
+      "choices": [
+        "will accept",
+        "would accept",
+        "accepted",
+        "had accepted"
+      ],
+      "a": 1,
+      "ex": "« If I were you » est suivi de « would » + verbe, pour donner un conseil."
+    },
+    {
+      "id": "gx145",
+      "level": "B2",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "If I had studied harder at school, I ___ a better job now.",
+      "choices": [
+        "will have",
+        "would have",
+        "would had",
+        "had"
+      ],
+      "a": 1,
+      "ex": "Conditionnel mixte : condition passée (had studied), conséquence présente (now), donc « would » + verbe."
+    },
+    {
+      "id": "gx146",
+      "level": "B1",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "If you ___ water to 100 degrees, it boils.",
+      "choices": [
+        "heat",
+        "will heat",
+        "would heat",
+        "heated"
+      ],
+      "a": 0,
+      "ex": "C'est une vérité générale : présent simple dans les deux parties de la phrase."
+    },
+    {
+      "id": "gx147",
+      "level": "B2",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "Provided that you ___ the form today, you will get a reply by Friday.",
+      "choices": [
+        "will send",
+        "send",
+        "would send",
+        "sent"
+      ],
+      "a": 1,
+      "ex": "« Provided that » fonctionne comme « if » : on utilise le présent, pas « will », après lui."
+    },
+    {
+      "id": "gx148",
+      "level": "B1",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "What would you do if you ___ the lottery?",
+      "choices": [
+        "win",
+        "will win",
+        "won",
+        "would win"
+      ],
+      "a": 2,
+      "ex": "Situation imaginaire : « would » dans la question principale et le prétérit dans la proposition en « if »."
+    },
+    {
+      "id": "gx149",
+      "level": "B1",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "Take an umbrella in case it ___.",
+      "choices": [
+        "will rain",
+        "rains",
+        "would rain",
+        "rained"
+      ],
+      "a": 1,
+      "ex": "Après « in case », on emploie le présent simple pour parler du futur."
+    },
+    {
+      "id": "gx150",
+      "level": "B1",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "If you ___ any questions, please contact us.",
+      "choices": [
+        "will have",
+        "would have",
+        "have",
+        "had had"
+      ],
+      "a": 2,
+      "ex": "Dans la proposition en « if » d'une demande ou d'un conseil, on emploie le présent simple : if you have."
+    },
+    {
+      "id": "gx151",
+      "level": "B2",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "___ you need any help, please contact the support team.",
+      "choices": [
+        "Would",
+        "Should",
+        "Did",
+        "Unless"
+      ],
+      "a": 1,
+      "ex": "« Should you need » est une forme soutenue qui remplace « if you need »."
+    },
+    {
+      "id": "gx152",
+      "level": "B1",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "What ___ if the server crashes during the demo?",
+      "choices": [
+        "did we do",
+        "will we do",
+        "would we do",
+        "have we done"
+      ],
+      "a": 1,
+      "ex": "La proposition en « if » est au présent (crashes) : c'est une situation possible, donc « will » dans la question principale. « Would » irait avec le prétérit (if it crashed)."
+    },
+    {
+      "id": "gx153",
+      "level": "B2",
+      "tags": [
+        "conditionals"
+      ],
+      "q": "Even if you ___ me a million euros, I wouldn't sell the company.",
+      "choices": [
+        "offer",
+        "offered",
+        "will offer",
+        "had offered"
+      ],
+      "a": 1,
+      "ex": "La conséquence est en « wouldn't » (hypothèse irréelle) : la proposition en « if » est donc au prétérit."
+    },
+    {
+      "id": "gy101",
+      "level": "B1",
+      "tags": [
+        "passive"
+      ],
+      "q": "Our new office ___ in 2019.",
+      "choices": [
+        "is built",
+        "has been built",
+        "was built",
+        "builds"
+      ],
+      "a": 2,
+      "ex": "Date passée précise (2019) : passif au prétérit, « was built »."
+    },
+    {
+      "id": "gy102",
+      "level": "B1",
+      "tags": [
+        "passive"
+      ],
+      "q": "The meeting ___ because the manager was ill.",
+      "choices": [
+        "was cancelled",
+        "cancelled",
+        "is cancelling",
+        "has cancelling"
+      ],
+      "a": 0,
+      "ex": "La réunion subit l'action : passif au prétérit, « was cancelled »."
+    },
+    {
+      "id": "gy103",
+      "level": "B1",
+      "tags": [
+        "passive"
+      ],
+      "q": "All employees ___ of the changes by email yesterday.",
+      "choices": [
+        "informed",
+        "were informing",
+        "have informed",
+        "were informed"
+      ],
+      "a": 3,
+      "ex": "Les employés reçoivent l'information : passif au prétérit, « were informed »."
+    },
+    {
+      "id": "gy104",
+      "level": "B1",
+      "tags": [
+        "passive"
+      ],
+      "q": "The contract ___ yet.",
+      "choices": [
+        "didn't sign",
+        "hasn't been signed",
+        "wasn't signing",
+        "hasn't signed"
+      ],
+      "a": 1,
+      "ex": "« Yet » appelle le present perfect ; le contrat est signé par quelqu'un : « hasn't been signed »."
+    },
+    {
+      "id": "gy105",
+      "level": "B1",
+      "tags": [
+        "passive"
+      ],
+      "q": "The new software ___ at the moment by our IT team.",
+      "choices": [
+        "is installing",
+        "installs",
+        "is being installed",
+        "has installed"
+      ],
+      "a": 2,
+      "ex": "Action en cours + sujet qui subit : présent continu passif, « is being installed »."
+    },
+    {
+      "id": "gy106",
+      "level": "B1",
+      "tags": [
+        "passive"
+      ],
+      "q": "The documents must ___ before the audit.",
+      "choices": [
+        "be submitted",
+        "submit",
+        "been submitted",
+        "being submitted"
+      ],
+      "a": 0,
+      "ex": "Après un modal, le passif se forme avec « be » + participe passé : « must be submitted »."
+    },
+    {
+      "id": "gy107",
+      "level": "B1",
+      "tags": [
+        "passive"
+      ],
+      "q": "The package ___ to the wrong address, so it arrived late.",
+      "choices": [
+        "has sent",
+        "was sent",
+        "was sending",
+        "is sending"
+      ],
+      "a": 1,
+      "ex": "Le colis subit l'action, au passé : « was sent »."
+    },
+    {
+      "id": "gy108",
+      "level": "B1",
+      "tags": [
+        "passive"
+      ],
+      "q": "English ___ in many countries around the world.",
+      "choices": [
+        "speaks",
+        "is spoken",
+        "is speaking",
+        "spoke"
+      ],
+      "a": 1,
+      "ex": "L'anglais est parlé (il ne parle pas) : présent passif, « is spoken »."
+    },
+    {
+      "id": "gy109",
+      "level": "B2",
+      "tags": [
+        "passive"
+      ],
+      "q": "Prices are expected ___ next month.",
+      "choices": [
+        "to raise",
+        "raising",
+        "to be raised",
+        "to raising"
+      ],
+      "a": 2,
+      "ex": "Les prix subissent l'augmentation : infinitif passif, « to be raised »."
+    },
+    {
+      "id": "gy110",
+      "level": "B2",
+      "tags": [
+        "passive"
+      ],
+      "q": "If the order ___ by noon, it will arrive tomorrow.",
+      "choices": [
+        "will place",
+        "places",
+        "would be placed",
+        "is placed"
+      ],
+      "a": 3,
+      "ex": "Après « if », on utilise le présent, et la commande est placée par quelqu'un : « is placed »."
+    },
+    {
+      "id": "gy111",
+      "level": "B2",
+      "tags": [
+        "passive"
+      ],
+      "q": "The server ___ when the power went out.",
+      "choices": [
+        "was being repaired",
+        "was repairing",
+        "has been repaired",
+        "is being repaired"
+      ],
+      "a": 0,
+      "ex": "Action en cours dans le passé, interrompue par une coupure : passé continu passif, « was being repaired »."
+    },
+    {
+      "id": "gy112",
+      "level": "B2",
+      "tags": [
+        "passive"
+      ],
+      "q": "Nobody told me the project ___, so I was surprised.",
+      "choices": [
+        "had postponed",
+        "was postponing",
+        "had been postponed",
+        "has been postponed"
+      ],
+      "a": 2,
+      "ex": "Le report est antérieur à la surprise et le projet le subit : past perfect passif, « had been postponed »."
+    },
+    {
+      "id": "gy113",
+      "level": "B1",
+      "tags": [
+        "modals"
+      ],
+      "q": "You ___ park here. It's a no-parking zone.",
+      "choices": [
+        "don't have to",
+        "needn't",
+        "can",
+        "mustn't"
+      ],
+      "a": 3,
+      "ex": "« Mustn't » exprime une interdiction ; « don't have to » exprime seulement l'absence d'obligation."
+    },
+    {
+      "id": "gy114",
+      "level": "B1",
+      "tags": [
+        "modals"
+      ],
+      "q": "___ I borrow your pen for a moment?",
+      "choices": [
+        "Must",
+        "May",
+        "Would",
+        "Should"
+      ],
+      "a": 1,
+      "ex": "« May I… ? » est la formule polie pour demander la permission."
+    },
+    {
+      "id": "gy115",
+      "level": "B1",
+      "tags": [
+        "modals"
+      ],
+      "q": "She ___ speak three languages when she was ten.",
+      "choices": [
+        "can",
+        "must",
+        "could",
+        "should"
+      ],
+      "a": 2,
+      "ex": "Capacité dans le passé : « could », « can » ne convient qu'au présent."
+    },
+    {
+      "id": "gy116",
+      "level": "B1",
+      "tags": [
+        "modals"
+      ],
+      "q": "You look exhausted. You ___ take a day off.",
+      "choices": [
+        "ought",
+        "should",
+        "have",
+        "would"
+      ],
+      "a": 1,
+      "ex": "Pour donner un conseil, on utilise « should » + base verbale ; « ought » exigerait « to »."
+    },
+    {
+      "id": "gy117",
+      "level": "B1",
+      "tags": [
+        "modals"
+      ],
+      "q": "He ___ be at the office; I just saw his car outside.",
+      "choices": [
+        "can't",
+        "should",
+        "must",
+        "needn't"
+      ],
+      "a": 2,
+      "ex": "« Must » exprime une déduction quasi certaine : sa voiture est là, donc il est là."
+    },
+    {
+      "id": "gy118",
+      "level": "B2",
+      "tags": [
+        "modals"
+      ],
+      "q": "The lights are off. They ___ have left already.",
+      "choices": [
+        "need",
+        "must",
+        "ought",
+        "might to"
+      ],
+      "a": 1,
+      "ex": "Déduction sur le passé : « must have » + participe passé."
+    },
+    {
+      "id": "gy119",
+      "level": "B2",
+      "tags": [
+        "modals"
+      ],
+      "q": "I forgot to call the client. I ___ have called him yesterday.",
+      "choices": [
+        "must",
+        "can",
+        "would to",
+        "should"
+      ],
+      "a": 3,
+      "ex": "« Should have » + participe passé exprime un regret ou un reproche sur le passé."
+    },
+    {
+      "id": "gy120",
+      "level": "B1",
+      "tags": [
+        "modals"
+      ],
+      "q": "We ___ hurry; the train doesn't leave for another hour.",
+      "choices": [
+        "mustn't",
+        "can't",
+        "don't need",
+        "needn't"
+      ],
+      "a": 3,
+      "ex": "« Needn't » signifie que ce n'est pas nécessaire ; « don't need » serait suivi de « to »."
+    },
+    {
+      "id": "gy121",
+      "level": "B1",
+      "tags": [
+        "modals"
+      ],
+      "q": "Passengers ___ show their ID at the gate; it is required by law.",
+      "choices": [
+        "might",
+        "have to",
+        "would",
+        "could"
+      ],
+      "a": 1,
+      "ex": "Une obligation imposée par la loi s'exprime avec « have to » (ou « must »)."
+    },
+    {
+      "id": "gy122",
+      "level": "B1",
+      "tags": [
+        "modals"
+      ],
+      "q": "It ___ rain later, so take an umbrella just in case.",
+      "choices": [
+        "might",
+        "must",
+        "needn't",
+        "shouldn't"
+      ],
+      "a": 0,
+      "ex": "« Might » exprime une possibilité incertaine, d'où la précaution « just in case »."
+    },
+    {
+      "id": "gy123",
+      "level": "B2",
+      "tags": [
+        "modals"
+      ],
+      "q": "You ___ have told me earlier! Now it's too late.",
+      "choices": [
+        "will",
+        "ought",
+        "could",
+        "need"
+      ],
+      "a": 2,
+      "ex": "« Could have » + participe passé exprime un reproche sur ce qui était possible ; « will » et « need » ne se combinent pas ainsi."
+    },
+    {
+      "id": "gy124",
+      "level": "B1",
+      "tags": [
+        "modals"
+      ],
+      "q": "Employees ___ use their phones in the meeting room. It's against the rules.",
+      "choices": [
+        "aren't able to",
+        "aren't allowed to",
+        "don't have to",
+        "needn't"
+      ],
+      "a": 1,
+      "ex": "« Aren't allowed to » exprime une interdiction ; « don't have to » n'exprime qu'une absence d'obligation."
+    },
+    {
+      "id": "gy125",
+      "level": "B1",
+      "tags": [
+        "gerund"
+      ],
+      "q": "She enjoys ___ with international clients.",
+      "choices": [
+        "to work",
+        "working",
+        "work",
+        "worked"
+      ],
+      "a": 1,
+      "ex": "« Enjoy » est suivi d'un verbe en -ing."
+    },
+    {
+      "id": "gy126",
+      "level": "B1",
+      "tags": [
+        "gerund"
+      ],
+      "q": "We need to avoid ___ the same mistake again.",
+      "choices": [
+        "to make",
+        "make",
+        "made",
+        "making"
+      ],
+      "a": 3,
+      "ex": "« Avoid » est suivi d'un verbe en -ing."
+    },
+    {
+      "id": "gy127",
+      "level": "B1",
+      "tags": [
+        "gerund"
+      ],
+      "q": "He refused ___ the contract without reading it.",
+      "choices": [
+        "signing",
+        "to sign",
+        "sign",
+        "signed"
+      ],
+      "a": 1,
+      "ex": "« Refuse » est suivi de l'infinitif avec « to »."
+    },
+    {
+      "id": "gy128",
+      "level": "B1",
+      "tags": [
+        "gerund"
+      ],
+      "q": "I'm interested in ___ a course in data analysis.",
+      "choices": [
+        "take",
+        "to take",
+        "taking",
+        "taken"
+      ],
+      "a": 2,
+      "ex": "Après une préposition (« in »), on utilise la forme en -ing."
+    },
+    {
+      "id": "gy129",
+      "level": "B2",
+      "tags": [
+        "gerund"
+      ],
+      "q": "She is used to ___ early because of her job.",
+      "choices": [
+        "get up",
+        "getting up",
+        "gets up",
+        "got up"
+      ],
+      "a": 1,
+      "ex": "« Be used to » (être habitué à) est suivi d'un -ing, car « to » est ici une préposition."
+    },
+    {
+      "id": "gy130",
+      "level": "B1",
+      "tags": [
+        "gerund"
+      ],
+      "q": "The manager suggested ___ the meeting to Thursday.",
+      "choices": [
+        "to move",
+        "move",
+        "to moving",
+        "moving"
+      ],
+      "a": 3,
+      "ex": "« Suggest » est suivi d'un verbe en -ing."
+    },
+    {
+      "id": "gy131",
+      "level": "B2",
+      "tags": [
+        "gerund"
+      ],
+      "q": "Remember ___ the lights before you leave the office.",
+      "choices": [
+        "to turn off",
+        "turning off",
+        "turned off",
+        "turn off"
+      ],
+      "a": 0,
+      "ex": "« Remember to » concerne une action à faire ; « remember -ing » concerne un souvenir d'une action passée."
+    },
+    {
+      "id": "gy132",
+      "level": "B2",
+      "tags": [
+        "gerund"
+      ],
+      "q": "I can't afford ___ a new car this year.",
+      "choices": [
+        "buy",
+        "buying",
+        "to buy",
+        "bought"
+      ],
+      "a": 2,
+      "ex": "« Afford » est suivi de l'infinitif avec « to »."
+    },
+    {
+      "id": "gy133",
+      "level": "B1",
+      "tags": [
+        "gerund"
+      ],
+      "q": "Thank you for ___ me with the presentation.",
+      "choices": [
+        "help",
+        "to help",
+        "helped",
+        "helping"
+      ],
+      "a": 3,
+      "ex": "Après une préposition (« for »), on utilise la forme en -ing."
+    },
+    {
+      "id": "gy134",
+      "level": "B1",
+      "tags": [
+        "gerund"
+      ],
+      "q": "She's looking forward to ___ her new colleagues.",
+      "choices": [
+        "meet",
+        "meeting",
+        "to meet",
+        "met"
+      ],
+      "a": 1,
+      "ex": "Dans « look forward to », « to » est une préposition : on utilise la forme en -ing."
+    },
+    {
+      "id": "gy135",
+      "level": "B2",
+      "tags": [
+        "gerund"
+      ],
+      "q": "We missed the train because we spent too long ___ for a parking spot.",
+      "choices": [
+        "to look",
+        "look",
+        "looked",
+        "looking"
+      ],
+      "a": 3,
+      "ex": "« Spend time » est suivi d'un verbe en -ing."
+    },
+    {
+      "id": "gy136",
+      "level": "B1",
+      "tags": [
+        "connectors"
+      ],
+      "q": "I wanted to go out, ___ it was too late.",
+      "choices": [
+        "but",
+        "so",
+        "or",
+        "because"
+      ],
+      "a": 0,
+      "ex": "« But » introduit une opposition entre ce qu'on voulait et la réalité."
+    },
+    {
+      "id": "gy137",
+      "level": "B2",
+      "tags": [
+        "connectors"
+      ],
+      "q": "The software is easy to use; ___, it is very affordable.",
+      "choices": [
+        "nevertheless",
+        "moreover",
+        "otherwise",
+        "instead"
+      ],
+      "a": 1,
+      "ex": "« Moreover » ajoute un argument allant dans le même sens."
+    },
+    {
+      "id": "gy138",
+      "level": "B1",
+      "tags": [
+        "connectors"
+      ],
+      "q": "We missed the deadline; ___, the client cancelled the order.",
+      "choices": [
+        "in spite of",
+        "although",
+        "as a result",
+        "whereas"
+      ],
+      "a": 2,
+      "ex": "« As a result » introduit une conséquence : le retard a causé l'annulation."
+    },
+    {
+      "id": "gy139",
+      "level": "B1",
+      "tags": [
+        "connectors"
+      ],
+      "q": "Take a taxi, ___ you will be late.",
+      "choices": [
+        "therefore",
+        "otherwise",
+        "moreover",
+        "although"
+      ],
+      "a": 1,
+      "ex": "« Otherwise » signifie « sinon » : il présente la conséquence si on ne fait pas l'action."
+    },
+    {
+      "id": "gy140",
+      "level": "B1",
+      "tags": [
+        "connectors"
+      ],
+      "q": "___ she was tired, she finished the report.",
+      "choices": [
+        "Despite",
+        "Because",
+        "However",
+        "Even though"
+      ],
+      "a": 3,
+      "ex": "« Even though » introduit une proposition (sujet + verbe) ; « despite » exige un nom ou un -ing."
+    },
+    {
+      "id": "gy141",
+      "level": "B1",
+      "tags": [
+        "connectors"
+      ],
+      "q": "___ the high price, many customers bought the product.",
+      "choices": [
+        "Although",
+        "In spite of",
+        "However",
+        "Because"
+      ],
+      "a": 1,
+      "ex": "« In spite of » est suivi d'un groupe nominal ; « although » exigerait sujet + verbe."
+    },
+    {
+      "id": "gy142",
+      "level": "B1",
+      "tags": [
+        "connectors"
+      ],
+      "q": "I'll call you ___ I arrive at the airport.",
+      "choices": [
+        "despite",
+        "therefore",
+        "as soon as",
+        "whereas"
+      ],
+      "a": 2,
+      "ex": "« As soon as » signifie « dès que » et introduit une proposition de temps."
+    },
+    {
+      "id": "gy143",
+      "level": "B2",
+      "tags": [
+        "connectors"
+      ],
+      "q": "She is very shy, ___ her brother is extremely outgoing.",
+      "choices": [
+        "therefore",
+        "whereas",
+        "unless",
+        "so that"
+      ],
+      "a": 1,
+      "ex": "« Whereas » marque un contraste entre deux personnes ou deux faits."
+    },
+    {
+      "id": "gy144",
+      "level": "B1",
+      "tags": [
+        "connectors"
+      ],
+      "q": "We'll go ahead with the event ___ it rains heavily.",
+      "choices": [
+        "so",
+        "although",
+        "because of",
+        "unless"
+      ],
+      "a": 3,
+      "ex": "« Unless » signifie « à moins que » : l'événement a lieu sauf s'il pleut fort."
+    },
+    {
+      "id": "gy145",
+      "level": "B1",
+      "tags": [
+        "connectors"
+      ],
+      "q": "He left early ___ catch the last train.",
+      "choices": [
+        "so that",
+        "in order to",
+        "because",
+        "in spite"
+      ],
+      "a": 1,
+      "ex": "« In order to » + verbe à la base exprime le but ; « so that » demanderait un sujet."
+    },
+    {
+      "id": "gy146",
+      "level": "B2",
+      "tags": [
+        "connectors"
+      ],
+      "q": "Prices rose sharply. ___, sales did not fall.",
+      "choices": [
+        "Therefore",
+        "Moreover",
+        "Consequently",
+        "Nevertheless"
+      ],
+      "a": 3,
+      "ex": "« Nevertheless » exprime une concession : malgré la hausse, les ventes n'ont pas baissé."
+    },
+    {
+      "id": "gy147",
+      "level": "B2",
+      "tags": [
+        "connectors"
+      ],
+      "q": "___ the meeting was long, we didn't reach a decision.",
+      "choices": [
+        "Despite",
+        "In spite of",
+        "Even though",
+        "Due to"
+      ],
+      "a": 2,
+      "ex": "« Even though » est suivi d'une proposition ; les trois autres demandent un nom ou un -ing."
+    },
+    {
+      "id": "gy148",
+      "level": "B1",
+      "tags": [
+        "wordform"
+      ],
+      "q": "Her ___ at work impressed everyone.",
+      "choices": [
+        "perform",
+        "performed",
+        "performer",
+        "performance"
+      ],
+      "a": 3,
+      "ex": "Après « Her », on attend un nom : « performance » (la prestation)."
+    },
+    {
+      "id": "gy149",
+      "level": "B1",
+      "tags": [
+        "wordform"
+      ],
+      "q": "It is ___ to arrive on time for an interview.",
+      "choices": [
+        "importance",
+        "important",
+        "importantly",
+        "import"
+      ],
+      "a": 1,
+      "ex": "Après « is », on attend un adjectif : « important »."
+    },
+    {
+      "id": "gy150",
+      "level": "B1",
+      "tags": [
+        "wordform"
+      ],
+      "q": "The company is very ___ in the Asian market.",
+      "choices": [
+        "success",
+        "succeed",
+        "successful",
+        "successfully"
+      ],
+      "a": 2,
+      "ex": "Après « very » et le verbe « is », on utilise un adjectif : « successful »."
+    },
+    {
+      "id": "gy151",
+      "level": "B1",
+      "tags": [
+        "wordform"
+      ],
+      "q": "He answered all the questions ___.",
+      "choices": [
+        "confident",
+        "confidently",
+        "confidence",
+        "confide"
+      ],
+      "a": 1,
+      "ex": "Il faut un adverbe pour modifier le verbe « answered » : « confidently »."
+    },
+    {
+      "id": "gy152",
+      "level": "B1",
+      "tags": [
+        "wordform"
+      ],
+      "q": "The new system is much more ___ than the old one.",
+      "choices": [
+        "efficiency",
+        "efficiently",
+        "efficient",
+        "efficience"
+      ],
+      "a": 2,
+      "ex": "Après « more », devant « than », on attend un adjectif : « efficient »."
+    },
+    {
+      "id": "gy153",
+      "level": "B1",
+      "tags": [
+        "wordform"
+      ],
+      "q": "Please send me your ___ by the end of the week.",
+      "choices": [
+        "decision",
+        "decide",
+        "decisive",
+        "decisively"
+      ],
+      "a": 0,
+      "ex": "Après « your », on attend un nom : « decision »."
+    },
+    {
+      "id": "gy154",
+      "level": "B2",
+      "tags": [
+        "wordform"
+      ],
+      "q": "The ___ of the product depends on its price.",
+      "choices": [
+        "popular",
+        "popularly",
+        "popularise",
+        "popularity"
+      ],
+      "a": 3,
+      "ex": "Après « The », complété par « of », on attend un nom : « popularity »."
+    },
+    {
+      "id": "gy155",
+      "level": "B2",
+      "tags": [
+        "wordform"
+      ],
+      "q": "She works as a financial ___.",
+      "choices": [
+        "advise",
+        "advisor",
+        "advisory",
+        "advisable"
+      ],
+      "a": 1,
+      "ex": "« As a » introduit un métier, donc un nom de personne : « advisor »."
+    },
+    {
+      "id": "gy156",
+      "level": "B1",
+      "tags": [
+        "wordform"
+      ],
+      "q": "The training was ___, so we learned a lot.",
+      "choices": [
+        "usefully",
+        "use",
+        "useful",
+        "usefulness"
+      ],
+      "a": 2,
+      "ex": "Après « was », on attend un adjectif : « useful »."
+    },
+    {
+      "id": "gy157",
+      "level": "B1",
+      "tags": [
+        "wordform"
+      ],
+      "q": "Sales have increased ___ this year.",
+      "choices": [
+        "significant",
+        "significance",
+        "signify",
+        "significantly"
+      ],
+      "a": 3,
+      "ex": "Un adverbe est nécessaire pour modifier le verbe « have increased » : « significantly »."
+    },
+    {
+      "id": "gy158",
+      "level": "B2",
+      "tags": [
+        "wordform"
+      ],
+      "q": "He is responsible for the ___ of new staff.",
+      "choices": [
+        "train",
+        "trainee",
+        "training",
+        "trainer"
+      ],
+      "a": 2,
+      "ex": "« The ___ of new staff » demande le nom de l'action : « training » (la formation)."
+    },
+    {
+      "id": "gy159",
+      "level": "B2",
+      "tags": [
+        "wordform"
+      ],
+      "q": "Her ___ to the company was clear when she worked weekends.",
+      "choices": [
+        "commit",
+        "commitment",
+        "committed",
+        "committing"
+      ],
+      "a": 1,
+      "ex": "Après « Her », on attend un nom : « commitment » (l'engagement)."
+    }
+  ],
+  "vocab": [
+    {
+      "id": "v01",
+      "level": "B1",
+      "tags": [
+        "meetings"
+      ],
+      "q": "Could you ___ a meeting with the sales team? I'm free on Thursday.",
+      "choices": [
+        "schedule",
+        "attend",
+        "cancel",
+        "achieve"
+      ],
+      "a": 0,
+      "ex": "to schedule a meeting = programmer une réunion."
+    },
+    {
+      "id": "v02",
+      "level": "B1",
+      "tags": [
+        "office"
+      ],
+      "q": "The ___ for submitting applications is May 15.",
+      "choices": [
+        "deadline",
+        "headline",
+        "timeline",
+        "guideline"
+      ],
+      "a": 0,
+      "ex": "deadline = date limite. headline = gros titre, guideline = consigne."
+    },
+    {
+      "id": "v03",
+      "level": "B1",
+      "tags": [
+        "email"
+      ],
+      "q": "Please find the requested documents ___.",
+      "choices": [
+        "attached",
+        "attaching",
+        "attach",
+        "attachment"
+      ],
+      "a": 0,
+      "ex": "« Please find … attached » = veuillez trouver ci-joint. Formule d'e-mail très fréquente."
+    },
+    {
+      "id": "v04",
+      "level": "B2",
+      "tags": [
+        "email"
+      ],
+      "q": "I am writing to ___ about the position advertised on your website.",
+      "choices": [
+        "inquire",
+        "require",
+        "acquire",
+        "demand"
+      ],
+      "a": 0,
+      "ex": "to inquire about = se renseigner sur. to require = exiger, to acquire = acquérir."
+    },
+    {
+      "id": "v05",
+      "level": "B1",
+      "tags": [
+        "hr"
+      ],
+      "q": "She was ___ to regional manager after three years.",
+      "choices": [
+        "promoted",
+        "provided",
+        "produced",
+        "proposed"
+      ],
+      "a": 0,
+      "ex": "to be promoted = obtenir une promotion."
+    },
+    {
+      "id": "v06",
+      "level": "B1",
+      "tags": [
+        "hr"
+      ],
+      "q": "The company plans to ___ twenty new employees this year.",
+      "choices": [
+        "hire",
+        "fire",
+        "retire",
+        "rent"
+      ],
+      "a": 0,
+      "ex": "to hire = embaucher. to fire = licencier, to retire = prendre sa retraite."
+    },
+    {
+      "id": "v07",
+      "level": "B1",
+      "tags": [
+        "hr"
+      ],
+      "q": "Candidates must have at least five years of relevant ___.",
+      "choices": [
+        "experiment",
+        "experience",
+        "expert",
+        "expense"
+      ],
+      "a": 1,
+      "ex": "experience = expérience (professionnelle). experiment = expérience scientifique. Faux ami classique."
+    },
+    {
+      "id": "v08",
+      "level": "B2",
+      "tags": [
+        "finance"
+      ],
+      "q": "Our ___ increased by 12% thanks to strong sales abroad.",
+      "choices": [
+        "revenue",
+        "review",
+        "revenge",
+        "revision"
+      ],
+      "a": 0,
+      "ex": "revenue = chiffre d'affaires, recettes."
+    },
+    {
+      "id": "v09",
+      "level": "B1",
+      "tags": [
+        "finance"
+      ],
+      "q": "The hotel offers a 20% ___ for group bookings.",
+      "choices": [
+        "discount",
+        "account",
+        "amount",
+        "count"
+      ],
+      "a": 0,
+      "ex": "discount = réduction, remise."
+    },
+    {
+      "id": "v10",
+      "level": "B1",
+      "tags": [
+        "finance"
+      ],
+      "q": "Please pay the ___ within 30 days.",
+      "choices": [
+        "invoice",
+        "voice",
+        "notice",
+        "choice"
+      ],
+      "a": 0,
+      "ex": "invoice = facture."
+    },
+    {
+      "id": "v11",
+      "level": "B1",
+      "tags": [
+        "travel"
+      ],
+      "q": "Passengers must ___ at least one hour before departure.",
+      "choices": [
+        "check in",
+        "check out",
+        "check up",
+        "check over"
+      ],
+      "a": 0,
+      "ex": "check in = s'enregistrer (aéroport, hôtel). check out = quitter l'hôtel."
+    },
+    {
+      "id": "v12",
+      "level": "B1",
+      "tags": [
+        "travel"
+      ],
+      "q": "Our flight was ___ because of the fog.",
+      "choices": [
+        "delayed",
+        "deleted",
+        "delivered",
+        "declined"
+      ],
+      "a": 0,
+      "ex": "delayed = retardé. Très fréquent dans les annonces du TOEIC."
+    },
+    {
+      "id": "v13",
+      "level": "B1",
+      "tags": [
+        "travel"
+      ],
+      "q": "I'd like to ___ a table for four at 8 p.m.",
+      "choices": [
+        "book",
+        "borrow",
+        "rent",
+        "lend"
+      ],
+      "a": 0,
+      "ex": "to book = réserver (table, chambre, billet)."
+    },
+    {
+      "id": "v14",
+      "level": "B1",
+      "tags": [
+        "meetings",
+        "confusing"
+      ],
+      "q": "Let's go over the ___ before the meeting starts.",
+      "choices": [
+        "agenda",
+        "agency",
+        "agent",
+        "ageing"
+      ],
+      "a": 0,
+      "ex": "agenda = ordre du jour (faux ami !). Un agenda papier se dit « a diary » ou « a planner »."
+    },
+    {
+      "id": "v15",
+      "level": "B1",
+      "tags": [
+        "meetings"
+      ],
+      "q": "The board members reached an ___ after a long discussion.",
+      "choices": [
+        "agreement",
+        "argument",
+        "achievement",
+        "announcement"
+      ],
+      "a": 0,
+      "ex": "to reach an agreement = parvenir à un accord. argument = dispute."
+    },
+    {
+      "id": "v16",
+      "level": "B1",
+      "tags": [
+        "confusing"
+      ],
+      "q": "Can you ___ me your pen for a second?",
+      "choices": [
+        "borrow",
+        "lend",
+        "rent",
+        "hire"
+      ],
+      "a": 1,
+      "ex": "lend = prêter (donner). borrow = emprunter (recevoir) : Can I borrow your pen?"
+    },
+    {
+      "id": "v17",
+      "level": "B2",
+      "tags": [
+        "confusing"
+      ],
+      "q": "Prices ___ sharply last quarter.",
+      "choices": [
+        "rose",
+        "raised",
+        "arose",
+        "risen"
+      ],
+      "a": 0,
+      "ex": "rise (rose, risen) = augmenter tout seul, sans complément. raise = augmenter quelque chose."
+    },
+    {
+      "id": "v18",
+      "level": "B2",
+      "tags": [
+        "confusing"
+      ],
+      "q": "The company decided to ___ salaries by 3%.",
+      "choices": [
+        "rise",
+        "raise",
+        "arise",
+        "rose"
+      ],
+      "a": 1,
+      "ex": "raise + complément (raise salaries). rise n'a pas de complément (salaries rose)."
+    },
+    {
+      "id": "v19",
+      "level": "B2",
+      "tags": [
+        "confusing"
+      ],
+      "q": "After months of delays, the project was ___ completed.",
+      "choices": [
+        "eventually",
+        "actually",
+        "currently",
+        "presently"
+      ],
+      "a": 0,
+      "ex": "eventually = finalement (faux ami : pas « éventuellement »)."
+    },
+    {
+      "id": "v20",
+      "level": "B2",
+      "tags": [
+        "confusing"
+      ],
+      "q": "The position is ___ vacant, so you can apply today.",
+      "choices": [
+        "currently",
+        "eventually",
+        "lately",
+        "formerly"
+      ],
+      "a": 0,
+      "ex": "currently = actuellement. actually = en fait (faux ami)."
+    },
+    {
+      "id": "v21",
+      "level": "B1",
+      "tags": [
+        "office"
+      ],
+      "q": "We've run out of paper. Could you order more office ___?",
+      "choices": [
+        "supplies",
+        "suppliers",
+        "supports",
+        "surplus"
+      ],
+      "a": 0,
+      "ex": "office supplies = fournitures de bureau. suppliers = fournisseurs."
+    },
+    {
+      "id": "v22",
+      "level": "B1",
+      "tags": [
+        "office"
+      ],
+      "q": "The IT department will ___ the new software on all computers.",
+      "choices": [
+        "install",
+        "instill",
+        "insist",
+        "inspect"
+      ],
+      "a": 0,
+      "ex": "to install software = installer un logiciel."
+    },
+    {
+      "id": "v23",
+      "level": "B1",
+      "tags": [
+        "finance"
+      ],
+      "q": "Customers can return the product within 14 days for a full ___.",
+      "choices": [
+        "refund",
+        "refuse",
+        "refill",
+        "reform"
+      ],
+      "a": 0,
+      "ex": "refund = remboursement."
+    },
+    {
+      "id": "v24",
+      "level": "B2",
+      "tags": [
+        "finance"
+      ],
+      "q": "Due to high ___, the product is temporarily out of stock.",
+      "choices": [
+        "demand",
+        "command",
+        "offer",
+        "order"
+      ],
+      "a": 0,
+      "ex": "high demand = forte demande. « due to » = en raison de."
+    },
+    {
+      "id": "v25",
+      "level": "B1",
+      "tags": [
+        "hr"
+      ],
+      "q": "The new branch will ___ about fifty people.",
+      "choices": [
+        "employ",
+        "employer",
+        "employee",
+        "employment"
+      ],
+      "a": 0,
+      "ex": "Après « will », il faut un verbe : employ. employer = employeur, employee = salarié."
+    },
+    {
+      "id": "v26",
+      "level": "B1",
+      "tags": [
+        "office"
+      ],
+      "q": "Please ___ the attached form and send it back.",
+      "choices": [
+        "complete",
+        "compete",
+        "compose",
+        "comply"
+      ],
+      "a": 0,
+      "ex": "to complete a form = remplir un formulaire."
+    },
+    {
+      "id": "v27",
+      "level": "B2",
+      "tags": [
+        "office"
+      ],
+      "q": "The warehouse is ___ located near the airport.",
+      "choices": [
+        "conveniently",
+        "convenient",
+        "convenience",
+        "conveniency"
+      ],
+      "a": 0,
+      "ex": "L'adverbe modifie le participe « located » : conveniently located = idéalement situé."
+    },
+    {
+      "id": "v28",
+      "level": "B2",
+      "tags": [
+        "office"
+      ],
+      "q": "Our ___ will contact you to arrange delivery.",
+      "choices": [
+        "representative",
+        "represent",
+        "representation",
+        "represented"
+      ],
+      "a": 0,
+      "ex": "representative = représentant (une personne). Après « Our », il faut un nom."
+    },
+    {
+      "id": "v29",
+      "level": "B2",
+      "tags": [
+        "finance"
+      ],
+      "q": "The contract will ___ at the end of the year.",
+      "choices": [
+        "expire",
+        "expand",
+        "expose",
+        "expect"
+      ],
+      "a": 0,
+      "ex": "to expire = arriver à échéance, expirer."
+    },
+    {
+      "id": "v30",
+      "level": "B1",
+      "tags": [
+        "hr"
+      ],
+      "q": "Applicants should send their CV and a cover ___.",
+      "choices": [
+        "letter",
+        "note",
+        "sheet",
+        "page"
+      ],
+      "a": 0,
+      "ex": "cover letter = lettre de motivation."
+    },
+    {
+      "id": "v31",
+      "level": "B1",
+      "tags": [
+        "meetings",
+        "confusing"
+      ],
+      "q": "Sorry, I can't ___ the meeting tomorrow; I'll be on a business trip.",
+      "choices": [
+        "attend",
+        "assist",
+        "present",
+        "follow"
+      ],
+      "a": 0,
+      "ex": "attend = assister à (faux ami : « assist » veut dire aider)."
+    },
+    {
+      "id": "v32",
+      "level": "B1",
+      "tags": [
+        "meetings"
+      ],
+      "q": "The CEO will ___ the new strategy at the annual meeting.",
+      "choices": [
+        "announce",
+        "pronounce",
+        "denounce",
+        "renounce"
+      ],
+      "a": 0,
+      "ex": "to announce = annoncer. CEO = PDG."
+    },
+    {
+      "id": "v33",
+      "level": "B1",
+      "tags": [
+        "finance"
+      ],
+      "q": "We need to ___ costs by 10% next year.",
+      "choices": [
+        "reduce",
+        "produce",
+        "induce",
+        "deduce"
+      ],
+      "a": 0,
+      "ex": "to reduce costs = réduire les coûts."
+    },
+    {
+      "id": "v34",
+      "level": "B1",
+      "tags": [
+        "office"
+      ],
+      "q": "The package should be ___ to the client by Friday.",
+      "choices": [
+        "delivered",
+        "deliberated",
+        "departed",
+        "deposited"
+      ],
+      "a": 0,
+      "ex": "to deliver = livrer. delivery = livraison."
+    },
+    {
+      "id": "v35",
+      "level": "B1",
+      "tags": [
+        "office"
+      ],
+      "q": "All employees must wear their ID ___ at all times.",
+      "choices": [
+        "badge",
+        "bag",
+        "badger",
+        "budget"
+      ],
+      "a": 0,
+      "ex": "ID badge = badge d'identification."
+    },
+    {
+      "id": "v36",
+      "level": "B1",
+      "tags": [
+        "finance"
+      ],
+      "q": "The ___ for the new project is 50,000 euros.",
+      "choices": [
+        "budget",
+        "badge",
+        "bargain",
+        "bucket"
+      ],
+      "a": 0,
+      "ex": "budget = budget. bargain = bonne affaire."
+    },
+    {
+      "id": "vz101",
+      "level": "B2",
+      "tags": [
+        "confusing"
+      ],
+      "q": "The new law will ___ small businesses.",
+      "choices": [
+        "affect",
+        "effect",
+        "infect",
+        "reflect"
+      ],
+      "a": 0,
+      "ex": "« Affect » est le verbe (influencer). « Effect » est le nom (un effet)."
+    },
+    {
+      "id": "vz102",
+      "level": "B1",
+      "tags": [
+        "confusing"
+      ],
+      "q": "Can I ask you for some ___ about my CV?",
+      "choices": [
+        "advise",
+        "advices",
+        "advice",
+        "adviser"
+      ],
+      "a": 2,
+      "ex": "« Advice » est le nom (indénombrable : pas de s). « Advise » est le verbe."
+    },
+    {
+      "id": "vz103",
+      "level": "B1",
+      "tags": [
+        "confusing"
+      ],
+      "q": "Can I ___ your charger? Mine is at home.",
+      "choices": [
+        "lend",
+        "borrow",
+        "rent",
+        "owe"
+      ],
+      "a": 1,
+      "ex": "Borrow = emprunter (je prends). Lend = prêter (je donne). Ici, c'est moi qui emprunte."
+    },
+    {
+      "id": "vz104",
+      "level": "B2",
+      "tags": [
+        "confusing"
+      ],
+      "q": "She is very ___; she cries easily at films.",
+      "choices": [
+        "sensible",
+        "sensitive",
+        "sensational",
+        "sensory"
+      ],
+      "a": 1,
+      "ex": "« Sensitive » = sensible, émotif. « Sensible » veut dire raisonnable, un faux ami."
+    },
+    {
+      "id": "vz105",
+      "level": "B1",
+      "tags": [
+        "confusing"
+      ],
+      "q": "Please ___ me to call the supplier before five.",
+      "choices": [
+        "remember",
+        "recall",
+        "memorize",
+        "remind"
+      ],
+      "a": 3,
+      "ex": "Remind someone to do = rappeler à quelqu'un de faire. Remember = se souvenir soi-même."
+    },
+    {
+      "id": "vz106",
+      "level": "B1",
+      "tags": [
+        "confusing"
+      ],
+      "q": "He ___ me that the deadline had changed.",
+      "choices": [
+        "told",
+        "said",
+        "spoke",
+        "talked"
+      ],
+      "a": 0,
+      "ex": "« Tell » est suivi d'une personne (told me). Avec say, on dirait « said that » sans complément de personne."
+    },
+    {
+      "id": "vz107",
+      "level": "B1",
+      "tags": [
+        "confusing"
+      ],
+      "q": "Don't ___ your ticket; you will need it at the gate.",
+      "choices": [
+        "loose",
+        "loss",
+        "lost",
+        "lose"
+      ],
+      "a": 3,
+      "ex": "« Lose » = perdre (verbe). « Loose » = lâche, desserré. « Lost » est le passé."
+    },
+    {
+      "id": "vz108",
+      "level": "B2",
+      "tags": [
+        "confusing"
+      ],
+      "q": "This car is very ___: it uses very little fuel.",
+      "choices": [
+        "economical",
+        "economic",
+        "economy",
+        "economics"
+      ],
+      "a": 0,
+      "ex": "« Economical » = qui fait économiser. « Economic » concerne l'économie en général (economic growth)."
+    }
+  ],
+  "conj": [
+    {
+      "id": "c01",
+      "level": "B1",
+      "tags": [
+        "irregular",
+        "past"
+      ],
+      "q": "Yesterday I ___ an email to the client.",
+      "choices": [
+        "write",
+        "wrote",
+        "written",
+        "writed"
+      ],
+      "a": 1,
+      "ex": "write – wrote – written. « Yesterday » impose le prétérit."
+    },
+    {
+      "id": "c02",
+      "level": "B1",
+      "tags": [
+        "irregular",
+        "perfect"
+      ],
+      "q": "Have you ever ___ to Canada?",
+      "choices": [
+        "go",
+        "went",
+        "been",
+        "be"
+      ],
+      "a": 2,
+      "ex": "« Have you ever been to…? » = es-tu déjà allé(e) à… ? On utilise been (participe de be)."
+    },
+    {
+      "id": "c03",
+      "level": "B1",
+      "tags": [
+        "irregular",
+        "perfect"
+      ],
+      "q": "She has ___ her keys again.",
+      "choices": [
+        "lose",
+        "lost",
+        "losed",
+        "losing"
+      ],
+      "a": 1,
+      "ex": "lose – lost – lost. Après has, il faut le participe passé."
+    },
+    {
+      "id": "c04",
+      "level": "B1",
+      "tags": [
+        "past"
+      ],
+      "q": "They ___ the contract last Monday.",
+      "choices": [
+        "sign",
+        "have signed",
+        "signed",
+        "are signing"
+      ],
+      "a": 2,
+      "ex": "Moment passé précis (last Monday) : prétérit. Jamais de present perfect avec une date passée."
+    },
+    {
+      "id": "c05",
+      "level": "B1",
+      "tags": [
+        "perfect"
+      ],
+      "q": "I ___ in this company since 2020.",
+      "choices": [
+        "work",
+        "worked",
+        "have worked",
+        "am working"
+      ],
+      "a": 2,
+      "ex": "Action commencée dans le passé et toujours vraie : present perfect + since. (En français : « je travaille depuis »)."
+    },
+    {
+      "id": "c06",
+      "level": "B1",
+      "tags": [
+        "perfect"
+      ],
+      "q": "We ___ the project yet.",
+      "choices": [
+        "didn't finish",
+        "haven't finished",
+        "don't finish",
+        "weren't finish"
+      ],
+      "a": 1,
+      "ex": "« yet » (pas encore) va avec le present perfect : haven't finished yet."
+    },
+    {
+      "id": "c07",
+      "level": "B2",
+      "tags": [
+        "perfect",
+        "past"
+      ],
+      "q": "When I arrived, the meeting ___.",
+      "choices": [
+        "already started",
+        "had already started",
+        "has already started",
+        "already starts"
+      ],
+      "a": 1,
+      "ex": "Action antérieure à une autre action passée : past perfect (had + participe)."
+    },
+    {
+      "id": "c08",
+      "level": "B1",
+      "tags": [
+        "continuous"
+      ],
+      "q": "Look! It ___.",
+      "choices": [
+        "snows",
+        "is snowing",
+        "snowed",
+        "has snow"
+      ],
+      "a": 1,
+      "ex": "« Look! » : l'action se déroule maintenant, présent continu (be + -ing)."
+    },
+    {
+      "id": "c09",
+      "level": "B1",
+      "tags": [
+        "continuous"
+      ],
+      "q": "She usually ___ the bus to work.",
+      "choices": [
+        "take",
+        "takes",
+        "is taking",
+        "taking"
+      ],
+      "a": 1,
+      "ex": "Habitude (usually) : présent simple. N'oublie pas le -s à la 3e personne : she takes."
+    },
+    {
+      "id": "c10",
+      "level": "B1",
+      "tags": [
+        "continuous"
+      ],
+      "q": "What ___ at the moment?",
+      "choices": [
+        "do you do",
+        "are you doing",
+        "did you do",
+        "you do"
+      ],
+      "a": 1,
+      "ex": "« at the moment » : présent continu. « What do you do? » veut dire « quel est ton métier ? »."
+    },
+    {
+      "id": "c11",
+      "level": "B1",
+      "tags": [
+        "continuous",
+        "past"
+      ],
+      "q": "While I ___ dinner, the phone rang.",
+      "choices": [
+        "cooked",
+        "was cooking",
+        "am cooking",
+        "have cooked"
+      ],
+      "a": 1,
+      "ex": "Action en cours dans le passé, interrompue : prétérit continu (was cooking) + prétérit (rang)."
+    },
+    {
+      "id": "c12",
+      "level": "B1",
+      "tags": [
+        "future"
+      ],
+      "q": "Look at those clouds. It ___ rain.",
+      "choices": [
+        "will",
+        "is going to",
+        "goes to",
+        "would"
+      ],
+      "a": 1,
+      "ex": "Prédiction basée sur un indice visible : be going to."
+    },
+    {
+      "id": "c13",
+      "level": "B2",
+      "tags": [
+        "future",
+        "continuous"
+      ],
+      "q": "I ___ my dentist at 3 p.m. tomorrow; it's in my diary.",
+      "choices": [
+        "see",
+        "am seeing",
+        "will to see",
+        "saw"
+      ],
+      "a": 1,
+      "ex": "Rendez-vous déjà fixé : présent continu à valeur de futur."
+    },
+    {
+      "id": "c14",
+      "level": "B1",
+      "tags": [
+        "future"
+      ],
+      "q": "Don't worry, I ___ you with your bags.",
+      "choices": [
+        "help",
+        "will help",
+        "am helping",
+        "helped"
+      ],
+      "a": 1,
+      "ex": "Décision prise sur le moment ou proposition d'aide : will."
+    },
+    {
+      "id": "c15",
+      "level": "B2",
+      "tags": [
+        "future"
+      ],
+      "q": "The train ___ at 7:45 tomorrow morning, according to the timetable.",
+      "choices": [
+        "leaves",
+        "is leave",
+        "left",
+        "leaving"
+      ],
+      "a": 0,
+      "ex": "Horaires officiels (timetable) : présent simple, même pour le futur."
+    },
+    {
+      "id": "c16",
+      "level": "B2",
+      "tags": [
+        "perfect",
+        "continuous"
+      ],
+      "q": "I'm tired because I ___ all day.",
+      "choices": [
+        "works",
+        "have been working",
+        "has worked",
+        "working"
+      ],
+      "a": 1,
+      "ex": "Activité longue qui vient de se terminer et dont on voit le résultat : present perfect continu."
+    },
+    {
+      "id": "c17",
+      "level": "B1",
+      "tags": [
+        "irregular",
+        "past"
+      ],
+      "q": "He ___ his car to the garage this morning.",
+      "choices": [
+        "bringed",
+        "brought",
+        "brung",
+        "bring"
+      ],
+      "a": 1,
+      "ex": "bring – brought – brought."
+    },
+    {
+      "id": "c18",
+      "level": "B1",
+      "tags": [
+        "irregular",
+        "perfect"
+      ],
+      "q": "The price of oil has ___ again.",
+      "choices": [
+        "rise",
+        "rose",
+        "risen",
+        "rised"
+      ],
+      "a": 2,
+      "ex": "rise – rose – risen. Après has : participe passé."
+    },
+    {
+      "id": "c19",
+      "level": "B1",
+      "tags": [
+        "irregular",
+        "past"
+      ],
+      "q": "I ___ a great book last summer.",
+      "choices": [
+        "readed",
+        "read",
+        "have read",
+        "reading"
+      ],
+      "a": 1,
+      "ex": "read – read – read (au passé, il se prononce « red »). « last summer » impose le prétérit."
+    },
+    {
+      "id": "c20",
+      "level": "B2",
+      "tags": [
+        "perfect",
+        "past"
+      ],
+      "q": "She ___ English for ten years before she moved to London.",
+      "choices": [
+        "had studied",
+        "has studied",
+        "studies",
+        "is studying"
+      ],
+      "a": 0,
+      "ex": "Action antérieure à une autre action passée (moved) : past perfect."
+    },
+    {
+      "id": "c21",
+      "level": "B2",
+      "tags": [
+        "future",
+        "perfect"
+      ],
+      "q": "By next June, we ___ the new factory.",
+      "choices": [
+        "will finish",
+        "will have finished",
+        "have finished",
+        "finish"
+      ],
+      "a": 1,
+      "ex": "« By + moment futur » : futur antérieur (will have + participe) = nous aurons terminé."
+    },
+    {
+      "id": "c22",
+      "level": "B1",
+      "tags": [
+        "continuous"
+      ],
+      "q": "He ___ to work by car every day.",
+      "choices": [
+        "drive",
+        "drives",
+        "driving",
+        "is drive"
+      ],
+      "a": 1,
+      "ex": "Habitude (every day) : présent simple avec -s à la 3e personne."
+    },
+    {
+      "id": "c23",
+      "level": "B1",
+      "tags": [
+        "perfect"
+      ],
+      "q": "I ___ him since we left school.",
+      "choices": [
+        "didn't see",
+        "haven't seen",
+        "don't see",
+        "wasn't seeing"
+      ],
+      "a": 1,
+      "ex": "« since » + present perfect : je ne l'ai pas vu depuis."
+    },
+    {
+      "id": "c24",
+      "level": "B1",
+      "tags": [
+        "irregular",
+        "past"
+      ],
+      "q": "They ___ married in 2015.",
+      "choices": [
+        "get",
+        "got",
+        "have got",
+        "getting"
+      ],
+      "a": 1,
+      "ex": "Date passée précise : prétérit. get – got – got (gotten en anglais américain)."
+    },
+    {
+      "id": "c25",
+      "level": "B1",
+      "tags": [
+        "continuous",
+        "past"
+      ],
+      "q": "The children ___ when we got home.",
+      "choices": [
+        "slept",
+        "were sleeping",
+        "are sleeping",
+        "have slept"
+      ],
+      "a": 1,
+      "ex": "Action en cours au moment où une autre se produit : prétérit continu."
+    },
+    {
+      "id": "c26",
+      "level": "B1",
+      "tags": [
+        "future"
+      ],
+      "q": "I ___ you as soon as I get the results.",
+      "choices": [
+        "call",
+        "will call",
+        "called",
+        "am call"
+      ],
+      "a": 1,
+      "ex": "Principale au futur (will call), mais après « as soon as » on garde le présent (I get)."
+    },
+    {
+      "id": "c27",
+      "level": "B2",
+      "tags": [
+        "perfect",
+        "continuous"
+      ],
+      "q": "How long ___ English?",
+      "choices": [
+        "are you learning",
+        "have you been learning",
+        "you learn",
+        "do you learn"
+      ],
+      "a": 1,
+      "ex": "Depuis combien de temps (action toujours en cours) : present perfect continu. Piège : le français dit « tu apprends »."
+    },
+    {
+      "id": "c28",
+      "level": "B1",
+      "tags": [
+        "past"
+      ],
+      "q": "She ___ the report two hours ago.",
+      "choices": [
+        "has sent",
+        "sent",
+        "sends",
+        "has been sending"
+      ],
+      "a": 1,
+      "ex": "« ago » impose le prétérit : sent. send – sent – sent."
+    },
+    {
+      "id": "c29",
+      "level": "B1",
+      "tags": [
+        "irregular",
+        "past"
+      ],
+      "q": "We ___ a lot of money on the renovation.",
+      "choices": [
+        "spended",
+        "spent",
+        "spanted",
+        "spending"
+      ],
+      "a": 1,
+      "ex": "spend – spent – spent."
+    },
+    {
+      "id": "c30",
+      "level": "B1",
+      "tags": [
+        "past"
+      ],
+      "q": "The parcel ___ yesterday.",
+      "choices": [
+        "arrived",
+        "has arrived",
+        "arrives",
+        "arriving"
+      ],
+      "a": 0,
+      "ex": "« yesterday » : prétérit. Verbe régulier : -ed."
+    },
+    {
+      "id": "cz101",
+      "level": "B1",
+      "tags": [
+        "continuous"
+      ],
+      "q": "Please be quiet. The manager ___ on the phone.",
+      "choices": [
+        "talks",
+        "is talking",
+        "talk",
+        "has talked"
+      ],
+      "a": 1,
+      "ex": "L'action se déroule en ce moment même : on utilise le présent continu (is + verbe en -ing)."
+    },
+    {
+      "id": "cz102",
+      "level": "B1",
+      "tags": [
+        "continuous"
+      ],
+      "q": "I ___ on this report since nine o'clock, and I'm still not done.",
+      "choices": [
+        "work",
+        "am working",
+        "have been working",
+        "was working"
+      ],
+      "a": 2,
+      "ex": "« Since nine o'clock » marque le point de départ d'une action qui dure encore : present perfect continuous."
+    },
+    {
+      "id": "cz103",
+      "level": "B1",
+      "tags": [
+        "continuous"
+      ],
+      "q": "This time last week, I ___ on a beach in Spain.",
+      "choices": [
+        "lay",
+        "have lain",
+        "am lying",
+        "was lying"
+      ],
+      "a": 3,
+      "ex": "On décrit une action en cours à un moment précis du passé : past continuous (was + verbe en -ing)."
+    },
+    {
+      "id": "cz104",
+      "level": "B1",
+      "tags": [
+        "continuous"
+      ],
+      "q": "Why ___ so loudly? I'm trying to work.",
+      "choices": [
+        "are you talking",
+        "do you talk",
+        "did you talk",
+        "have you talked"
+      ],
+      "a": 0,
+      "ex": "Une action qui se passe maintenant et qui dérange : présent continu."
+    },
+    {
+      "id": "cz105",
+      "level": "B2",
+      "tags": [
+        "continuous"
+      ],
+      "q": "I ___ this solution is the best one for the team.",
+      "choices": [
+        "am not thinking",
+        "don't think",
+        "not think",
+        "didn't thinking"
+      ],
+      "a": 1,
+      "ex": "« Think » au sens d'« avoir une opinion » est un verbe d'état : on le met au présent simple, pas au continu."
+    },
+    {
+      "id": "cz106",
+      "level": "B1",
+      "tags": [
+        "continuous"
+      ],
+      "q": "We ___ the new software at the moment, so the system is slow.",
+      "choices": [
+        "are installing",
+        "install",
+        "installed",
+        "have install"
+      ],
+      "a": 0,
+      "ex": "L'action est en cours en ce moment (at the moment) : présent continu (are + verbe en -ing)."
+    },
+    {
+      "id": "cz107",
+      "level": "B1",
+      "tags": [
+        "future"
+      ],
+      "q": "I think it ___ tomorrow, so take an umbrella.",
+      "choices": [
+        "rained",
+        "will rain",
+        "has rained",
+        "is raining"
+      ],
+      "a": 1,
+      "ex": "Après « I think », une prédiction personnelle sur le futur se fait avec will."
+    },
+    {
+      "id": "cz108",
+      "level": "B1",
+      "tags": [
+        "future"
+      ],
+      "q": "We ___ a new office in Lyon next year; the contract is signed.",
+      "choices": [
+        "opened",
+        "have opened",
+        "are going to open",
+        "opens"
+      ],
+      "a": 2,
+      "ex": "Le projet est déjà décidé et préparé : on utilise be going to pour une intention."
+    },
+    {
+      "id": "cz109",
+      "level": "B1",
+      "tags": [
+        "future"
+      ],
+      "q": "If the client ___ the offer, we will start the project on Monday.",
+      "choices": [
+        "will accept",
+        "would accept",
+        "accepted",
+        "accepts"
+      ],
+      "a": 3,
+      "ex": "Après « if » (condition réelle), on utilise le présent simple, jamais will."
+    },
+    {
+      "id": "cz110",
+      "level": "B1",
+      "tags": [
+        "future"
+      ],
+      "q": "I'll call you when I ___ at the airport.",
+      "choices": [
+        "arrive",
+        "will arrive",
+        "arrived",
+        "am arriving"
+      ],
+      "a": 0,
+      "ex": "Après « when », on emploie le présent simple pour parler du futur, pas will."
+    },
+    {
+      "id": "cz111",
+      "level": "B1",
+      "tags": [
+        "future"
+      ],
+      "q": "— The phone is ringing. — I ___ it!",
+      "choices": [
+        "was getting",
+        "have got",
+        "get",
+        "'ll get"
+      ],
+      "a": 3,
+      "ex": "Une décision prise sur le moment, spontanément : on utilise will ('ll)."
+    },
+    {
+      "id": "cz112",
+      "level": "B2",
+      "tags": [
+        "future"
+      ],
+      "q": "This time next week, I ___ on a beach.",
+      "choices": [
+        "will be lying",
+        "have been lying",
+        "lay",
+        "lie"
+      ],
+      "a": 0,
+      "ex": "Action qui sera en cours à un moment précis du futur : future continuous (will be + -ing)."
+    },
+    {
+      "id": "cz113",
+      "level": "B2",
+      "tags": [
+        "future"
+      ],
+      "q": "By 6 p.m., I ___ all the emails.",
+      "choices": [
+        "will answer",
+        "have answered",
+        "will have answered",
+        "am answering"
+      ],
+      "a": 2,
+      "ex": "« By + heure » indique une action terminée avant ce moment futur : future perfect (will have + participe passé)."
+    },
+    {
+      "id": "cz114",
+      "level": "B1",
+      "tags": [
+        "future"
+      ],
+      "q": "The flight ___ at 10:30 tomorrow, so we must leave early.",
+      "choices": [
+        "departed",
+        "departs",
+        "has departed",
+        "would depart"
+      ],
+      "a": 1,
+      "ex": "Pour un horaire officiel (vol, train), on utilise le présent simple avec une valeur de futur."
+    },
+    {
+      "id": "cz115",
+      "level": "B2",
+      "tags": [
+        "future"
+      ],
+      "q": "Be careful! The ceiling is cracking; it ___ fall.",
+      "choices": [
+        "goes to",
+        "was going",
+        "has going",
+        "is going to"
+      ],
+      "a": 3,
+      "ex": "On prédit un événement à partir d'un signe visible (le plafond se fissure) : be going to."
+    },
+    {
+      "id": "cz116",
+      "level": "B1",
+      "tags": [
+        "irregular"
+      ],
+      "q": "The CEO ___ a speech at the conference yesterday.",
+      "choices": [
+        "given",
+        "gave",
+        "gived",
+        "give"
+      ],
+      "a": 1,
+      "ex": "Passé simple de give : gave. « Given » est le participe passé et demande un auxiliaire."
+    },
+    {
+      "id": "cz117",
+      "level": "B1",
+      "tags": [
+        "irregular"
+      ],
+      "q": "Have you ___ the new colleague yet?",
+      "choices": [
+        "meet",
+        "meeted",
+        "met",
+        "meeting"
+      ],
+      "a": 2,
+      "ex": "Après have, on met le participe passé. Celui de meet est irrégulier : met."
+    },
+    {
+      "id": "cz118",
+      "level": "B1",
+      "tags": [
+        "irregular"
+      ],
+      "q": "The meeting ___ at nine and finished at noon.",
+      "choices": [
+        "began",
+        "begun",
+        "begin",
+        "beginned"
+      ],
+      "a": 0,
+      "ex": "Passé simple de begin : began. « Begun » est le participe passé (has begun)."
+    },
+    {
+      "id": "cz119",
+      "level": "B1",
+      "tags": [
+        "irregular"
+      ],
+      "q": "Someone has ___ my laptop from the office!",
+      "choices": [
+        "stole",
+        "stealed",
+        "stolen",
+        "steal"
+      ],
+      "a": 2,
+      "ex": "Après has, il faut le participe passé de steal : stolen. « Stole » est le passé simple."
+    },
+    {
+      "id": "cz120",
+      "level": "B1",
+      "tags": [
+        "irregular"
+      ],
+      "q": "I ___ my umbrella at the restaurant last night.",
+      "choices": [
+        "leaved",
+        "left",
+        "lefted",
+        "leave"
+      ],
+      "a": 1,
+      "ex": "Le passé simple de leave est irrégulier : left."
+    },
+    {
+      "id": "cz121",
+      "level": "B1",
+      "tags": [
+        "irregular"
+      ],
+      "q": "She has ___ to the director twice this week.",
+      "choices": [
+        "spoke",
+        "speaked",
+        "speak",
+        "spoken"
+      ],
+      "a": 3,
+      "ex": "Present perfect : has + participe passé. Celui de speak est spoken."
+    },
+    {
+      "id": "cz122",
+      "level": "B1",
+      "tags": [
+        "irregular"
+      ],
+      "q": "The glass ___ when it fell off the table.",
+      "choices": [
+        "broke",
+        "broken",
+        "breaked",
+        "break"
+      ],
+      "a": 0,
+      "ex": "Passé simple de break : broke. « Broken » est le participe passé et ne s'emploie pas seul ici."
+    }
+  ],
+  "general": [
+    {
+      "id": "e01",
+      "level": "B1",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "Could you ___ the kids while I'm at the doctor's?",
+      "choices": [
+        "look after",
+        "look for",
+        "look up",
+        "look into"
+      ],
+      "a": 0,
+      "ex": "look after = s'occuper de, garder."
+    },
+    {
+      "id": "e02",
+      "level": "B1",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "I'm ___ a new job; mine is too far from home.",
+      "choices": [
+        "looking for",
+        "looking after",
+        "looking at",
+        "looking out"
+      ],
+      "a": 0,
+      "ex": "look for = chercher."
+    },
+    {
+      "id": "e03",
+      "level": "B2",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "We had to ___ the meeting until next week.",
+      "choices": [
+        "put off",
+        "put on",
+        "put up",
+        "put out"
+      ],
+      "a": 0,
+      "ex": "put off = reporter (synonyme : postpone)."
+    },
+    {
+      "id": "e04",
+      "level": "B1",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "Please ___ your coat; it's cold outside.",
+      "choices": [
+        "put on",
+        "put off",
+        "put out",
+        "put down"
+      ],
+      "a": 0,
+      "ex": "put on = mettre (un vêtement). take off = enlever."
+    },
+    {
+      "id": "e05",
+      "level": "B2",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "I don't know this word. I'll ___ in the dictionary.",
+      "choices": [
+        "look it up",
+        "look up it",
+        "look it for",
+        "look after it"
+      ],
+      "a": 0,
+      "ex": "look up = chercher (une information). Avec un pronom, il se place au milieu : look it up."
+    },
+    {
+      "id": "e06",
+      "level": "B1",
+      "tags": [
+        "everyday"
+      ],
+      "q": "How ___ is the train station from here?",
+      "choices": [
+        "long",
+        "far",
+        "much",
+        "many"
+      ],
+      "a": 1,
+      "ex": "How far = à quelle distance. How long = combien de temps."
+    },
+    {
+      "id": "e07",
+      "level": "B1",
+      "tags": [
+        "everyday"
+      ],
+      "q": "___ do you go to the gym? — Twice a week.",
+      "choices": [
+        "How often",
+        "How long",
+        "How much",
+        "How many"
+      ],
+      "a": 0,
+      "ex": "How often = à quelle fréquence."
+    },
+    {
+      "id": "e08",
+      "level": "B1",
+      "tags": [
+        "everyday"
+      ],
+      "q": "I'm really ___ in history.",
+      "choices": [
+        "interesting",
+        "interested",
+        "interest",
+        "interests"
+      ],
+      "a": 1,
+      "ex": "-ed = ce que la personne ressent (interested = intéressé). -ing = ce qui provoque le sentiment (interesting = intéressant)."
+    },
+    {
+      "id": "e09",
+      "level": "B1",
+      "tags": [
+        "everyday"
+      ],
+      "q": "The film was so ___ that I fell asleep.",
+      "choices": [
+        "bored",
+        "boring",
+        "bore",
+        "boredom"
+      ],
+      "a": 1,
+      "ex": "Le film provoque l'ennui : boring. Moi, je suis bored."
+    },
+    {
+      "id": "e10",
+      "level": "B2",
+      "tags": [
+        "falsefriends"
+      ],
+      "q": "She's very ___: she always thinks about other people's feelings.",
+      "choices": [
+        "sensible",
+        "sensitive",
+        "sensational",
+        "sense"
+      ],
+      "a": 1,
+      "ex": "sensitive = sensible (émotif). sensible = raisonnable : faux ami !"
+    },
+    {
+      "id": "e11",
+      "level": "B1",
+      "tags": [
+        "everyday"
+      ],
+      "q": "I'm ___ with my exam results. I worked really hard!",
+      "choices": [
+        "pleased",
+        "pleasing",
+        "please",
+        "pleasure"
+      ],
+      "a": 0,
+      "ex": "pleased with = content de."
+    },
+    {
+      "id": "e12",
+      "level": "B1",
+      "tags": [
+        "idioms"
+      ],
+      "q": "It's raining cats and ___.",
+      "choices": [
+        "dogs",
+        "birds",
+        "mice",
+        "cows"
+      ],
+      "a": 0,
+      "ex": "It's raining cats and dogs = il pleut des cordes."
+    },
+    {
+      "id": "e13",
+      "level": "B1",
+      "tags": [
+        "idioms"
+      ],
+      "q": "Good luck! I'll keep my ___ crossed for you.",
+      "choices": [
+        "fingers",
+        "hands",
+        "legs",
+        "arms"
+      ],
+      "a": 0,
+      "ex": "keep your fingers crossed = croiser les doigts."
+    },
+    {
+      "id": "e14",
+      "level": "B2",
+      "tags": [
+        "everyday"
+      ],
+      "q": "Someone says « How do you do? ». The usual reply is: ___",
+      "choices": [
+        "How do you do?",
+        "I'm fine, thanks.",
+        "Very well done.",
+        "I do well."
+      ],
+      "a": 0,
+      "ex": "Formule très formelle de première rencontre : on répond par la même formule."
+    },
+    {
+      "id": "e15",
+      "level": "B1",
+      "tags": [
+        "everyday"
+      ],
+      "q": "« Would you like some tea? » — « ___ »",
+      "choices": [
+        "Yes, please.",
+        "Yes, I would like.",
+        "Yes, I like.",
+        "Yes, thank."
+      ],
+      "a": 0,
+      "ex": "Pour accepter poliment : « Yes, please. » (ou « Yes, I'd like some. »)."
+    },
+    {
+      "id": "e16",
+      "level": "B1",
+      "tags": [
+        "everyday"
+      ],
+      "q": "I ___ to the cinema last night.",
+      "choices": [
+        "have been",
+        "went",
+        "have gone",
+        "go"
+      ],
+      "a": 1,
+      "ex": "« last night » impose le prétérit : went (go – went – gone)."
+    },
+    {
+      "id": "e17",
+      "level": "B2",
+      "tags": [
+        "everyday"
+      ],
+      "q": "I'm not ___ getting up so early.",
+      "choices": [
+        "used to",
+        "use to",
+        "using to",
+        "usual to"
+      ],
+      "a": 0,
+      "ex": "be used to + -ing = être habitué à."
+    },
+    {
+      "id": "e18",
+      "level": "B2",
+      "tags": [
+        "everyday"
+      ],
+      "q": "My brother ___ smoke, but he stopped.",
+      "choices": [
+        "used to",
+        "is used to",
+        "uses to",
+        "was used"
+      ],
+      "a": 0,
+      "ex": "used to + verbe = habitude passée terminée (il fumait avant)."
+    },
+    {
+      "id": "e19",
+      "level": "B1",
+      "tags": [
+        "everyday"
+      ],
+      "q": "Can you ___ me a favour?",
+      "choices": [
+        "do",
+        "make",
+        "give",
+        "take"
+      ],
+      "a": 0,
+      "ex": "do someone a favour = rendre service."
+    },
+    {
+      "id": "e20",
+      "level": "B1",
+      "tags": [
+        "everyday"
+      ],
+      "q": "I need to ___ a phone call.",
+      "choices": [
+        "make",
+        "do",
+        "give",
+        "put"
+      ],
+      "a": 0,
+      "ex": "make a phone call = passer un coup de fil."
+    },
+    {
+      "id": "e21",
+      "level": "B1",
+      "tags": [
+        "everyday"
+      ],
+      "q": "She ___ her homework every evening.",
+      "choices": [
+        "makes",
+        "does",
+        "takes",
+        "gets"
+      ],
+      "a": 1,
+      "ex": "do homework, do the shopping, do the dishes : on emploie do."
+    },
+    {
+      "id": "e22",
+      "level": "B1",
+      "tags": [
+        "everyday"
+      ],
+      "q": "It's ___ to drive in this snow.",
+      "choices": [
+        "dangerous",
+        "danger",
+        "dangerously",
+        "endanger"
+      ],
+      "a": 0,
+      "ex": "Après « It's », un adjectif : dangerous."
+    },
+    {
+      "id": "e23",
+      "level": "B1",
+      "tags": [
+        "everyday"
+      ],
+      "q": "The library is ___ the bank and the post office.",
+      "choices": [
+        "between",
+        "among",
+        "under",
+        "beside of"
+      ],
+      "a": 0,
+      "ex": "between = entre deux éléments. among = parmi (plusieurs)."
+    },
+    {
+      "id": "e24",
+      "level": "B1",
+      "tags": [
+        "everyday"
+      ],
+      "q": "I'm afraid I ___ come to your party. I'm working.",
+      "choices": [
+        "can't",
+        "mustn't",
+        "needn't",
+        "shouldn't"
+      ],
+      "a": 0,
+      "ex": "Impossibilité : can't. « I'm afraid… » = je suis désolé(e), mais…"
+    },
+    {
+      "id": "nz101",
+      "level": "B1",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "The car ___ on the motorway, so we were late for the meeting.",
+      "choices": [
+        "broke down",
+        "broke up",
+        "broke in",
+        "broke out"
+      ],
+      "a": 0,
+      "ex": "Break down = tomber en panne. Break up = rompre, break out = éclater."
+    },
+    {
+      "id": "nz102",
+      "level": "B1",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "I'm trying to ___ smoking before the summer.",
+      "choices": [
+        "give in",
+        "give out",
+        "give up",
+        "give off"
+      ],
+      "a": 2,
+      "ex": "Give up = abandonner, arrêter une habitude."
+    },
+    {
+      "id": "nz103",
+      "level": "B1",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "The meeting was ___ because of the strike.",
+      "choices": [
+        "called in",
+        "called off",
+        "called up",
+        "called out"
+      ],
+      "a": 1,
+      "ex": "Call off = annuler. Call up veut dire téléphoner ou mobiliser."
+    },
+    {
+      "id": "nz104",
+      "level": "B1",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "We've ___ of printer paper; I'll order more.",
+      "choices": [
+        "run out",
+        "run off",
+        "run over",
+        "run into"
+      ],
+      "a": 0,
+      "ex": "Run out of = ne plus avoir de, être à court de."
+    },
+    {
+      "id": "nz105",
+      "level": "B1",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "I'll ___ the clients at the station at eight.",
+      "choices": [
+        "pick out",
+        "pick on",
+        "pick at",
+        "pick up"
+      ],
+      "a": 3,
+      "ex": "Pick someone up = passer prendre quelqu'un en voiture. Avec un pronom, il se place au milieu : pick you up."
+    },
+    {
+      "id": "nz106",
+      "level": "B1",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "She ___ well with her new colleagues.",
+      "choices": [
+        "gets off",
+        "gets on",
+        "gets up",
+        "gets over"
+      ],
+      "a": 1,
+      "ex": "Get on (well) with = s'entendre bien avec."
+    },
+    {
+      "id": "nz107",
+      "level": "B2",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "Let's ___ the plan again; I'm not sure it works.",
+      "choices": [
+        "go over",
+        "go off",
+        "go by",
+        "go out"
+      ],
+      "a": 0,
+      "ex": "Go over = revoir, examiner en détail."
+    },
+    {
+      "id": "nz108",
+      "level": "B2",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "We need to ___ a better idea before Friday.",
+      "choices": [
+        "come down with",
+        "come across",
+        "come up with",
+        "come out"
+      ],
+      "a": 2,
+      "ex": "Come up with = trouver, proposer une idée. Come across = tomber sur par hasard."
+    },
+    {
+      "id": "nz109",
+      "level": "B2",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "I ___ an old friend at the supermarket yesterday.",
+      "choices": [
+        "ran out",
+        "ran off",
+        "ran away",
+        "ran into"
+      ],
+      "a": 3,
+      "ex": "Run into = rencontrer par hasard."
+    },
+    {
+      "id": "nz110",
+      "level": "B2",
+      "tags": [
+        "phrasal"
+      ],
+      "q": "I can't ___ this noise any longer.",
+      "choices": [
+        "put up with",
+        "put off with",
+        "put in with",
+        "put out of"
+      ],
+      "a": 0,
+      "ex": "Put up with = supporter, tolérer. Les autres combinaisons n'ont pas ce sens."
+    }
+  ]
+}

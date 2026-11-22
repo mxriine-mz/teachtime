@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <!-- Version web (iPad, iPhone). L'app du PC utilise renderer/index.html. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2b2f36">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="TEAch Time">
+  <meta name="format-detection" content="telephone=no">
+  <title>TEAch Time</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="assets/icon-180.png">
+  <link rel="icon" type="image/png" href="assets/icon-64.png">
+  <link rel="stylesheet" href="renderer/style.css">
+</head>
+<body class="web">
+  <div id="app">
+    <aside id="nav">
+      <div class="brand">
+        <img class="logo" src="assets/chaussette-douce.svg" alt="">
+        <div>
+          <div class="wordmark"><span class="tea">TEA</span><span class="ch">ch</span> <span class="time">Time</span></div>
+          <div class="slogan">My Cup of English</div>
+        </div>
+      </div>
+      <nav>
+        <button data-view="home"><span class="ico"></span><span class="lbl">Accueil</span></button>
+        <button data-view="game"><span class="ico"></span><span class="lbl">Quartier</span></button>
+        <button data-view="lessons"><span class="ico"></span><span class="lbl">Cours</span></button>
+        <button data-view="memorize"><span class="ico"></span><span class="lbl">Mémoriser</span><span class="lbl-s">Textes</span></button>
+        <button data-view="vocab"><span class="ico"></span><span class="lbl">Vocabulaire</span><span class="lbl-s">Mots</span></button>
+        <button data-view="speak"><span class="ico"></span><span class="lbl">Oral</span></button>
+        <button data-view="settings"><span class="ico"></span><span class="lbl">Réglages</span></button>
+      </nav>
+      <div class="nav-foot" id="streak"></div>
+    </aside>
+    <main>
+      <header id="topbar">
+        <div class="quota">
+          <div class="quota-text"><b id="pts">0</b> / <span id="quota">300</span> points aujourd'hui</div>
+          <div class="bar"><div class="fill" id="bar"></div></div>
+        </div>
+        <div id="lockinfo"></div>
+      </header>
+      <div id="lockbanner" hidden></div>
+      <section id="view"></section>
+    </main>
+  </div>
+  <div id="toasts"></div>
+  <script src="renderer/lib/cloud-core.js"></script>
+  <script type="module" src="renderer/web/boot.js"></script>
+</body>
+</html>

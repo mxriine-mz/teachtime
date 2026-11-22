@@ -1,0 +1,410 @@
+[
+  {
+    "id": "cafe",
+    "title": "Commander dans un café",
+    "level": "A2",
+    "intro": "Tu entres dans un café à Londres. Tu es le client et tu veux commander une boisson et quelque chose à manger.",
+    "turns": [
+      {
+        "npc": "Good morning! What can I get you?",
+        "fr": "Bonjour ! Que puis-je vous servir ?",
+        "task": "Commande une boisson chaude et précise la taille.",
+        "keys": [["coffee","tea","latte","cappuccino","espresso","chocolate","hot chocolate","americano","mocha"],["small","medium","large","regular","big","tall"]],
+        "minWords": 4,
+        "model": "Hi, I'd like a large coffee, please."
+      },
+      {
+        "npc": "Sure. Would you like milk or sugar with that?",
+        "fr": "Bien sûr. Vous voulez du lait ou du sucre avec ça ?",
+        "task": "Dis si tu veux du lait ou du sucre.",
+        "keys": [["milk","sugar","black","both","neither","oat","soy"]],
+        "minWords": 3,
+        "model": "Just a little milk, please, no sugar."
+      },
+      {
+        "npc": "Anything to eat? We have fresh croissants and muffins.",
+        "fr": "Quelque chose à manger ? Nous avons des croissants et des muffins frais.",
+        "task": "Choisis quelque chose à manger.",
+        "keys": [["croissant","croissants","muffin","muffins","cake","cookie","cookies","sandwich","nothing","no"]],
+        "minWords": 3,
+        "model": "Yes, I'll have a croissant, please."
+      },
+      {
+        "npc": "That's six euros fifty. Will you eat in or take away?",
+        "fr": "Ça fait six euros cinquante. Sur place ou à emporter ?",
+        "task": "Dis si tu manges sur place ou à emporter.",
+        "keys": [["here","in","take away","takeaway","to go","out","sit","stay"]],
+        "minWords": 3,
+        "model": "I'll sit here, please."
+      },
+      {
+        "npc": "Great. Here's your order. Have a nice day!",
+        "fr": "Parfait. Voici votre commande. Bonne journée !",
+        "task": "Remercie et dis au revoir.",
+        "keys": [["thank","thanks","cheers"],["bye","goodbye","day","see you","too","you"]],
+        "minWords": 3,
+        "model": "Thank you very much, have a nice day too!"
+      }
+    ]
+  },
+  {
+    "id": "directions",
+    "title": "Demander son chemin",
+    "level": "A2",
+    "intro": "Tu es perdu(e) dans une ville anglaise. Tu demandes ton chemin à un passant pour aller à la gare.",
+    "turns": [
+      {
+        "npc": "Hello! Can I help you? You look a bit lost.",
+        "fr": "Bonjour ! Je peux vous aider ? Vous avez l'air un peu perdu.",
+        "task": "Dis que tu cherches la gare.",
+        "keys": [["station","train station","railway"],["looking","where","find","way","how","get","go"]],
+        "minWords": 4,
+        "model": "Excuse me, where is the train station?"
+      },
+      {
+        "npc": "Oh, it's not far. Go straight ahead and turn left at the traffic lights.",
+        "fr": "Oh, ce n'est pas loin. Allez tout droit et tournez à gauche aux feux.",
+        "task": "Remercie et demande si c'est loin à pied.",
+        "keys": [["far","long","minutes","walk","walking","distance"]],
+        "minWords": 4,
+        "model": "Thanks. Is it far from here on foot?"
+      },
+      {
+        "npc": "About ten minutes on foot. You'll see a big bank on your right.",
+        "fr": "Une dizaine de minutes à pied. Vous verrez une grande banque sur votre droite.",
+        "task": "Demande à la personne de répéter plus lentement.",
+        "keys": [["repeat","again","slowly","slower","sorry","pardon","say"]],
+        "minWords": 3,
+        "model": "Sorry, could you say that again, more slowly?"
+      },
+      {
+        "npc": "Of course. Go straight, turn left at the lights, and the station is after the bank.",
+        "fr": "Bien sûr. Allez tout droit, tournez à gauche aux feux, et la gare est après la banque.",
+        "task": "Vérifie ta compréhension : tu vas tout droit puis à gauche aux feux.",
+        "keys": [["left"],["lights","traffic","straight","bank"]],
+        "minWords": 4,
+        "model": "So I go straight and turn left at the lights?"
+      },
+      {
+        "npc": "Exactly! You can't miss it.",
+        "fr": "Exactement ! Vous ne pouvez pas la rater.",
+        "task": "Remercie et dis au revoir.",
+        "keys": [["thank","thanks","cheers"],["bye","goodbye","day","help"]],
+        "minWords": 3,
+        "model": "Thank you so much for your help. Goodbye!"
+      }
+    ]
+  },
+  {
+    "id": "phone",
+    "title": "Prendre un message au téléphone",
+    "level": "B1",
+    "intro": "Tu appelles une entreprise pour parler à M. Smith, mais il n'est pas disponible. Tu laisses un message.",
+    "turns": [
+      {
+        "npc": "Good afternoon, Brightway Solutions. How can I help you?",
+        "fr": "Bonjour, Brightway Solutions. Comment puis-je vous aider ?",
+        "task": "Dis que tu voudrais parler à M. Smith.",
+        "keys": [["speak","talk","speaking"],["smith","mr","mister"]],
+        "minWords": 5,
+        "model": "Hello, could I speak to Mr Smith, please?"
+      },
+      {
+        "npc": "I'm sorry, Mr Smith is in a meeting. Would you like to leave a message?",
+        "fr": "Désolée, M. Smith est en réunion. Voulez-vous laisser un message ?",
+        "task": "Accepte et dis que tu veux laisser un message.",
+        "keys": [["message","leave"]],
+        "minWords": 3,
+        "model": "Yes, please. Could I leave a message?"
+      },
+      {
+        "npc": "Of course. Can I have your name and your phone number?",
+        "fr": "Bien sûr. Puis-je avoir votre nom et votre numéro de téléphone ?",
+        "task": "Donne ton nom et un numéro de téléphone (invente-les).",
+        "keys": [["name","am","call","calling"]],
+        "minWords": 5,
+        "model": "My name is Marie Dupont, and my number is zero six, twelve, thirty-four."
+      },
+      {
+        "npc": "Thank you. And what should I tell Mr Smith?",
+        "fr": "Merci. Et que dois-je dire à M. Smith ?",
+        "task": "Demande qu'il te rappelle à propos du rendez-vous de demain.",
+        "keys": [["call","phone","ring","back"],["tomorrow","appointment","meeting","contract","order","about"]],
+        "minWords": 6,
+        "model": "Please ask him to call me back about the appointment tomorrow."
+      },
+      {
+        "npc": "Got it. I'll pass on your message as soon as he's free.",
+        "fr": "C'est noté. Je transmettrai votre message dès qu'il sera libre.",
+        "task": "Remercie et dis au revoir.",
+        "keys": [["thank","thanks"],["bye","goodbye","day","help"]],
+        "minWords": 4,
+        "model": "Thank you very much. Have a good day, goodbye!"
+      }
+    ]
+  },
+  {
+    "id": "interview",
+    "title": "Entretien d'embauche",
+    "level": "B1",
+    "intro": "Tu passes un entretien pour un stage dans une entreprise anglophone. Tu es le ou la candidat(e).",
+    "turns": [
+      {
+        "npc": "Good morning, please take a seat. Could you tell me a little about yourself?",
+        "fr": "Bonjour, asseyez-vous. Pouvez-vous me parler un peu de vous ?",
+        "task": "Présente-toi : tes études et ce que tu cherches.",
+        "keys": [["student","study","studying","studied","degree","master","school","university","engineering","data"]],
+        "minWords": 8,
+        "model": "I'm a student in data science, and I'm looking for an internship."
+      },
+      {
+        "npc": "Interesting. Why do you want to work for our company?",
+        "fr": "Intéressant. Pourquoi voulez-vous travailler pour notre entreprise ?",
+        "task": "Explique pourquoi tu veux travailler dans cette entreprise.",
+        "keys": [["because","company","team","opportunity","learn","experience","interested","like","want"]],
+        "minWords": 6,
+        "model": "Because I really like your projects and I want to learn from your team."
+      },
+      {
+        "npc": "What would you say is your biggest strength?",
+        "fr": "Quelle est selon vous votre plus grande qualité ?",
+        "task": "Dis quelle est ta principale qualité.",
+        "keys": [["organized","organised","motivated","curious","reliable","creative","patient","hardworking","hard","team","good","autonomous","analytical","adaptable","serious"]],
+        "minWords": 5,
+        "model": "I think I'm very organized and I work well in a team."
+      },
+      {
+        "npc": "And do you have any experience in this field?",
+        "fr": "Et avez-vous de l'expérience dans ce domaine ?",
+        "task": "Parle d'un stage ou d'un projet que tu as réalisé.",
+        "keys": [["internship","project","projects","experience","worked","work","course","job"]],
+        "minWords": 6,
+        "model": "Yes, I did a three-month internship where I worked on a data project."
+      },
+      {
+        "npc": "Great. Do you have any questions for us?",
+        "fr": "Très bien. Avez-vous des questions pour nous ?",
+        "task": "Pose une question sur le poste ou l'équipe.",
+        "keys": [["team","job","position","role","working","salary","start","training","projects","hours"]],
+        "minWords": 6,
+        "model": "Yes, could you tell me more about the team I would work with?"
+      },
+      {
+        "npc": "Thank you for coming. We'll contact you next week.",
+        "fr": "Merci d'être venu(e). Nous vous contacterons la semaine prochaine.",
+        "task": "Remercie et dis au revoir.",
+        "keys": [["thank","thanks"],["bye","goodbye","day","time","opportunity","meeting","pleasure","forward"]],
+        "minWords": 5,
+        "model": "Thank you for your time. It was a pleasure to meet you."
+      }
+    ]
+  },
+  {
+    "id": "hotel",
+    "title": "Arriver à l'hôtel",
+    "level": "A2",
+    "intro": "Tu arrives le soir dans un hôtel où tu as réservé une chambre. Tu es le client à la réception.",
+    "turns": [
+      {
+        "npc": "Good evening, welcome to the Grand Hotel. Do you have a reservation?",
+        "fr": "Bonsoir, bienvenue au Grand Hotel. Avez-vous une réservation ?",
+        "task": "Dis que tu as une réservation à ton nom.",
+        "keys": [["reservation","booked","booking","book"],["name","under","my"]],
+        "minWords": 5,
+        "model": "Yes, I have a reservation under the name Dupont."
+      },
+      {
+        "npc": "Let me check. Yes, here it is. A single room for three nights, correct?",
+        "fr": "Je vérifie. Oui, la voici. Une chambre simple pour trois nuits, c'est bien ça ?",
+        "task": "Confirme et demande si le petit-déjeuner est inclus.",
+        "keys": [["breakfast"],["included","include","includes","price","is","does"]],
+        "minWords": 4,
+        "model": "Yes, that's right. Is breakfast included?"
+      },
+      {
+        "npc": "Yes, breakfast is included. It's served from seven to ten in the restaurant.",
+        "fr": "Oui, le petit-déjeuner est inclus. Il est servi de sept heures à dix heures au restaurant.",
+        "task": "Demande s'il y a du wifi dans la chambre.",
+        "keys": [["wifi","wi fi","fi","internet","wireless"]],
+        "minWords": 4,
+        "model": "Great. Is there wifi in the room?"
+      },
+      {
+        "npc": "Yes, the wifi is free. Here is your key. You're in room two fourteen.",
+        "fr": "Oui, le wifi est gratuit. Voici votre clé. Vous êtes dans la chambre deux cent quatorze.",
+        "task": "Demande à quelle heure il faut libérer la chambre.",
+        "keys": [["check out","checkout","time","leave","when"]],
+        "minWords": 4,
+        "model": "Thank you. What time is check out?"
+      },
+      {
+        "npc": "Check-out is at eleven. The lift is on your left. Enjoy your stay!",
+        "fr": "Le départ se fait à onze heures. L'ascenseur est à votre gauche. Bon séjour !",
+        "task": "Remercie et souhaite une bonne soirée.",
+        "keys": [["thank","thanks"],["night","evening","day","stay","bye","goodnight"]],
+        "minWords": 4,
+        "model": "Thank you very much. Have a good evening!"
+      }
+    ]
+  },
+  {
+    "id": "doctor",
+    "title": "Chez le médecin",
+    "level": "B1",
+    "intro": "Tu es malade et tu consultes un médecin anglophone. Tu es le patient et tu expliques tes symptômes.",
+    "turns": [
+      {
+        "npc": "Hello, please sit down. What seems to be the problem?",
+        "fr": "Bonjour, asseyez-vous. Quel est le problème ?",
+        "task": "Dis que tu as mal à la gorge depuis quelques jours.",
+        "keys": [["sore","pain","hurts","hurt","headache","throat","ache","sick","ill","cough","fever","stomach","back"],["days","day","week","weeks","since","for","yesterday"]],
+        "minWords": 5,
+        "model": "I've had a sore throat for three days."
+      },
+      {
+        "npc": "I see. Do you have a fever or a cough?",
+        "fr": "Je vois. Avez-vous de la fièvre ou de la toux ?",
+        "task": "Dis que tu as un peu de fièvre mais pas de toux.",
+        "keys": [["fever","temperature","cough","coughing"]],
+        "minWords": 5,
+        "model": "I have a slight fever, but I don't have a cough."
+      },
+      {
+        "npc": "Are you taking any medication at the moment? And do you have any allergies?",
+        "fr": "Prenez-vous des médicaments en ce moment ? Et avez-vous des allergies ?",
+        "task": "Dis si tu prends des médicaments et si tu as des allergies.",
+        "keys": [["medication","medicine","medicines","pills","paracetamol","ibuprofen","nothing","no","none","allergic","allergies","allergy"]],
+        "minWords": 5,
+        "model": "No, I'm not taking any medication and I have no allergies."
+      },
+      {
+        "npc": "Let me examine you. Open your mouth, please. Your throat is quite red. It's a mild infection.",
+        "fr": "Je vais vous examiner. Ouvrez la bouche, s'il vous plaît. Votre gorge est assez rouge. C'est une légère infection.",
+        "task": "Demande ce que tu dois faire comme traitement.",
+        "keys": [["medicine","treatment","antibiotics","prescription","take","need","should","do","what"]],
+        "minWords": 4,
+        "model": "What should I do? Do I need antibiotics?"
+      },
+      {
+        "npc": "I'll prescribe some antibiotics. Take one tablet twice a day for a week, and rest at home.",
+        "fr": "Je vais vous prescrire des antibiotiques. Prenez un comprimé deux fois par jour pendant une semaine, et reposez-vous à la maison.",
+        "task": "Demande si tu peux aller en cours demain.",
+        "keys": [["work","school","university","class","classes","go","tomorrow","back","study","office"]],
+        "minWords": 5,
+        "model": "Can I go to university tomorrow, or should I rest?"
+      },
+      {
+        "npc": "Better stay home for two days. Come back if it doesn't improve.",
+        "fr": "Mieux vaut rester chez vous deux jours. Revenez si ça ne s'améliore pas.",
+        "task": "Remercie et dis au revoir.",
+        "keys": [["thank","thanks"],["bye","goodbye","day","help"]],
+        "minWords": 3,
+        "model": "Thank you very much, doctor. Goodbye!"
+      }
+    ]
+  },
+  {
+    "id": "meeting",
+    "title": "Proposer une date de réunion",
+    "level": "B2",
+    "intro": "Tu organises une réunion de projet avec un collègue anglophone. Tu proposes un jour, une heure et un format.",
+    "turns": [
+      {
+        "npc": "Hi! I'd like to set up a meeting about the project. When are you free?",
+        "fr": "Salut ! J'aimerais organiser une réunion sur le projet. Quand es-tu disponible ?",
+        "task": "Propose un ou deux jours de la semaine prochaine.",
+        "keys": [["monday","tuesday","wednesday","thursday","friday","next week","tomorrow","week"]],
+        "minWords": 5,
+        "model": "I'm free on Tuesday or Wednesday next week."
+      },
+      {
+        "npc": "Tuesday works for me. Would the morning or the afternoon be better?",
+        "fr": "Mardi me convient. Plutôt le matin ou l'après-midi ?",
+        "task": "Choisis matin ou après-midi et propose une heure.",
+        "keys": [["morning","afternoon"],["am","pm","nine","ten","eleven","two","three","four","9","10","11","2","3","4","oclock","clock","half","quarter","noon"]],
+        "minWords": 5,
+        "model": "The morning is better. Let's say at ten o'clock."
+      },
+      {
+        "npc": "Ten is fine. How long do you think we'll need?",
+        "fr": "Dix heures, c'est parfait. Combien de temps penses-tu qu'il nous faudra ?",
+        "task": "Dis qu'une heure suffira.",
+        "keys": [["hour","hours","minutes","minute","half","one","1","sixty","60"]],
+        "minWords": 4,
+        "model": "I think one hour should be enough."
+      },
+      {
+        "npc": "Perfect. Shall we meet in my office, or would you prefer a video call?",
+        "fr": "Parfait. On se retrouve dans mon bureau, ou tu préfères une visioconférence ?",
+        "task": "Choisis le bureau ou la visioconférence.",
+        "keys": [["office","video","call","online","teams","zoom","person"]],
+        "minWords": 5,
+        "model": "A video call would be easier for me, please."
+      },
+      {
+        "npc": "No problem. I'll send you an invitation. Is there anything else we should prepare?",
+        "fr": "Pas de problème. Je t'envoie une invitation. Y a-t-il autre chose à préparer ?",
+        "task": "Propose d'apporter un document ou une présentation.",
+        "keys": [["bring","send","prepare","report","document","documents","slides","presentation","notes","figures","results"]],
+        "minWords": 5,
+        "model": "I can bring the report and some slides."
+      },
+      {
+        "npc": "Great, thanks. See you on Tuesday!",
+        "fr": "Super, merci. À mardi !",
+        "task": "Dis à mardi et au revoir.",
+        "keys": [["see","bye","goodbye","then","tuesday","soon","forward"]],
+        "minWords": 3,
+        "model": "Thanks, see you on Tuesday. Bye!"
+      }
+    ]
+  },
+  {
+    "id": "shop",
+    "title": "Rendre un article dans un magasin",
+    "level": "B1",
+    "intro": "Tu as acheté un pull la semaine dernière et il ne te va pas. Tu retournes au magasin pour le rendre.",
+    "turns": [
+      {
+        "npc": "Hello, can I help you?",
+        "fr": "Bonjour, puis-je vous aider ?",
+        "task": "Dis que tu veux rendre le pull acheté la semaine dernière.",
+        "keys": [["return","bring back","exchange","refund","give back","send back"],["sweater","jumper","pullover","jacket","shirt","shoes","trousers","dress","bought","week","item"]],
+        "minWords": 6,
+        "model": "Hi, I'd like to return this sweater I bought last week."
+      },
+      {
+        "npc": "Of course. What's the problem with it?",
+        "fr": "Bien sûr. Quel est le problème ?",
+        "task": "Explique que c'est trop petit ou qu'il y a un défaut.",
+        "keys": [["small","big","large","tight","short","long","wrong","size","hole","broken","damaged","fit","fits","tear","torn","stain","defect"]],
+        "minWords": 4,
+        "model": "It's too small. It doesn't fit me."
+      },
+      {
+        "npc": "I see. Do you have the receipt with you?",
+        "fr": "Je vois. Avez-vous le ticket de caisse ?",
+        "task": "Dis que tu as le ticket de caisse.",
+        "keys": [["receipt","here","yes","ticket","have"]],
+        "minWords": 4,
+        "model": "Yes, I have the receipt right here."
+      },
+      {
+        "npc": "Thank you. Would you like a refund, or would you prefer to exchange it for a bigger size?",
+        "fr": "Merci. Voulez-vous un remboursement, ou préférez-vous l'échanger contre une taille au-dessus ?",
+        "task": "Choisis un remboursement ou un échange.",
+        "keys": [["refund","money","exchange","bigger","large","medium","size","back","another","different","voucher","credit"]],
+        "minWords": 5,
+        "model": "I'd prefer to exchange it for a bigger size, please."
+      },
+      {
+        "npc": "No problem. Here is a medium. Is that all?",
+        "fr": "Pas de problème. Voici un M. C'est tout ?",
+        "task": "Dis que c'est tout et remercie.",
+        "keys": [["thank","thanks"],["all","that","everything","bye","goodbye","day","else"]],
+        "minWords": 4,
+        "model": "Yes, that's all, thank you very much."
+      }
+    ]
+  }
+]

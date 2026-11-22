@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob: mediastream:; connect-src 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TEAch Time</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="nav">
+      <div class="brand">
+        <img class="logo" src="assets/chaussette-douce.svg" alt="">
+        <div>
+          <div class="wordmark"><span class="tea">TEA</span><span class="ch">ch</span> <span class="time">Time</span></div>
+          <div class="slogan">My Cup of English</div>
+        </div>
+      </div>
+      <nav>
+        <button data-view="home"><span class="ico"></span>Accueil</button>
+        <button data-view="game"><span class="ico"></span>Le Quartier</button>
+        <button data-view="lessons"><span class="ico"></span>Cours</button>
+        <button data-view="memorize"><span class="ico"></span>Mémoriser</button>
+        <button data-view="vocab"><span class="ico"></span>Vocabulaire</button>
+        <button data-view="speak"><span class="ico"></span>Oral</button>
+        <button data-view="settings"><span class="ico"></span>Réglages</button>
+      </nav>
+      <div class="nav-foot" id="streak"></div>
+    </aside>
+    <main>
+      <header id="topbar">
+        <div class="quota">
+          <div class="quota-text"><b id="pts">0</b> / <span id="quota">300</span> points aujourd'hui</div>
+          <div class="bar"><div class="fill" id="bar"></div></div>
+        </div>
+        <div id="lockinfo"></div>
+      </header>
+      <div id="lockbanner" hidden></div>
+      <section id="view"></section>
+    </main>
+  </div>
+  <div id="toasts"></div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

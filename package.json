@@ -1,0 +1,28 @@
+{
+  "name": "teach-time",
+  "productName": "TEAch Time",
+  "version": "0.1.0",
+  "description": "TEAch Time, My Cup of English : plateforme d'anglais quotidienne (cours, jeu, mémorisation, oral) avec un quota à atteindre chaque jour.",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dev": "set TEACHTIME_DEV=1&& electron .",
+    "model": "node scripts/download-model.mjs",
+    "voice": "node scripts/download-voice.js",
+    "selftest": "electron . --selftest",
+    "chaussette": "node scripts/make-chaussette.js",
+    "icons": "electron scripts/make-icons.js",
+    "modele": "electron scripts/make-template.js",
+    "habitants": "node scripts/make-habitants.js"
+  },
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^45.3.2"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.2",
+    "kokoro-js": "^1.2.1"
+  }
+}

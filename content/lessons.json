@@ -1,0 +1,199 @@
+[
+  {
+    "id": "articles", "cat": "grammar", "level": "B1", "tags": ["articles"],
+    "title": "Les articles : a, an, the ou rien",
+    "intro": "Savoir quand mettre un article, et lequel.",
+    "body": "**a / an** = un, une. On choisit selon le **son** du mot suivant, pas selon la lettre :\n- a car, a university (le son « you »), a European country\n- an apple, an hour (h muet), an MBA (le son « em »)\n\n**the** = le, la, les, pour une chose précise ou unique : the sun, the report I sent you, the CEO of the company.\n\n**Pas d'article** pour parler en général et dans quelques expressions figées :\n- Life is beautiful. Cars are expensive. (en général)\n- by bus, by car, at work, at home, go to school, go to bed\n\nPiège du TOEIC : les métiers prennent toujours un article. She is **an** engineer (et non « She is engineer »).",
+    "examples": [
+      { "en": "She is an engineer at a large company.", "fr": "Elle est ingénieure dans une grande entreprise." },
+      { "en": "The report I sent you is on the table.", "fr": "Le rapport que je t'ai envoyé est sur la table." },
+      { "en": "I go to work by bus.", "fr": "Je vais au travail en bus." }
+    ]
+  },
+  {
+    "id": "prepositions", "cat": "grammar", "level": "B1", "tags": ["prepositions"],
+    "title": "Les prépositions de temps : in, on, at, by, for, since",
+    "intro": "Les petites prépositions qui tombent à chaque TOEIC.",
+    "body": "**at** + heure précise : at 6 p.m., at noon, at the weekend (anglais britannique)\n\n**on** + jour ou date : on Monday, on Monday morning, on 15 May\n\n**in** + mois, année, saison, partie de la journée : in May, in 1998, in winter, in the morning\n\n**by** = au plus tard : Send it by Friday. **until** = jusqu'à, pour une action qui dure : I'll wait until Friday.\n\n**for** + durée : for five years. **since** + point de départ : since 2019, since Monday. Les deux vont souvent avec le present perfect.\n\n**ago** se place après la durée, avec le prétérit : two years ago.",
+    "examples": [
+      { "en": "The meeting is on Monday at ten.", "fr": "La réunion a lieu lundi à dix heures." },
+      { "en": "Please reply by Friday.", "fr": "Merci de répondre d'ici vendredi." },
+      { "en": "I have lived here since 2019.", "fr": "J'habite ici depuis 2019." }
+    ]
+  },
+  {
+    "id": "comparatives", "cat": "grammar", "level": "B1", "tags": ["comparatives"],
+    "title": "Comparatifs et superlatifs",
+    "intro": "Plus, moins, aussi, le plus.",
+    "body": "**Adjectif court** (1 syllabe, ou 2 syllabes en -y) : on ajoute -er / -est.\n- cheap → cheaper than → the cheapest\n- easy → easier than → the easiest\n\n**Adjectif long** : more / the most.\n- expensive → more expensive than → the most expensive\n\n**Irréguliers à connaître** : good → better → the best ; bad → worse → the worst ; far → further → the furthest.\n\n**Égalité** : as … as (aussi … que). Not as … as (pas aussi … que). Twice as … as (deux fois plus … que).\n\nPiège : « than » après un comparatif, jamais « that ».",
+    "examples": [
+      { "en": "This model is cheaper than the old one.", "fr": "Ce modèle est moins cher que l'ancien." },
+      { "en": "It's the most expensive hotel in town.", "fr": "C'est l'hôtel le plus cher de la ville." },
+      { "en": "Sales were worse than expected.", "fr": "Les ventes ont été pires que prévu." }
+    ]
+  },
+  {
+    "id": "relatives", "cat": "grammar", "level": "B1", "tags": ["relatives"],
+    "title": "Les pronoms relatifs : who, which, whose, where",
+    "intro": "Qui, que, dont, où.",
+    "body": "**who** : pour une personne. The woman who called you is my manager.\n\n**which** : pour une chose ou un animal. The report which I wrote…\n\n**that** : remplace who ou which dans une relative indispensable au sens (pas après une virgule).\n\n**whose** = dont, pour la possession : a company whose employees work from home.\n\n**where** = où, pour un lieu : the city where I was born. **when** pour un moment : the day when we met.\n\nAstuce : quand le relatif est complément, on peut le supprimer. The book (that) I'm reading.",
+    "examples": [
+      { "en": "The candidate who we met yesterday was excellent.", "fr": "La candidate que nous avons rencontrée hier était excellente." },
+      { "en": "We need a supplier whose prices are lower.", "fr": "Il nous faut un fournisseur dont les prix sont plus bas." },
+      { "en": "That's the office where I work.", "fr": "C'est le bureau où je travaille." }
+    ]
+  },
+  {
+    "id": "conditionals", "cat": "grammar", "level": "B2", "tags": ["conditionals"],
+    "title": "Les phrases en « if » (conditionnels)",
+    "intro": "Trois structures à reconnaître du premier coup d'œil.",
+    "body": "**Réel, possible** : If + présent, will + verbe.\nIf it rains, we will stay home.\n\n**Imaginaire** : If + prétérit, would + verbe.\nIf I had more money, I would buy a car. (avec be, on dit souvent « If I were »)\n\n**Regret sur le passé** : If + past perfect, would have + participe passé.\nIf I had known, I would have come.\n\n**unless** = if … not : Unless you hurry, you will be late.\n\nRègle d'or : jamais de « will » ni de « would » juste après « if ».",
+    "examples": [
+      { "en": "If you call me, I will help you.", "fr": "Si tu m'appelles, je t'aiderai." },
+      { "en": "If I were you, I would accept the offer.", "fr": "À ta place, j'accepterais l'offre." },
+      { "en": "If she had studied, she would have passed.", "fr": "Si elle avait révisé, elle aurait réussi." }
+    ]
+  },
+  {
+    "id": "passive", "cat": "grammar", "level": "B1", "tags": ["passive"],
+    "title": "La voix passive",
+    "intro": "Quand le sujet subit l'action.",
+    "body": "**Construction** : be (au bon temps) + participe passé. Le complément d'agent est introduit par **by**.\n- Présent : The rooms are cleaned every day.\n- Prétérit : The invoices were checked by the accountant.\n- Present perfect : The order has been sent.\n- Futur : The product will be launched next month.\n- Avec un modal : It must be done today.\n- En cours : The room is being cleaned.\n\nAu TOEIC, si le sujet est une chose qui ne peut pas faire l'action (un produit, une lettre, une réunion), pense au passif.",
+    "examples": [
+      { "en": "The new product will be launched in May.", "fr": "Le nouveau produit sera lancé en mai." },
+      { "en": "The letters were sent yesterday.", "fr": "Les lettres ont été envoyées hier." },
+      { "en": "The room is being cleaned right now.", "fr": "La salle est en train d'être nettoyée." }
+    ]
+  },
+  {
+    "id": "modals", "cat": "grammar", "level": "B1", "tags": ["modals"],
+    "title": "Les modaux : must, have to, can, should…",
+    "intro": "Obligation, interdiction, conseil et politesse.",
+    "body": "**must** : obligation (souvent ressentie ou écrite dans un règlement). You must wear a badge.\n\n**have to** : obligation venue de l'extérieur. I have to work on Saturday.\n\n**mustn't** = interdiction. You mustn't smoke here.\n**don't have to** = pas obligé. You don't have to come.\n\n**should** : conseil. You should rest.\n\n**can / could** : capacité, permission ; **could** pour une demande polie. Could you help me?\n\n**may / might** : possibilité. It might rain.\n\nAprès un modal : verbe à la base, sans « to » et sans -s. She can swim (et non « she cans to swim »).",
+    "examples": [
+      { "en": "You don't have to bring anything.", "fr": "Tu n'es pas obligé(e) d'apporter quoi que ce soit." },
+      { "en": "You mustn't park here.", "fr": "Il est interdit de se garer ici." },
+      { "en": "Could you send me the file, please?", "fr": "Pourriez-vous m'envoyer le fichier, s'il vous plaît ?" }
+    ]
+  },
+  {
+    "id": "gerund", "cat": "grammar", "level": "B2", "tags": ["gerund"],
+    "title": "Verbe + -ing ou verbe + to ?",
+    "intro": "Certains verbes imposent la forme qui suit.",
+    "body": "**Suivis de -ing** : enjoy, mind, avoid, finish, suggest, consider, keep, can't stand.\nI enjoy reading. Would you mind waiting?\n\n**Suivis de to + verbe** : want, decide, hope, plan, agree, refuse, offer, manage, need.\nShe decided to leave. We plan to expand.\n\n**Après une préposition : toujours -ing.** Y compris quand la préposition est « to » :\n- I look forward to hearing from you.\n- I'm used to working late.\n- She is good at speaking in public.\n\n**stop** change de sens : stop smoking = arrêter de fumer ; stop to smoke = s'arrêter pour fumer.",
+    "examples": [
+      { "en": "I look forward to meeting you.", "fr": "J'ai hâte de vous rencontrer." },
+      { "en": "She managed to finish on time.", "fr": "Elle a réussi à finir à temps." },
+      { "en": "Would you mind closing the door?", "fr": "Ça te dérangerait de fermer la porte ?" }
+    ]
+  },
+  {
+    "id": "connectors", "cat": "grammar", "level": "B2", "tags": ["connectors"],
+    "title": "Les connecteurs : although, despite, because of…",
+    "intro": "Regarde ce qui suit le blanc : un nom ou une phrase ?",
+    "body": "**Suivis d'un nom (ou de -ing)** :\n- despite / in spite of = malgré : Despite the rain…\n- because of / due to = à cause de : because of the strike…\n\n**Suivis d'un sujet + verbe** :\n- although / even though = bien que : Although it was raining…\n- because = parce que : because there was a strike…\n\n**En début de phrase, suivis d'une virgule** :\n- However, = cependant. Therefore, = donc. Moreover, = de plus.\n\nMéthode TOEIC : s'il y a un verbe conjugué après le blanc, élimine despite et because of.",
+    "examples": [
+      { "en": "Despite the traffic, we arrived on time.", "fr": "Malgré la circulation, nous sommes arrivés à l'heure." },
+      { "en": "Although it was late, she kept working.", "fr": "Même s'il était tard, elle a continué à travailler." },
+      { "en": "The event was cancelled because of the storm.", "fr": "L'événement a été annulé à cause de la tempête." }
+    ]
+  },
+  {
+    "id": "wordform", "cat": "grammar", "level": "B2", "tags": ["wordform"],
+    "title": "Nom, adjectif ou adverbe ? (word forms)",
+    "intro": "Le type de question le plus fréquent de la partie 5 du TOEIC.",
+    "body": "Repère la place du blanc, puis choisis la nature du mot.\n\n**Nom** après un article ou un possessif : the **opening**, our **representative**. Suffixes : -tion, -ment, -ness, -ity, -er/-or (personne).\n\n**Adjectif** devant un nom ou après be : a **reliable** supplier, it is **essential**. Suffixes : -ive, -ful, -ous, -able, -al.\n\n**Adverbe** pour décrire un verbe, un adjectif ou un participe : read **carefully**, **conveniently** located. Suffixe : -ly.\n\n**Verbe** après un modal ou « to » : will **employ**, to **expand**.",
+    "examples": [
+      { "en": "Please read the contract carefully.", "fr": "Merci de lire le contrat attentivement." },
+      { "en": "She gave an informative presentation.", "fr": "Elle a fait une présentation instructive." },
+      { "en": "The opening of the store is in June.", "fr": "L'ouverture du magasin a lieu en juin." }
+    ]
+  },
+  {
+    "id": "present", "cat": "conj", "level": "B1", "tags": ["continuous"],
+    "title": "Présent simple ou présent continu ?",
+    "intro": "Habitude ou action en cours.",
+    "body": "**Présent simple** : habitudes, vérités générales, horaires.\n- She works in Paris. The shop opens at nine.\n- Mots repères : always, usually, often, every day, never.\n- N'oublie pas le **-s** à la 3e personne : he works, she goes, it does.\n\n**Présent continu (be + -ing)** : action en cours, situation temporaire, projet fixé.\n- I'm writing an email right now.\n- I'm meeting the client tomorrow. (rendez-vous prévu)\n- Mots repères : now, at the moment, look!, currently, this week.\n\nCertains verbes d'état ne se mettent presque jamais en -ing : know, like, want, need, believe, understand.",
+    "examples": [
+      { "en": "I usually take the train, but today I'm driving.", "fr": "D'habitude je prends le train, mais aujourd'hui je suis en voiture." },
+      { "en": "What are you doing at the moment?", "fr": "Qu'est-ce que tu fais en ce moment ?" },
+      { "en": "The train leaves at 7:45.", "fr": "Le train part à 7 h 45." }
+    ]
+  },
+  {
+    "id": "perfect", "cat": "conj", "level": "B1", "tags": ["perfect", "past"],
+    "title": "Present perfect ou prétérit ?",
+    "intro": "Le piège numéro un des francophones.",
+    "body": "**Prétérit** : action terminée à un moment passé précis.\n- I sent the email yesterday / last week / two days ago / in 2020.\n\n**Present perfect (have + participe passé)** : lien avec le présent, sans moment précis.\n- I have already sent the email. Have you ever been to Japan?\n- Mots repères : already, yet, ever, never, just, so far, recently.\n\n**Depuis** : l'anglais utilise le present perfect là où le français utilise le présent.\n- I have worked here for three years. (je travaille ici depuis trois ans)\n- How long have you been learning English? (depuis combien de temps apprends-tu ?)\n\n**Past perfect (had + participe)** : action antérieure à une autre action passée. When I arrived, the meeting had started.",
+    "examples": [
+      { "en": "I have just finished the report.", "fr": "Je viens de finir le rapport." },
+      { "en": "I finished the report yesterday.", "fr": "J'ai fini le rapport hier." },
+      { "en": "She has lived in Lyon since 2018.", "fr": "Elle vit à Lyon depuis 2018." }
+    ]
+  },
+  {
+    "id": "future", "cat": "conj", "level": "B1", "tags": ["future"],
+    "title": "Exprimer le futur",
+    "intro": "will, be going to, présent continu ou présent simple.",
+    "body": "**will** : décision sur le moment, promesse, proposition, prédiction générale.\n- I'll help you. It will be sunny tomorrow.\n\n**be going to** : intention déjà décidée, ou prédiction avec un indice visible.\n- I'm going to study tonight. Look at those clouds, it's going to rain.\n\n**Présent continu** : rendez-vous ou projet organisé.\n- I'm meeting Sarah at six.\n\n**Présent simple** : horaires et programmes officiels.\n- The plane lands at noon.\n\n**Futur antérieur (will have + participe)** : action terminée avant un moment futur. By June, we will have finished.\n\nAprès when, as soon as, before, after, until : on garde le présent. I'll call you when I arrive.",
+    "examples": [
+      { "en": "I'll call you as soon as I arrive.", "fr": "Je t'appelle dès que j'arrive." },
+      { "en": "We're going to open a new office.", "fr": "Nous allons ouvrir un nouveau bureau." },
+      { "en": "By Friday, I will have finished.", "fr": "D'ici vendredi, j'aurai fini." }
+    ]
+  },
+  {
+    "id": "irregular", "cat": "conj", "level": "B1", "tags": ["irregular"],
+    "title": "Les verbes irréguliers indispensables",
+    "intro": "Base, prétérit, participe passé : les plus fréquents au TOEIC.",
+    "body": "Apprends-les par trois, à voix haute :\n- be – was/were – been ; have – had – had ; do – did – done\n- go – went – gone ; come – came – come ; get – got – got\n- make – made – made ; take – took – taken ; give – gave – given\n- say – said – said ; tell – told – told ; speak – spoke – spoken\n- write – wrote – written ; read – read – read ; send – sent – sent\n- buy – bought – bought ; bring – brought – brought ; think – thought – thought\n- pay – paid – paid ; spend – spent – spent ; lose – lost – lost\n- meet – met – met ; leave – left – left ; keep – kept – kept\n- begin – began – begun ; rise – rose – risen ; choose – chose – chosen\n\nAstuce : crée une liste dans l'onglet Vocabulaire (par exemple « go ; went, gone ») pour les réviser en cartes.",
+    "examples": [
+      { "en": "I wrote the email and sent it this morning.", "fr": "J'ai écrit l'e-mail et je l'ai envoyé ce matin." },
+      { "en": "Have you ever spoken in public?", "fr": "As-tu déjà parlé en public ?" },
+      { "en": "Prices have risen again.", "fr": "Les prix ont encore augmenté." }
+    ]
+  },
+  {
+    "id": "confusing", "cat": "vocab", "level": "B2", "tags": ["confusing"],
+    "title": "Faux amis et mots qui se confondent",
+    "intro": "Les pièges de vocabulaire préférés du TOEIC.",
+    "body": "**Faux amis**\n- actually = en fait (actuellement = currently)\n- eventually = finalement (éventuellement = possibly)\n- agenda = ordre du jour (un agenda = a diary, a planner)\n- attend = assister à (to assist = aider)\n- experience = expérience vécue (experiment = expérience scientifique)\n- library = bibliothèque (librairie = bookshop)\n- sensible = raisonnable (« sensible » en français se dit sensitive)\n\n**Paires à ne pas confondre**\n- lend (prêter) / borrow (emprunter)\n- rise (augmenter, sans complément) / raise (augmenter quelque chose)\n- hire (embaucher) / fire (licencier) / retire (prendre sa retraite)\n- say something / tell someone something",
+    "examples": [
+      { "en": "Can I borrow your charger?", "fr": "Je peux emprunter ton chargeur ?" },
+      { "en": "The company raised its prices, so sales fell.", "fr": "L'entreprise a augmenté ses prix, donc les ventes ont baissé." },
+      { "en": "I couldn't attend the meeting.", "fr": "Je n'ai pas pu assister à la réunion." }
+    ]
+  },
+  {
+    "id": "business", "cat": "vocab", "level": "B1", "tags": ["email", "office", "meetings", "hr", "finance"],
+    "title": "Le vocabulaire du bureau et des e-mails",
+    "intro": "Les mots qui reviennent dans presque tous les textes du TOEIC.",
+    "body": "**E-mails**\n- Please find attached… = veuillez trouver ci-joint\n- I'm writing to inquire about… = je vous écris pour me renseigner sur…\n- I look forward to hearing from you. = dans l'attente de votre réponse\n\n**Réunions** : schedule (programmer), postpone (reporter), agenda (ordre du jour), attend (assister), minutes (compte rendu)\n\n**Ressources humaines** : hire, promote, applicant (candidat), cover letter (lettre de motivation), staff (personnel)\n\n**Argent** : invoice (facture), refund (remboursement), discount (remise), revenue (chiffre d'affaires), budget\n\n**Logistique** : deliver (livrer), warehouse (entrepôt), supplier (fournisseur), supplies (fournitures), out of stock (en rupture de stock)",
+    "examples": [
+      { "en": "Please find the invoice attached.", "fr": "Veuillez trouver la facture ci-jointe." },
+      { "en": "The meeting has been postponed.", "fr": "La réunion a été reportée." },
+      { "en": "This item is currently out of stock.", "fr": "Cet article est actuellement en rupture de stock." }
+    ]
+  },
+  {
+    "id": "listening-tips", "cat": "listening", "level": "B1", "tags": [],
+    "title": "Réussir les questions d'écoute",
+    "intro": "Méthode pour les questions-réponses et les annonces.",
+    "body": "**Questions-réponses** : le premier mot décide de tout.\n- Where → un lieu ; When → un moment ; Who → une personne ; Why → une cause ; How often → une fréquence ; How long → une durée.\n- Méfie-toi des réponses qui **répètent un mot** de la question ou un mot qui sonne pareil : c'est souvent un piège.\n- Une question « A or B ? » ne se répond pas par yes ou no.\n\n**Annonces et conversations**\n- Lis la question avant d'écouter, pour savoir quoi chercher.\n- Les mots « instead », « except », « however », « unfortunately » annoncent souvent la réponse.\n- La réponse est rarement dite avec les mêmes mots que la proposition : cherche le sens.\n\nUtilise le bouton « Plus lentement » au début, puis entraîne-toi à vitesse normale.",
+    "examples": [
+      { "en": "When does the store open? — At nine o'clock.", "fr": "Quand le magasin ouvre-t-il ? — À neuf heures." },
+      { "en": "Would you prefer tea or coffee? — Coffee, please.", "fr": "Tu préfères du thé ou du café ? — Du café, s'il te plaît." }
+    ]
+  },
+  {
+    "id": "phrasal", "cat": "general", "level": "B1", "tags": ["phrasal"],
+    "title": "Les phrasal verbs du quotidien",
+    "intro": "Verbe + particule : le sens change complètement.",
+    "body": "**look**\n- look for = chercher ; look after = s'occuper de ; look up = chercher (une info) ; look forward to = avoir hâte de\n\n**put**\n- put on = mettre (vêtement) ; put off = reporter ; put up with = supporter\n\n**get**\n- get up = se lever ; get on / get off = monter / descendre (bus, train) ; get along with = bien s'entendre avec\n\n**take**\n- take off = enlever, décoller ; take over = reprendre (une entreprise, un poste)\n\n**Autres** : turn on / turn off (allumer / éteindre), fill in (remplir), find out (découvrir), give up (abandonner), run out of (manquer de)\n\nAvec un pronom, il se place entre le verbe et la particule : turn it off, look it up.",
+    "examples": [
+      { "en": "Could you turn off the lights?", "fr": "Tu peux éteindre la lumière ?" },
+      { "en": "We've run out of coffee.", "fr": "On n'a plus de café." },
+      { "en": "I get along well with my colleagues.", "fr": "Je m'entends bien avec mes collègues." }
+    ]
+  }
+]

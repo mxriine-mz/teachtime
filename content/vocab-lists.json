@@ -1,0 +1,2071 @@
+[
+  {
+    "id": "quot-maison",
+    "title": "La maison",
+    "level": "A2",
+    "group": "quotidien",
+    "cards": [
+      {
+        "en": "a bedroom",
+        "fr": "une chambre"
+      },
+      {
+        "en": "a bathroom",
+        "fr": "une salle de bains"
+      },
+      {
+        "en": "a living room",
+        "fr": "un salon"
+      },
+      {
+        "en": "a staircase",
+        "fr": "un escalier"
+      },
+      {
+        "en": "a ceiling",
+        "fr": "un plafond"
+      },
+      {
+        "en": "a rug",
+        "fr": "un tapis"
+      },
+      {
+        "en": "a curtain",
+        "fr": "un rideau"
+      },
+      {
+        "en": "a sofa",
+        "fr": "un canapé",
+        "alt": [
+          "a couch"
+        ]
+      },
+      {
+        "en": "a shelf",
+        "fr": "une étagère"
+      },
+      {
+        "en": "a closet",
+        "fr": "un placard"
+      },
+      {
+        "en": "a mattress",
+        "fr": "un matelas"
+      },
+      {
+        "en": "a pillow",
+        "fr": "un oreiller"
+      },
+      {
+        "en": "a blanket",
+        "fr": "une couverture"
+      },
+      {
+        "en": "furniture",
+        "fr": "les meubles"
+      },
+      {
+        "en": "a lamp",
+        "fr": "une lampe"
+      },
+      {
+        "en": "a doorbell",
+        "fr": "une sonnette"
+      },
+      {
+        "en": "a balcony",
+        "fr": "un balcon"
+      },
+      {
+        "en": "a basement",
+        "fr": "un sous-sol (une cave)"
+      },
+      {
+        "en": "to move in",
+        "fr": "emménager"
+      },
+      {
+        "en": "to tidy up",
+        "fr": "ranger (une pièce)",
+        "alt": [
+          "to clean up"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quot-cuisine",
+    "title": "Cuisine et repas",
+    "level": "A2",
+    "group": "quotidien",
+    "cards": [
+      {
+        "en": "a fridge",
+        "fr": "un frigo",
+        "alt": [
+          "a refrigerator"
+        ]
+      },
+      {
+        "en": "an oven",
+        "fr": "un four"
+      },
+      {
+        "en": "a frying pan",
+        "fr": "une poêle"
+      },
+      {
+        "en": "a saucepan",
+        "fr": "une casserole"
+      },
+      {
+        "en": "a knife",
+        "fr": "un couteau"
+      },
+      {
+        "en": "a spoon",
+        "fr": "une cuillère"
+      },
+      {
+        "en": "a fork",
+        "fr": "une fourchette"
+      },
+      {
+        "en": "a plate",
+        "fr": "une assiette"
+      },
+      {
+        "en": "a bowl",
+        "fr": "un bol"
+      },
+      {
+        "en": "to cook",
+        "fr": "cuisiner"
+      },
+      {
+        "en": "to boil",
+        "fr": "faire bouillir"
+      },
+      {
+        "en": "to chop",
+        "fr": "hacher (couper en morceaux)"
+      },
+      {
+        "en": "to bake",
+        "fr": "faire cuire au four"
+      },
+      {
+        "en": "to set the table",
+        "fr": "mettre la table"
+      },
+      {
+        "en": "leftovers",
+        "fr": "les restes (d'un repas)"
+      },
+      {
+        "en": "a recipe",
+        "fr": "une recette"
+      },
+      {
+        "en": "breakfast",
+        "fr": "le petit-déjeuner"
+      },
+      {
+        "en": "a snack",
+        "fr": "un en-cas"
+      },
+      {
+        "en": "delicious",
+        "fr": "délicieux",
+        "alt": [
+          "tasty"
+        ]
+      },
+      {
+        "en": "to do the dishes",
+        "fr": "faire la vaisselle",
+        "alt": [
+          "to wash the dishes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quot-famille",
+    "title": "Famille et relations",
+    "level": "A2",
+    "group": "quotidien",
+    "cards": [
+      {
+        "en": "a grandmother",
+        "fr": "une grand-mère"
+      },
+      {
+        "en": "a grandfather",
+        "fr": "un grand-père"
+      },
+      {
+        "en": "an uncle",
+        "fr": "un oncle"
+      },
+      {
+        "en": "an aunt",
+        "fr": "une tante"
+      },
+      {
+        "en": "a cousin",
+        "fr": "un cousin"
+      },
+      {
+        "en": "a niece",
+        "fr": "une nièce"
+      },
+      {
+        "en": "a nephew",
+        "fr": "un neveu"
+      },
+      {
+        "en": "a brother-in-law",
+        "fr": "un beau-frère"
+      },
+      {
+        "en": "a mother-in-law",
+        "fr": "une belle-mère (mère du conjoint)"
+      },
+      {
+        "en": "twins",
+        "fr": "des jumeaux"
+      },
+      {
+        "en": "an only child",
+        "fr": "un enfant unique"
+      },
+      {
+        "en": "a neighbor",
+        "fr": "un voisin"
+      },
+      {
+        "en": "a roommate",
+        "fr": "un colocataire"
+      },
+      {
+        "en": "a boyfriend",
+        "fr": "un petit ami"
+      },
+      {
+        "en": "a girlfriend",
+        "fr": "une petite amie"
+      },
+      {
+        "en": "to get married",
+        "fr": "se marier"
+      },
+      {
+        "en": "to get along with",
+        "fr": "s'entendre bien avec"
+      },
+      {
+        "en": "to grow up",
+        "fr": "grandir"
+      },
+      {
+        "en": "to look after",
+        "fr": "s'occuper de",
+        "alt": [
+          "to take care of"
+        ]
+      },
+      {
+        "en": "to argue",
+        "fr": "se disputer"
+      }
+    ]
+  },
+  {
+    "id": "quot-vetements",
+    "title": "Vêtements et apparence",
+    "level": "A2",
+    "group": "quotidien",
+    "cards": [
+      {
+        "en": "a sweater",
+        "fr": "un pull"
+      },
+      {
+        "en": "a jacket",
+        "fr": "une veste"
+      },
+      {
+        "en": "a coat",
+        "fr": "un manteau"
+      },
+      {
+        "en": "jeans",
+        "fr": "un jean"
+      },
+      {
+        "en": "a skirt",
+        "fr": "une jupe"
+      },
+      {
+        "en": "a dress",
+        "fr": "une robe"
+      },
+      {
+        "en": "a shirt",
+        "fr": "une chemise"
+      },
+      {
+        "en": "socks",
+        "fr": "des chaussettes"
+      },
+      {
+        "en": "a scarf",
+        "fr": "une écharpe"
+      },
+      {
+        "en": "a belt",
+        "fr": "une ceinture"
+      },
+      {
+        "en": "sneakers",
+        "fr": "des baskets"
+      },
+      {
+        "en": "boots",
+        "fr": "des bottes"
+      },
+      {
+        "en": "gloves",
+        "fr": "des gants"
+      },
+      {
+        "en": "sunglasses",
+        "fr": "des lunettes de soleil"
+      },
+      {
+        "en": "to wear",
+        "fr": "porter (un vêtement)"
+      },
+      {
+        "en": "to try on",
+        "fr": "essayer (un vêtement)"
+      },
+      {
+        "en": "to fit",
+        "fr": "aller (à la bonne taille)"
+      },
+      {
+        "en": "tight",
+        "fr": "serré"
+      },
+      {
+        "en": "a pocket",
+        "fr": "une poche"
+      },
+      {
+        "en": "a beard",
+        "fr": "une barbe"
+      }
+    ]
+  },
+  {
+    "id": "quot-meteo",
+    "title": "Météo et saisons",
+    "level": "A2",
+    "group": "quotidien",
+    "cards": [
+      {
+        "en": "the weather",
+        "fr": "le temps (la météo)"
+      },
+      {
+        "en": "a weather forecast",
+        "fr": "une prévision météo",
+        "alt": [
+          "a forecast"
+        ]
+      },
+      {
+        "en": "sunny",
+        "fr": "ensoleillé"
+      },
+      {
+        "en": "cloudy",
+        "fr": "nuageux"
+      },
+      {
+        "en": "rainy",
+        "fr": "pluvieux"
+      },
+      {
+        "en": "windy",
+        "fr": "venteux"
+      },
+      {
+        "en": "fog",
+        "fr": "le brouillard"
+      },
+      {
+        "en": "a thunderstorm",
+        "fr": "un orage"
+      },
+      {
+        "en": "snow",
+        "fr": "la neige"
+      },
+      {
+        "en": "a rainbow",
+        "fr": "un arc-en-ciel"
+      },
+      {
+        "en": "a puddle",
+        "fr": "une flaque"
+      },
+      {
+        "en": "a heat wave",
+        "fr": "une canicule"
+      },
+      {
+        "en": "humid",
+        "fr": "humide"
+      },
+      {
+        "en": "freezing",
+        "fr": "glacial (très froid)"
+      },
+      {
+        "en": "to rain",
+        "fr": "pleuvoir"
+      },
+      {
+        "en": "to melt",
+        "fr": "fondre"
+      },
+      {
+        "en": "spring",
+        "fr": "le printemps"
+      },
+      {
+        "en": "summer",
+        "fr": "l'été"
+      },
+      {
+        "en": "fall",
+        "fr": "l'automne",
+        "alt": [
+          "autumn"
+        ]
+      },
+      {
+        "en": "winter",
+        "fr": "l'hiver"
+      }
+    ]
+  },
+  {
+    "id": "quot-corps",
+    "title": "Le corps et la santé",
+    "level": "B1",
+    "group": "quotidien",
+    "cards": [
+      {
+        "en": "a shoulder",
+        "fr": "une épaule"
+      },
+      {
+        "en": "an elbow",
+        "fr": "un coude"
+      },
+      {
+        "en": "a knee",
+        "fr": "un genou"
+      },
+      {
+        "en": "an ankle",
+        "fr": "une cheville"
+      },
+      {
+        "en": "a wrist",
+        "fr": "un poignet"
+      },
+      {
+        "en": "a throat",
+        "fr": "la gorge"
+      },
+      {
+        "en": "a lung",
+        "fr": "un poumon"
+      },
+      {
+        "en": "a stomach",
+        "fr": "un estomac (le ventre)"
+      },
+      {
+        "en": "a bone",
+        "fr": "un os"
+      },
+      {
+        "en": "a muscle",
+        "fr": "un muscle"
+      },
+      {
+        "en": "skin",
+        "fr": "la peau"
+      },
+      {
+        "en": "a headache",
+        "fr": "un mal de tête"
+      },
+      {
+        "en": "a fever",
+        "fr": "de la fièvre"
+      },
+      {
+        "en": "a cough",
+        "fr": "une toux"
+      },
+      {
+        "en": "a cold",
+        "fr": "un rhume"
+      },
+      {
+        "en": "a prescription",
+        "fr": "une ordonnance"
+      },
+      {
+        "en": "a bruise",
+        "fr": "un bleu (sur la peau)"
+      },
+      {
+        "en": "to sneeze",
+        "fr": "éternuer"
+      },
+      {
+        "en": "to hurt",
+        "fr": "faire mal"
+      },
+      {
+        "en": "to recover",
+        "fr": "guérir (se rétablir)"
+      }
+    ]
+  },
+  {
+    "id": "quot-emotions",
+    "title": "Émotions et caractère",
+    "level": "B1",
+    "group": "quotidien",
+    "cards": [
+      {
+        "en": "proud",
+        "fr": "fier"
+      },
+      {
+        "en": "jealous",
+        "fr": "jaloux"
+      },
+      {
+        "en": "embarrassed",
+        "fr": "gêné"
+      },
+      {
+        "en": "nervous",
+        "fr": "nerveux"
+      },
+      {
+        "en": "relieved",
+        "fr": "soulagé"
+      },
+      {
+        "en": "disappointed",
+        "fr": "déçu"
+      },
+      {
+        "en": "lonely",
+        "fr": "seul (qui se sent seul)"
+      },
+      {
+        "en": "grateful",
+        "fr": "reconnaissant"
+      },
+      {
+        "en": "upset",
+        "fr": "contrarié"
+      },
+      {
+        "en": "furious",
+        "fr": "furieux"
+      },
+      {
+        "en": "shy",
+        "fr": "timide"
+      },
+      {
+        "en": "generous",
+        "fr": "généreux"
+      },
+      {
+        "en": "stubborn",
+        "fr": "têtu"
+      },
+      {
+        "en": "rude",
+        "fr": "impoli",
+        "alt": [
+          "impolite"
+        ]
+      },
+      {
+        "en": "lazy",
+        "fr": "paresseux"
+      },
+      {
+        "en": "brave",
+        "fr": "courageux",
+        "alt": [
+          "courageous"
+        ]
+      },
+      {
+        "en": "curious",
+        "fr": "curieux"
+      },
+      {
+        "en": "to calm down",
+        "fr": "se calmer"
+      },
+      {
+        "en": "to cheer up",
+        "fr": "remonter le moral"
+      },
+      {
+        "en": "to get on someone's nerves",
+        "fr": "taper sur les nerfs de quelqu'un"
+      }
+    ]
+  },
+  {
+    "id": "quot-ville",
+    "title": "En ville",
+    "level": "A2",
+    "group": "quotidien",
+    "cards": [
+      {
+        "en": "a street",
+        "fr": "une rue"
+      },
+      {
+        "en": "a sidewalk",
+        "fr": "un trottoir"
+      },
+      {
+        "en": "a crosswalk",
+        "fr": "un passage piéton",
+        "alt": [
+          "a pedestrian crossing"
+        ]
+      },
+      {
+        "en": "a traffic light",
+        "fr": "un feu de signalisation",
+        "alt": [
+          "a stoplight"
+        ]
+      },
+      {
+        "en": "a bakery",
+        "fr": "une boulangerie"
+      },
+      {
+        "en": "a pharmacy",
+        "fr": "une pharmacie",
+        "alt": [
+          "a drugstore"
+        ]
+      },
+      {
+        "en": "a bridge",
+        "fr": "un pont"
+      },
+      {
+        "en": "a corner",
+        "fr": "un coin de rue"
+      },
+      {
+        "en": "a neighborhood",
+        "fr": "un quartier"
+      },
+      {
+        "en": "a parking lot",
+        "fr": "un parking"
+      },
+      {
+        "en": "a bus stop",
+        "fr": "un arrêt de bus"
+      },
+      {
+        "en": "a library",
+        "fr": "une bibliothèque"
+      },
+      {
+        "en": "a post office",
+        "fr": "un bureau de poste"
+      },
+      {
+        "en": "a town hall",
+        "fr": "une mairie",
+        "alt": [
+          "a city hall"
+        ]
+      },
+      {
+        "en": "a fountain",
+        "fr": "une fontaine"
+      },
+      {
+        "en": "to cross",
+        "fr": "traverser (la rue)"
+      },
+      {
+        "en": "to turn left",
+        "fr": "tourner à gauche"
+      },
+      {
+        "en": "straight ahead",
+        "fr": "tout droit",
+        "alt": [
+          "straight on"
+        ]
+      },
+      {
+        "en": "crowded",
+        "fr": "bondé",
+        "alt": [
+          "packed"
+        ]
+      },
+      {
+        "en": "downtown",
+        "fr": "le centre-ville"
+      }
+    ]
+  },
+  {
+    "id": "quot-loisirs",
+    "title": "Loisirs et sport",
+    "level": "A2",
+    "group": "quotidien",
+    "cards": [
+      {
+        "en": "a hobby",
+        "fr": "un passe-temps",
+        "alt": [
+          "a pastime"
+        ]
+      },
+      {
+        "en": "a match",
+        "fr": "un match (de sport)",
+        "alt": [
+          "a game"
+        ]
+      },
+      {
+        "en": "a team",
+        "fr": "une équipe (de sport)"
+      },
+      {
+        "en": "to swim",
+        "fr": "nager"
+      },
+      {
+        "en": "to hike",
+        "fr": "faire de la randonnée",
+        "alt": [
+          "to go hiking"
+        ]
+      },
+      {
+        "en": "a bike ride",
+        "fr": "une balade à vélo"
+      },
+      {
+        "en": "to jog",
+        "fr": "faire du jogging",
+        "alt": [
+          "to go jogging"
+        ]
+      },
+      {
+        "en": "a gym",
+        "fr": "une salle de sport",
+        "alt": [
+          "a fitness center"
+        ]
+      },
+      {
+        "en": "a player",
+        "fr": "un joueur"
+      },
+      {
+        "en": "to win",
+        "fr": "gagner (une compétition)"
+      },
+      {
+        "en": "to lose",
+        "fr": "perdre (un match)"
+      },
+      {
+        "en": "a board game",
+        "fr": "un jeu de société"
+      },
+      {
+        "en": "a concert",
+        "fr": "un concert"
+      },
+      {
+        "en": "a movie theater",
+        "fr": "un cinéma (salle)",
+        "alt": [
+          "a cinema"
+        ]
+      },
+      {
+        "en": "a ticket",
+        "fr": "un billet (de concert, de cinéma)"
+      },
+      {
+        "en": "to paint",
+        "fr": "peindre"
+      },
+      {
+        "en": "to dance",
+        "fr": "danser"
+      },
+      {
+        "en": "a fan",
+        "fr": "un fan",
+        "alt": [
+          "a supporter"
+        ]
+      },
+      {
+        "en": "to go for a walk",
+        "fr": "se promener",
+        "alt": [
+          "to take a walk"
+        ]
+      },
+      {
+        "en": "a coach",
+        "fr": "un entraîneur"
+      }
+    ]
+  },
+  {
+    "id": "quot-nature",
+    "title": "Nature et animaux",
+    "level": "A2",
+    "group": "quotidien",
+    "cards": [
+      {
+        "en": "a forest",
+        "fr": "une forêt"
+      },
+      {
+        "en": "a mountain",
+        "fr": "une montagne"
+      },
+      {
+        "en": "a river",
+        "fr": "une rivière"
+      },
+      {
+        "en": "a lake",
+        "fr": "un lac"
+      },
+      {
+        "en": "a beach",
+        "fr": "une plage"
+      },
+      {
+        "en": "a tree",
+        "fr": "un arbre"
+      },
+      {
+        "en": "a flower",
+        "fr": "une fleur"
+      },
+      {
+        "en": "grass",
+        "fr": "l'herbe"
+      },
+      {
+        "en": "a cow",
+        "fr": "une vache"
+      },
+      {
+        "en": "a sheep",
+        "fr": "un mouton"
+      },
+      {
+        "en": "a horse",
+        "fr": "un cheval"
+      },
+      {
+        "en": "a bird",
+        "fr": "un oiseau"
+      },
+      {
+        "en": "a fish",
+        "fr": "un poisson"
+      },
+      {
+        "en": "a rabbit",
+        "fr": "un lapin"
+      },
+      {
+        "en": "a squirrel",
+        "fr": "un écureuil"
+      },
+      {
+        "en": "a butterfly",
+        "fr": "un papillon"
+      },
+      {
+        "en": "a bee",
+        "fr": "une abeille"
+      },
+      {
+        "en": "a wolf",
+        "fr": "un loup"
+      },
+      {
+        "en": "a pet",
+        "fr": "un animal de compagnie"
+      },
+      {
+        "en": "wild",
+        "fr": "sauvage"
+      }
+    ]
+  },
+  {
+    "id": "quot-tech",
+    "title": "Technologie et internet",
+    "level": "B1",
+    "group": "quotidien",
+    "cards": [
+      {
+        "en": "a password",
+        "fr": "un mot de passe"
+      },
+      {
+        "en": "a username",
+        "fr": "un nom d'utilisateur",
+        "alt": [
+          "a user name"
+        ]
+      },
+      {
+        "en": "to log in",
+        "fr": "se connecter (à un compte)",
+        "alt": [
+          "to sign in",
+          "to log on"
+        ]
+      },
+      {
+        "en": "to download",
+        "fr": "télécharger"
+      },
+      {
+        "en": "to upload",
+        "fr": "téléverser (envoyer un fichier en ligne)"
+      },
+      {
+        "en": "a link",
+        "fr": "un lien (internet)",
+        "alt": [
+          "a hyperlink"
+        ]
+      },
+      {
+        "en": "a website",
+        "fr": "un site web",
+        "alt": [
+          "a web site",
+          "a site"
+        ]
+      },
+      {
+        "en": "a search engine",
+        "fr": "un moteur de recherche"
+      },
+      {
+        "en": "a screen",
+        "fr": "un écran"
+      },
+      {
+        "en": "a keyboard",
+        "fr": "un clavier"
+      },
+      {
+        "en": "a charger",
+        "fr": "un chargeur"
+      },
+      {
+        "en": "a battery",
+        "fr": "une batterie"
+      },
+      {
+        "en": "a laptop",
+        "fr": "un ordinateur portable"
+      },
+      {
+        "en": "an app",
+        "fr": "une appli",
+        "alt": [
+          "an application"
+        ]
+      },
+      {
+        "en": "to update",
+        "fr": "mettre à jour"
+      },
+      {
+        "en": "to delete",
+        "fr": "supprimer (un fichier)",
+        "alt": [
+          "to remove"
+        ]
+      },
+      {
+        "en": "Wi-Fi",
+        "fr": "le wifi",
+        "alt": [
+          "wifi",
+          "WiFi"
+        ]
+      },
+      {
+        "en": "to browse",
+        "fr": "naviguer (sur internet)",
+        "alt": [
+          "to surf"
+        ]
+      },
+      {
+        "en": "a notification",
+        "fr": "une notification"
+      },
+      {
+        "en": "a screenshot",
+        "fr": "une capture d'écran"
+      }
+    ]
+  },
+  {
+    "id": "quot-etudes",
+    "title": "École et études",
+    "level": "B1",
+    "group": "quotidien",
+    "cards": [
+      {
+        "en": "a lecture",
+        "fr": "un cours magistral"
+      },
+      {
+        "en": "a grade",
+        "fr": "une note (scolaire)",
+        "alt": [
+          "a mark"
+        ]
+      },
+      {
+        "en": "an exam",
+        "fr": "un examen",
+        "alt": [
+          "an examination"
+        ]
+      },
+      {
+        "en": "homework",
+        "fr": "les devoirs (à la maison)"
+      },
+      {
+        "en": "a degree",
+        "fr": "un diplôme universitaire"
+      },
+      {
+        "en": "a subject",
+        "fr": "une matière (scolaire)"
+      },
+      {
+        "en": "a campus",
+        "fr": "un campus"
+      },
+      {
+        "en": "tuition",
+        "fr": "les frais de scolarité",
+        "alt": [
+          "tuition fees"
+        ]
+      },
+      {
+        "en": "a scholarship",
+        "fr": "une bourse d'études"
+      },
+      {
+        "en": "to enroll",
+        "fr": "s'inscrire (à un cours, à l'université)",
+        "alt": [
+          "to enrol",
+          "to register"
+        ]
+      },
+      {
+        "en": "to graduate",
+        "fr": "obtenir son diplôme"
+      },
+      {
+        "en": "to cheat",
+        "fr": "tricher"
+      },
+      {
+        "en": "to review",
+        "fr": "réviser (avant un examen)",
+        "alt": [
+          "to revise"
+        ]
+      },
+      {
+        "en": "a classmate",
+        "fr": "un camarade de classe"
+      },
+      {
+        "en": "a professor",
+        "fr": "un professeur d'université"
+      },
+      {
+        "en": "a thesis",
+        "fr": "un mémoire (de fin d'études)",
+        "alt": [
+          "a dissertation"
+        ]
+      },
+      {
+        "en": "a semester",
+        "fr": "un semestre"
+      },
+      {
+        "en": "a dorm",
+        "fr": "une résidence universitaire",
+        "alt": [
+          "a dormitory"
+        ]
+      },
+      {
+        "en": "to fail",
+        "fr": "échouer (à un examen)"
+      },
+      {
+        "en": "a textbook",
+        "fr": "un manuel scolaire"
+      }
+    ]
+  },
+  {
+    "id": "quot-verbes",
+    "title": "Verbes du quotidien",
+    "level": "A2",
+    "group": "quotidien",
+    "cards": [
+      {
+        "en": "to wake up",
+        "fr": "se réveiller"
+      },
+      {
+        "en": "to get up",
+        "fr": "se lever"
+      },
+      {
+        "en": "to wait",
+        "fr": "attendre"
+      },
+      {
+        "en": "to borrow",
+        "fr": "emprunter"
+      },
+      {
+        "en": "to lend",
+        "fr": "prêter"
+      },
+      {
+        "en": "to carry",
+        "fr": "porter (un objet)"
+      },
+      {
+        "en": "to forget",
+        "fr": "oublier"
+      },
+      {
+        "en": "to remember",
+        "fr": "se souvenir de",
+        "alt": [
+          "to recall"
+        ]
+      },
+      {
+        "en": "to choose",
+        "fr": "choisir"
+      },
+      {
+        "en": "to explain",
+        "fr": "expliquer"
+      },
+      {
+        "en": "to bring",
+        "fr": "apporter"
+      },
+      {
+        "en": "to look for",
+        "fr": "chercher",
+        "alt": [
+          "to search for"
+        ]
+      },
+      {
+        "en": "to find",
+        "fr": "trouver"
+      },
+      {
+        "en": "to meet",
+        "fr": "rencontrer"
+      },
+      {
+        "en": "to invite",
+        "fr": "inviter"
+      },
+      {
+        "en": "to show",
+        "fr": "montrer"
+      },
+      {
+        "en": "to throw away",
+        "fr": "jeter (à la poubelle)",
+        "alt": [
+          "to throw out"
+        ]
+      },
+      {
+        "en": "to hurry",
+        "fr": "se dépêcher",
+        "alt": [
+          "to hurry up"
+        ]
+      },
+      {
+        "en": "to spend",
+        "fr": "dépenser (de l'argent)"
+      },
+      {
+        "en": "to miss",
+        "fr": "rater (un bus, un train)"
+      }
+    ]
+  },
+  {
+    "id": "quot-expressions",
+    "title": "Expressions courantes",
+    "level": "B1",
+    "group": "quotidien",
+    "cards": [
+      {
+        "en": "no worries",
+        "fr": "pas de souci",
+        "alt": [
+          "no problem"
+        ]
+      },
+      {
+        "en": "it depends",
+        "fr": "ça dépend"
+      },
+      {
+        "en": "to be about to",
+        "fr": "être sur le point de"
+      },
+      {
+        "en": "as soon as possible",
+        "fr": "dès que possible",
+        "alt": [
+          "ASAP"
+        ]
+      },
+      {
+        "en": "by the way",
+        "fr": "au fait"
+      },
+      {
+        "en": "I don't mind",
+        "fr": "ça m'est égal",
+        "alt": [
+          "I do not mind"
+        ]
+      },
+      {
+        "en": "it's up to you",
+        "fr": "c'est à toi de voir",
+        "alt": [
+          "it is up to you"
+        ]
+      },
+      {
+        "en": "to be used to",
+        "fr": "être habitué à",
+        "alt": [
+          "to be accustomed to"
+        ]
+      },
+      {
+        "en": "to look forward to",
+        "fr": "avoir hâte de"
+      },
+      {
+        "en": "in a hurry",
+        "fr": "pressé (qui a peu de temps)",
+        "alt": [
+          "in a rush"
+        ]
+      },
+      {
+        "en": "for example",
+        "fr": "par exemple",
+        "alt": [
+          "for instance"
+        ]
+      },
+      {
+        "en": "on purpose",
+        "fr": "exprès",
+        "alt": [
+          "deliberately"
+        ]
+      },
+      {
+        "en": "by accident",
+        "fr": "sans le faire exprès",
+        "alt": [
+          "accidentally",
+          "by mistake"
+        ]
+      },
+      {
+        "en": "to change your mind",
+        "fr": "changer d'avis"
+      },
+      {
+        "en": "as far as I know",
+        "fr": "pour autant que je sache",
+        "alt": [
+          "to my knowledge"
+        ]
+      },
+      {
+        "en": "never mind",
+        "fr": "laisse tomber",
+        "alt": [
+          "forget it"
+        ]
+      },
+      {
+        "en": "what's up",
+        "fr": "quoi de neuf",
+        "alt": [
+          "what is up",
+          "what's new"
+        ]
+      },
+      {
+        "en": "you're welcome",
+        "fr": "de rien",
+        "alt": [
+          "you are welcome"
+        ]
+      },
+      {
+        "en": "to take your time",
+        "fr": "prendre son temps"
+      },
+      {
+        "en": "in the end",
+        "fr": "finalement",
+        "alt": [
+          "finally"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toeic-bureau",
+    "title": "Au bureau",
+    "level": "B1",
+    "group": "travail",
+    "cards": [
+      {
+        "en": "a deadline",
+        "fr": "une date limite",
+        "alt": [
+          "a due date"
+        ]
+      },
+      {
+        "en": "equipment",
+        "fr": "le matériel"
+      },
+      {
+        "en": "a supervisor",
+        "fr": "un superviseur"
+      },
+      {
+        "en": "a colleague",
+        "fr": "un collègue",
+        "alt": [
+          "a coworker"
+        ]
+      },
+      {
+        "en": "a desk",
+        "fr": "un bureau (meuble)"
+      },
+      {
+        "en": "a photocopier",
+        "fr": "une photocopieuse",
+        "alt": [
+          "a copier",
+          "a copy machine"
+        ]
+      },
+      {
+        "en": "stationery",
+        "fr": "la papeterie (fournitures de bureau)"
+      },
+      {
+        "en": "to file",
+        "fr": "classer (des documents)"
+      },
+      {
+        "en": "to fill out",
+        "fr": "remplir (un formulaire)",
+        "alt": [
+          "to fill in"
+        ]
+      },
+      {
+        "en": "to print",
+        "fr": "imprimer"
+      },
+      {
+        "en": "to postpone",
+        "fr": "reporter (à plus tard)",
+        "alt": [
+          "to put off"
+        ]
+      },
+      {
+        "en": "a workload",
+        "fr": "une charge de travail"
+      },
+      {
+        "en": "a break room",
+        "fr": "une salle de pause",
+        "alt": [
+          "a lounge"
+        ]
+      },
+      {
+        "en": "to run out of",
+        "fr": "être à court de"
+      },
+      {
+        "en": "a cubicle",
+        "fr": "un box (de bureau)"
+      },
+      {
+        "en": "to be in charge of",
+        "fr": "être responsable de"
+      },
+      {
+        "en": "a shift",
+        "fr": "un poste (horaire de travail)"
+      },
+      {
+        "en": "overtime",
+        "fr": "les heures supplémentaires"
+      },
+      {
+        "en": "headquarters",
+        "fr": "le siège social",
+        "alt": [
+          "head office"
+        ]
+      },
+      {
+        "en": "a memo",
+        "fr": "une note de service"
+      }
+    ]
+  },
+  {
+    "id": "toeic-reunions",
+    "title": "Réunions et projets",
+    "level": "B1",
+    "group": "travail",
+    "cards": [
+      {
+        "en": "an agenda",
+        "fr": "un ordre du jour"
+      },
+      {
+        "en": "minutes",
+        "fr": "le compte rendu (de réunion)"
+      },
+      {
+        "en": "to attend",
+        "fr": "assister à"
+      },
+      {
+        "en": "to adjourn",
+        "fr": "lever la séance",
+        "alt": [
+          "to close the meeting"
+        ]
+      },
+      {
+        "en": "a stakeholder",
+        "fr": "une partie prenante"
+      },
+      {
+        "en": "a milestone",
+        "fr": "une étape clé"
+      },
+      {
+        "en": "to brainstorm",
+        "fr": "faire un remue-méninges"
+      },
+      {
+        "en": "a proposal",
+        "fr": "une proposition (formelle)"
+      },
+      {
+        "en": "to delegate",
+        "fr": "déléguer"
+      },
+      {
+        "en": "a goal",
+        "fr": "un objectif",
+        "alt": [
+          "an objective",
+          "an aim"
+        ]
+      },
+      {
+        "en": "a prototype",
+        "fr": "un prototype"
+      },
+      {
+        "en": "to reschedule",
+        "fr": "replanifier"
+      },
+      {
+        "en": "a presentation",
+        "fr": "une présentation"
+      },
+      {
+        "en": "a conference room",
+        "fr": "une salle de réunion",
+        "alt": [
+          "a meeting room"
+        ]
+      },
+      {
+        "en": "to wrap up",
+        "fr": "conclure (une réunion)"
+      },
+      {
+        "en": "ahead of schedule",
+        "fr": "en avance sur le planning"
+      },
+      {
+        "en": "behind schedule",
+        "fr": "en retard sur le planning"
+      },
+      {
+        "en": "a progress report",
+        "fr": "un rapport d'avancement"
+      },
+      {
+        "en": "to approve",
+        "fr": "approuver",
+        "alt": [
+          "to authorize"
+        ]
+      },
+      {
+        "en": "a feasibility study",
+        "fr": "une étude de faisabilité"
+      }
+    ]
+  },
+  {
+    "id": "toeic-emails",
+    "title": "E-mails et téléphone",
+    "level": "B1",
+    "group": "travail",
+    "cards": [
+      {
+        "en": "an attachment",
+        "fr": "une pièce jointe"
+      },
+      {
+        "en": "to forward",
+        "fr": "transférer (un e-mail)"
+      },
+      {
+        "en": "to reply",
+        "fr": "répondre",
+        "alt": [
+          "to respond"
+        ]
+      },
+      {
+        "en": "a recipient",
+        "fr": "un destinataire"
+      },
+      {
+        "en": "a sender",
+        "fr": "un expéditeur"
+      },
+      {
+        "en": "to follow up",
+        "fr": "relancer",
+        "alt": [
+          "to follow up on"
+        ]
+      },
+      {
+        "en": "to get back to",
+        "fr": "recontacter (plus tard)"
+      },
+      {
+        "en": "to put someone through",
+        "fr": "passer quelqu'un (au téléphone)",
+        "alt": [
+          "to connect someone"
+        ]
+      },
+      {
+        "en": "to hold the line",
+        "fr": "rester en ligne",
+        "alt": [
+          "to hold on",
+          "to stay on the line"
+        ]
+      },
+      {
+        "en": "a voicemail",
+        "fr": "une messagerie vocale",
+        "alt": [
+          "a voice mail"
+        ]
+      },
+      {
+        "en": "to leave a message",
+        "fr": "laisser un message"
+      },
+      {
+        "en": "an extension",
+        "fr": "un poste (téléphonique)"
+      },
+      {
+        "en": "to dial",
+        "fr": "composer (un numéro)"
+      },
+      {
+        "en": "a subject line",
+        "fr": "l'objet (d'un e-mail)"
+      },
+      {
+        "en": "to CC",
+        "fr": "mettre en copie",
+        "alt": [
+          "to copy"
+        ]
+      },
+      {
+        "en": "an inbox",
+        "fr": "une boîte de réception"
+      },
+      {
+        "en": "a reminder",
+        "fr": "un rappel"
+      },
+      {
+        "en": "to enclose",
+        "fr": "joindre (à un courrier)"
+      },
+      {
+        "en": "best regards",
+        "fr": "cordialement (formule de politesse)",
+        "alt": [
+          "kind regards",
+          "sincerely"
+        ]
+      },
+      {
+        "en": "to inquire",
+        "fr": "se renseigner",
+        "alt": [
+          "to inquire about"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toeic-finance",
+    "title": "Finance et achats",
+    "level": "B1",
+    "group": "travail",
+    "cards": [
+      {
+        "en": "an invoice",
+        "fr": "une facture",
+        "alt": [
+          "a bill"
+        ]
+      },
+      {
+        "en": "a receipt",
+        "fr": "un reçu (de paiement)"
+      },
+      {
+        "en": "a refund",
+        "fr": "un remboursement"
+      },
+      {
+        "en": "to reimburse",
+        "fr": "rembourser"
+      },
+      {
+        "en": "a budget",
+        "fr": "un budget"
+      },
+      {
+        "en": "revenue",
+        "fr": "le chiffre d'affaires",
+        "alt": [
+          "turnover"
+        ]
+      },
+      {
+        "en": "an expense",
+        "fr": "une dépense"
+      },
+      {
+        "en": "a profit",
+        "fr": "un bénéfice"
+      },
+      {
+        "en": "a loss",
+        "fr": "une perte"
+      },
+      {
+        "en": "to purchase",
+        "fr": "acheter (formel)",
+        "alt": [
+          "to buy"
+        ]
+      },
+      {
+        "en": "a supplier",
+        "fr": "un fournisseur",
+        "alt": [
+          "a vendor"
+        ]
+      },
+      {
+        "en": "a warranty",
+        "fr": "une garantie (produit)",
+        "alt": [
+          "a guarantee"
+        ]
+      },
+      {
+        "en": "a discount",
+        "fr": "une remise (sur le prix)"
+      },
+      {
+        "en": "overdue",
+        "fr": "en retard (de paiement)"
+      },
+      {
+        "en": "a deposit",
+        "fr": "un acompte"
+      },
+      {
+        "en": "a tax",
+        "fr": "un impôt",
+        "alt": [
+          "a levy"
+        ]
+      },
+      {
+        "en": "an estimate",
+        "fr": "un devis",
+        "alt": [
+          "a quote",
+          "a quotation"
+        ]
+      },
+      {
+        "en": "to invest",
+        "fr": "investir"
+      },
+      {
+        "en": "a balance sheet",
+        "fr": "un bilan comptable"
+      },
+      {
+        "en": "an order",
+        "fr": "une commande"
+      }
+    ]
+  },
+  {
+    "id": "toeic-rh",
+    "title": "Ressources humaines et recrutement",
+    "level": "B1",
+    "group": "travail",
+    "cards": [
+      {
+        "en": "a candidate",
+        "fr": "un candidat",
+        "alt": [
+          "an applicant"
+        ]
+      },
+      {
+        "en": "to hire",
+        "fr": "embaucher",
+        "alt": [
+          "to recruit"
+        ]
+      },
+      {
+        "en": "to resign",
+        "fr": "démissionner",
+        "alt": [
+          "to quit"
+        ]
+      },
+      {
+        "en": "a résumé",
+        "fr": "un CV",
+        "alt": [
+          "a resume",
+          "a CV"
+        ]
+      },
+      {
+        "en": "a job opening",
+        "fr": "un poste à pourvoir",
+        "alt": [
+          "a vacancy"
+        ]
+      },
+      {
+        "en": "a job interview",
+        "fr": "un entretien d'embauche",
+        "alt": [
+          "an interview"
+        ]
+      },
+      {
+        "en": "a salary",
+        "fr": "un salaire"
+      },
+      {
+        "en": "benefits",
+        "fr": "les avantages sociaux"
+      },
+      {
+        "en": "to retire",
+        "fr": "partir à la retraite"
+      },
+      {
+        "en": "a promotion",
+        "fr": "une promotion (avancement)"
+      },
+      {
+        "en": "to lay off",
+        "fr": "licencier (raison économique)"
+      },
+      {
+        "en": "a raise",
+        "fr": "une augmentation (de salaire)"
+      },
+      {
+        "en": "a reference",
+        "fr": "une recommandation (d'un ancien employeur)",
+        "alt": [
+          "a recommendation"
+        ]
+      },
+      {
+        "en": "an employee",
+        "fr": "un employé",
+        "alt": [
+          "a staff member"
+        ]
+      },
+      {
+        "en": "payroll",
+        "fr": "la paie"
+      },
+      {
+        "en": "a skill",
+        "fr": "une compétence"
+      },
+      {
+        "en": "paid leave",
+        "fr": "les congés payés",
+        "alt": [
+          "paid vacation"
+        ]
+      },
+      {
+        "en": "to apply for",
+        "fr": "postuler à"
+      },
+      {
+        "en": "a notice period",
+        "fr": "un préavis"
+      },
+      {
+        "en": "a performance review",
+        "fr": "un entretien d'évaluation",
+        "alt": [
+          "an appraisal"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "toeic-voyages",
+    "title": "Voyages d'affaires",
+    "level": "B1",
+    "group": "travail",
+    "cards": [
+      {
+        "en": "a flight",
+        "fr": "un vol"
+      },
+      {
+        "en": "a boarding pass",
+        "fr": "une carte d'embarquement"
+      },
+      {
+        "en": "luggage",
+        "fr": "les bagages",
+        "alt": [
+          "baggage"
+        ]
+      },
+      {
+        "en": "a layover",
+        "fr": "une escale",
+        "alt": [
+          "a stopover"
+        ]
+      },
+      {
+        "en": "a delay",
+        "fr": "un retard (de vol)"
+      },
+      {
+        "en": "to book",
+        "fr": "réserver",
+        "alt": [
+          "to reserve"
+        ]
+      },
+      {
+        "en": "an itinerary",
+        "fr": "un itinéraire (de voyage)"
+      },
+      {
+        "en": "customs",
+        "fr": "la douane"
+      },
+      {
+        "en": "a passport",
+        "fr": "un passeport"
+      },
+      {
+        "en": "a visa",
+        "fr": "un visa"
+      },
+      {
+        "en": "a round-trip ticket",
+        "fr": "un billet aller-retour",
+        "alt": [
+          "a return ticket"
+        ]
+      },
+      {
+        "en": "a fare",
+        "fr": "un tarif (de transport)"
+      },
+      {
+        "en": "a gate",
+        "fr": "une porte d'embarquement"
+      },
+      {
+        "en": "to check in",
+        "fr": "s'enregistrer (à l'aéroport ou à l'hôtel)"
+      },
+      {
+        "en": "a rental car",
+        "fr": "une voiture de location"
+      },
+      {
+        "en": "accommodation",
+        "fr": "l'hébergement",
+        "alt": [
+          "lodging"
+        ]
+      },
+      {
+        "en": "a business trip",
+        "fr": "un voyage d'affaires"
+      },
+      {
+        "en": "to board",
+        "fr": "embarquer"
+      },
+      {
+        "en": "a shuttle",
+        "fr": "une navette"
+      },
+      {
+        "en": "a trade show",
+        "fr": "un salon professionnel",
+        "alt": [
+          "a trade fair"
+        ]
+      }
+    ]
+  }
+]

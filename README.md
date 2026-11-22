@@ -94,6 +94,7 @@ Sécurité : la clé publique sert seulement à trouver la base. Ce sont les rè
 |---|---|
 | `npm run dev` | Mode développement : pas de démarrage automatique, « Quitter » dans la zone de notification |
 | `npm run model` | Télécharge le modèle Whisper dans `models/` |
+| `npm run voice` | Télécharge la voix Kokoro (~310 Mo) dans `models/` et fait un essai |
 | `npm run chaussette` | Regénère les SVG de Chaussette (trois poses, dans sa tasse ou seule), l'icône et le logo (tasse fumante) |
 | `npm run icons` | Recrée les icônes PNG et ICO à partir de `assets/icon-teachtime.svg` |
 | `npm run modele` | Recrée la planche modèle du personnage dans `assets/sprites/` |

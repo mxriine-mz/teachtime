@@ -311,6 +311,7 @@ function registerIpc() {
     tick();
     return getState();
   });
+  ipcMain.handle('stats:get', () => store.stats());
   ipcMain.handle('points:countToday', (_e, ref) => store.countToday(String(ref)));
 
   ipcMain.handle('items:get', (_e, key) => store.getItem(String(key)));

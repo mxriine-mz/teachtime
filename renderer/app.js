@@ -14,6 +14,7 @@ const VIEWS = {
   memorize: () => import('./views/memorize.js'),
   vocab: () => import('./views/vocab.js'),
   speak: () => import('./views/speak.js'),
+  profile: () => import('./views/profile.js'),
   settings: () => import('./views/settings.js'),
   setup: () => import('./views/setup.js'),
   login: () => import('./views/login.js'),
@@ -147,7 +148,7 @@ async function boot() {
     sideCat.classList.add('logo');
     logo.replaceWith(sideCat);
   }
-  const NAV_ICONS = { home: 'home', game: 'map', lessons: 'book', memorize: 'pencil', vocab: 'cards', speak: 'mic', settings: 'gear' };
+  const NAV_ICONS = { home: 'home', game: 'map', lessons: 'book', memorize: 'pencil', vocab: 'cards', speak: 'mic', profile: 'user', settings: 'gear' };
   document.querySelectorAll('#nav nav button').forEach((b) => {
     const s = b.querySelector('.ico');
     if (s) s.replaceChildren(icon(NAV_ICONS[b.dataset.view], 18));

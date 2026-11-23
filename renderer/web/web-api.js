@@ -180,6 +180,15 @@ window.api = {
     listeners.forEach((cb) => cb(s));
     return s;
   },
+  stats: async () => {
+    const byDay = {}; const byKind = {}; const unlockDays = [];
+    for (const e of allEvents()) {
+      if (e.kind === 'unlock') { unlockDays.push(e.day); continue; }
+      byDay[e.day] = (byDay[e.day] || 0) + (e.pts || 0);
+      byKind[e.kind] = (byKind[e.kind] || 0) + (e.pts || 0);
+    }
+    return { byDay, byKind, unlockDays };
+  },
   countToday: async (ref) => { const d = dayKey(); return allEvents().filter((e) => e.day === d && e.ref === ref).length; },
 
   getItem: async (key) => getItem(String(key)),

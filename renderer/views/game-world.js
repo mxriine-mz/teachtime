@@ -795,6 +795,11 @@ export async function loadPlayerSheet(url) {
   PLAYER_SHEET = sheet;
   return true;
 }
+// Images de face de la joueuse (debout, et yeux fermés s'il y a une colonne de clin d'oeil), pour le Profil.
+export function playerPortrait() {
+  if (!PLAYER_SHEET) return null;
+  return { still: PLAYER_SHEET.down[0], blink: PLAYER_SHEET.blink || null };
+}
 export function sheetInfo(url) {
   const s = SHEETS.get(url);
   return s ? { w: s.down[0].width, h: s.down[0].height, blink: !!s.blink } : null;

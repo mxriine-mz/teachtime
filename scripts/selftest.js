@@ -132,7 +132,7 @@ async function run({ app, ensureWindow, getState, shouldLock, tick, config, stor
       ['home', {}], ['game', {}], ['lessons', {}], ['lessons', { id: 'conditionals' }],
       ['memorize', {}], ['memorize', { id: 'demo' }], ['memorize', { id: 'demo', mode: 'hide' }], ['memorize', { id: 'demo', mode: 'order' }],
       ['vocab', {}], ['vocab', { id: 'demo' }], ['vocab', { preset: 'toeic-finance' }], ['vocab', { id: 'demo', mode: 'all' }],
-      ['speak', {}], ['speak', { mode: 'roleplay' }], ['speak', { mode: 'free' }], ['settings', {}], ['login', {}],
+      ['speak', {}], ['speak', { mode: 'roleplay' }], ['speak', { mode: 'free' }], ['profile', {}], ['settings', {}], ['login', {}],
     ];
     const garbled = [];
     for (const [v, p] of views) {
@@ -143,6 +143,33 @@ async function run({ app, ensureWindow, getState, shouldLock, tick, config, stor
       if (await js('document.body.innerText.includes("[object ") || /(^|\\n)\\s*(null|undefined)\\s*(\\n|$)/.test(document.body.innerText)')) garbled.push(name);
     }
     check('aucun écran n\'affiche « [object … ] », « null » ou « undefined »', garbled.length === 0, garbled.join(', '));
+
+    // Page Profil : avatar dessiné par Marine, niveau, badges, calendrier ; le prénom choisi passe sur l'accueil.
+    const pf = await js(`(async () => {
+      window.teachtime.navigate('profile'); await new Promise((r) => setTimeout(r, 700));
+      const cv = document.querySelector('.pf-avatar canvas');
+      return { info: window.__teachProfile || null, avatar: !!cv && cv.width >= 80, days: document.querySelectorAll('.pf-heat-grid .pf-day').length,
+        badges: document.querySelectorAll('.pf-badge').length, menu: !!document.querySelector('#nav nav button[data-view="profile"] svg') };
+    })()`);
+    check('profil : avatar de la joueuse, niveau et 12 badges', pf.avatar && pf.info && pf.info.level >= 1 && pf.badges === 12, JSON.stringify(pf.info));
+    await js(`[...document.querySelectorAll('*')].forEach((e) => { if (e.scrollHeight > e.clientHeight + 20 && /auto|scroll/.test(getComputedStyle(e).overflowY)) e.scrollTop = 1e6; })`);
+    await shot('profile-bas');
+    const [pw, ph] = win.getSize();
+    win.setSize(390, 844);
+    await js('window.teachtime.navigate("profile")');
+    await shot('profile-mobile');
+    await js(`[...document.querySelectorAll('*')].forEach((e) => { if (e.scrollHeight > e.clientHeight + 20 && /auto|scroll/.test(getComputedStyle(e).overflowY)) e.scrollTop = 900; })`);
+    await shot('profile-mobile-bas');
+    win.setSize(pw, ph);
+    check('profil : calendrier en semaines entières et bouton dans le menu', pf.days % 7 === 0 && pf.days >= 13 * 7 && pf.menu, `${pf.days / 7} semaines`);
+    const named = await js(`(async () => {
+      await window.api.setItem('profile', { name: 'Chaussette' });
+      window.teachtime.navigate('home'); await new Promise((r) => setTimeout(r, 500));
+      const ok = document.querySelector('#view h1').textContent.includes('Chaussette');
+      await window.api.setItem('profile', { name: '' });
+      return ok;
+    })()`);
+    check('profil : le prénom choisi s\'affiche sur l\'accueil', named);
     const lessonCards = await js('(async () => { window.teachtime.navigate("lessons"); await new Promise((r) => setTimeout(r, 400)); return document.querySelectorAll(".card.click").length; })()');
     check('cours : les fiches s\'affichent en cartes', lessonCards >= 18, `cartes=${lessonCards}`);
     check('cours : plus de bouton « J\'ai lu ce cours »', !(await js('(async () => { window.teachtime.navigate("lessons", { id: "conditionals" }); await new Promise((r) => setTimeout(r, 400)); return document.body.innerText.includes("J\'ai lu"); })()')));

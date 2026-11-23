@@ -3,6 +3,7 @@ import { CATS, startQuiz } from './activities.js';
 import { mascot } from '../lib/mascot.js';
 import { icon } from '../lib/icons.js';
 import { drawPreview, PLACES, usePlayerSprite } from './game.js';
+import { profileName } from './profile.js';
 
 // Carte du Quartier : aperçu en pixel art, habitants vus aujourd'hui, bouton.
 async function quartierCard(ctx) {
@@ -66,6 +67,7 @@ export async function render(root, ctx) {
   const done = s.points >= s.quota;
   const left = timeToLock(s);
   const due = await dueCounts(ctx);
+  const name = await profileName(ctx);
 
   let status;
   if (s.locked) status = `Le verrou est actif : il te manque ${s.remaining} points.`;
@@ -96,7 +98,7 @@ export async function render(root, ctx) {
     h('div', { class: 'row', style: { gap: '20px', marginBottom: '22px', flexWrap: 'nowrap' } },
       mascot({ size: 112, alone: true, mood: done ? ['clin-oeil', 'contente', 'clin-oeil'] : 'random' }),
       h('div', {},
-        h('h1', {}, `${greeting()} Marine !`),
+        h('h1', {}, `${greeting()} ${name} !`),
         h('div', { class: 'bubble', style: { display: 'inline-block', marginTop: '4px' } }, status))),
     h('div', { class: 'grid c4' },
       h('div', { class: 'card stat' }, h('b', {}, `${s.points}`), h('span', {}, `points sur ${s.quota} aujourd'hui`)),

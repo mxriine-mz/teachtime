@@ -5,6 +5,7 @@ contextBridge.exposeInMainWorld('api', {
   getState: () => ipcRenderer.invoke('state:get'),
   addPoints: (kind, pts, ref) => ipcRenderer.invoke('points:add', { kind, pts, ref }),
   countToday: (ref) => ipcRenderer.invoke('points:countToday', ref),
+  stats: () => ipcRenderer.invoke('stats:get'),
 
   getItem: (key) => ipcRenderer.invoke('items:get', key),
   setItem: (key, value) => ipcRenderer.invoke('items:set', key, value),

@@ -1,8 +1,9 @@
 {
   "name": "teach-time",
   "productName": "TEAch Time",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "TEAch Time, My Cup of English : plateforme d'anglais quotidienne (cours, jeu, mémorisation, oral) avec un quota à atteindre chaque jour.",
+  "author": "Marine",
   "main": "main.js",
   "private": true,
   "scripts": {
@@ -14,15 +15,69 @@
     "chaussette": "node scripts/make-chaussette.js",
     "icons": "electron scripts/make-icons.js",
     "modele": "electron scripts/make-template.js",
-    "habitants": "node scripts/make-habitants.js"
+    "habitants": "node scripts/make-habitants.js",
+    "installer": "electron-builder --win nsis"
   },
   "license": "UNLICENSED",
   "type": "commonjs",
   "devDependencies": {
-    "electron": "^45.3.2"
+    "electron": "^45.3.2",
+    "electron-builder": "^26.17.0"
   },
   "dependencies": {
     "@huggingface/transformers": "^4.3.2",
     "kokoro-js": "^1.2.1"
+  },
+  "build": {
+    "appId": "dev.mxrine-mz.teachtime",
+    "productName": "TEAch Time",
+    "copyright": "Marine",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "package.json",
+      "lib/**",
+      "renderer/**",
+      "assets/**",
+      "content/**",
+      "scripts/selftest.js",
+      ".env",
+      "!**/*.map",
+      "!**/onnxruntime-node/bin/napi-v*/darwin/**",
+      "!**/onnxruntime-node/bin/napi-v*/linux/**",
+      "!**/onnxruntime-node/bin/napi-v*/win32/arm64/**",
+      "!**/onnxruntime-web/**",
+      "!**/@img/sharp-*-arm64/**"
+    ],
+    "asarUnpack": [
+      "**/*.node",
+      "**/onnxruntime-node/**",
+      "**/sharp/**",
+      "**/@img/**"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "assets/icon-teachtime.ico"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "createDesktopShortcut": "always",
+      "createStartMenuShortcut": true,
+      "shortcutName": "TEAch Time",
+      "runAfterFinish": true,
+      "deleteAppDataOnUninstall": false,
+      "artifactName": "TEAch-Time-Setup-${version}.${ext}"
+    }
   }
 }

@@ -429,8 +429,9 @@ function start() {
   app.whenReady().then(async () => {
     config.init(app.getPath('userData'));
     store.init(app.getPath('userData'), config.get().deviceId, { useDrive: !SELFTEST });
-    stt.init(path.join(app.getPath('userData'), 'models'), path.join(__dirname, 'models'));
-    voice.init(path.join(app.getPath('userData'), 'models'), path.join(__dirname, 'models'));
+    // Modèles : dossier de l'utilisateur (téléchargés au premier usage), dossier du projet, ou TEACHTIME_MODELS (tests).
+    stt.init(path.join(app.getPath('userData'), 'models'), path.join(__dirname, 'models'), process.env.TEACHTIME_MODELS || null);
+    voice.init(path.join(app.getPath('userData'), 'models'), path.join(__dirname, 'models'), process.env.TEACHTIME_MODELS || null);
     cloud.init(app.getPath('userData'), { store, config, onChange: () => pushState(), envFile: SELFTEST ? null : path.join(__dirname, '.env') });
     lastRefresh = Date.now();
     registerAppProtocol();

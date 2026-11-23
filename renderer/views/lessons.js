@@ -28,6 +28,7 @@ export async function render(root, ctx, params = {}) {
 }
 
 async function renderLesson(root, ctx, l) {
+  ctx.activity(`Cours : ${l.title}`);
   const doneMap = (await ctx.api.getItem('lessonsDone')) || {};
   const when = doneMap[l.id] ? new Date(doneMap[l.id]).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' }) : null;
 

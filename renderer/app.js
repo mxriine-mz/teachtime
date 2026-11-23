@@ -53,6 +53,8 @@ const ctx = {
     return state;
   },
   go(view, params) { navigate(view, params); },
+  // Ligne « ce que je fais » du statut Discord (PC seulement).
+  activity(label) { if (api.discordView) api.discordView(label); },
 };
 
 function hhmm(hh, mm) {
@@ -116,11 +118,18 @@ function emergency() {
   input.focus();
 }
 
+// Statut Discord : une phrase par écran (un cours ou un jeu de rôle précise ensuite son titre).
+const ACTIVITY = {
+  home: 'Sur l\'accueil', game: 'Se promène dans le Quartier', lessons: 'Révise ses cours', memorize: 'Apprend un texte par cœur',
+  vocab: 'Révise son vocabulaire', speak: 'S\'entraîne à l\'oral', profile: 'Regarde son profil', settings: 'Dans les réglages',
+};
+
 async function navigate(view, params = {}) {
   if (!state.setupDone) view = state.platform === 'web' ? 'login' : 'setup';
   if (cleanup) { try { cleanup(); } catch { /* rien */ } cleanup = null; }
   tts.stop();
   current = view;
+  ctx.activity(ACTIVITY[view] || 'Ouvre TEAch Time');
   document.querySelectorAll('#nav nav button').forEach((b) => b.classList.toggle('active', b.dataset.view === view));
   const root = document.getElementById('view');
   clear(root);

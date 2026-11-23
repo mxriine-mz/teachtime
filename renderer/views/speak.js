@@ -191,6 +191,7 @@ async function roleplayList(ctx, mount) {
 
 let rpStopper = null;
 async function roleplay(ctx, mount, r) {
+  ctx.activity(`Jeu de rôle : ${r.title}`);
   let t = 0;
   let tries = 0;
   let gained = 0;

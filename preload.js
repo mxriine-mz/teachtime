@@ -6,6 +6,9 @@ contextBridge.exposeInMainWorld('api', {
   addPoints: (kind, pts, ref) => ipcRenderer.invoke('points:add', { kind, pts, ref }),
   countToday: (ref) => ipcRenderer.invoke('points:countToday', ref),
   stats: () => ipcRenderer.invoke('stats:get'),
+  discordView: (label) => ipcRenderer.invoke('discord:view', label),
+  discordStatus: () => ipcRenderer.invoke('discord:status'),
+  setDiscord: (on) => ipcRenderer.invoke('settings:discord', on),
 
   getItem: (key) => ipcRenderer.invoke('items:get', key),
   setItem: (key, value) => ipcRenderer.invoke('items:set', key, value),

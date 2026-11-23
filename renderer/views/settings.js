@@ -170,10 +170,28 @@ export async function render(root, ctx) {
     h('p', { class: 'small muted' }, `Ce PC : ${st.deviceId} · autres PC vus : ${st.otherDevices}`),
     h('div', { class: 'row' }, h('button', { class: 'btn', onclick: () => ctx.api.hide() }, 'Masquer la fenêtre (TEAch Time reste dans la zone de notification)')));
 
+  // ---- Statut Discord (PC) ----
+  const dOn = h('input', { type: 'checkbox', checked: s.discord !== false });
+  const dLine = h('p', { class: 'small muted' });
+  const drawDiscord = async () => {
+    const d = await ctx.api.discordStatus();
+    dLine.textContent = !d.configured ? 'Identifiant de l\'application Discord absent du fichier .env (TEACHTIME_DISCORD_APP_ID).'
+      : !d.enabled ? 'Désactivé : Discord n\'affiche rien.'
+        : d.connected ? 'Connecté à Discord : ton statut est visible par tes amis.'
+          : 'En attente de Discord : ouvre l\'appli Discord sur ce PC, le statut apparaît tout seul.';
+  };
+  dOn.addEventListener('change', async () => { await ctx.api.setDiscord(dOn.checked); setTimeout(drawDiscord, 600); });
+  drawDiscord();
+  const discordCard = h('div', { class: 'card' },
+    h('h2', {}, 'Statut Discord'),
+    h('p', { class: 'small muted', style: { marginTop: 0 } }, 'Quand la fenêtre est ouverte, Discord montre « Joue à TEAch Time », ce que tu fais (le titre du cours, par exemple) et tes points du jour.'),
+    h('label', { class: 'row', style: { marginBottom: '8px' } }, dOn, h('span', {}, 'Montrer mon activité sur Discord')),
+    dLine);
+
   clear(root).append(
     h('h1', {}, 'Réglages'),
     h('p', { class: 'sub' }, 'Voix, micro, verrou et synchronisation.'),
     h('div', { class: 'grid c2' }, voiceCard, micCard),
     h('div', { class: 'grid c2', style: { marginTop: '16px' } }, rulesCard, accountCard),
-    h('div', { class: 'grid c2', style: { marginTop: '16px' } }, dataCard));
+    h('div', { class: 'grid c2', style: { marginTop: '16px' } }, dataCard, discordCard));
 }

@@ -49,7 +49,7 @@ function readWavFloat32(file) {
   throw new Error('chunk data introuvable');
 }
 
-async function run({ app, ensureWindow, getState, shouldLock, tick, config, store, stt, isLocked }) {
+async function run({ app, ensureWindow, getState, shouldLock, tick, config, store, stt, discord, updateDiscord, isLocked }) {
   const out = outDirFromArgs();
   const report = { checks: [], consoleErrors: [], screenshots: [] };
   const check = (name, ok, detail = '') => {
@@ -143,6 +143,51 @@ async function run({ app, ensureWindow, getState, shouldLock, tick, config, stor
       if (await js('document.body.innerText.includes("[object ") || /(^|\\n)\\s*(null|undefined)\\s*(\\n|$)/.test(document.body.innerText)')) garbled.push(name);
     }
     check('aucun écran n\'affiche « [object … ] », « null » ou « undefined »', garbled.length === 0, garbled.join(', '));
+
+    // Statut Discord : un faux Discord sur un tube nommé, qui répond comme le vrai et note ce qu'il reçoit.
+    if (discord) {
+      const net = require('net');
+      const pipe = process.platform === 'win32' ? `\\\\?\\pipe\\teachtime-discord-test-${process.pid}` : path.join(os.tmpdir(), `tt-discord-${process.pid}.sock`);
+      const got = { handshake: null, activities: [] };
+      const server = net.createServer((sock) => {
+        let buf = Buffer.alloc(0);
+        sock.on('data', (chunk) => {
+          buf = Buffer.concat([buf, chunk]);
+          while (buf.length >= 8) {
+            const op = buf.readInt32LE(0);
+            const len = buf.readInt32LE(4);
+            if (buf.length < 8 + len) return;
+            const msg = JSON.parse(buf.subarray(8, 8 + len).toString('utf8'));
+            buf = buf.subarray(8 + len);
+            if (op === discord.OP.HANDSHAKE) { got.handshake = msg; sock.write(discord.encode(discord.OP.FRAME, { cmd: 'DISPATCH', evt: 'READY', data: { v: 1 } })); }
+            else if (op === discord.OP.FRAME && msg.cmd === 'SET_ACTIVITY') { got.activities.push(msg.args.activity); sock.write(discord.encode(discord.OP.FRAME, { cmd: 'SET_ACTIVITY', nonce: msg.nonce, data: msg.args.activity })); }
+          }
+        });
+        sock.on('error', () => {});
+      });
+      await new Promise((r) => server.listen(pipe, r));
+      discord.init({ appId: '123456789012345678', pipe });
+      discord.setVisible(false);
+      discord.setVisible(true);
+      await js('(async () => { window.teachtime.navigate("lessons", { id: "conditionals" }); await new Promise((r) => setTimeout(r, 600)); })()');
+      await wait(400);
+      const last = got.activities[got.activities.length - 1] || {};
+      check('discord : poignée de main avec l\'identifiant de l\'application', got.handshake && got.handshake.client_id === '123456789012345678' && got.handshake.v === 1);
+      check('discord : le statut montre le cours ouvert et les points du jour', /^Cours : /.test(last.details || '') && /points|Quota/.test(last.state || '') && /Niveau \d+/.test(last.state || '') && !!(last.assets && last.assets.large_image) && !!(last.timestamps && last.timestamps.start), JSON.stringify(last));
+      const before = got.activities.length;
+      discord.setVisible(false);
+      await wait(400);
+      check('discord : fenêtre cachée = statut retiré', got.activities.length === before + 1 && got.activities[before] === null);
+      discord.setEnabled(false);
+      discord.setVisible(true);
+      await wait(400);
+      check('discord : désactivé dans les Réglages = rien n\'est envoyé', got.activities.length === before + 1 && discord.status().enabled === false);
+      discord.shutdown();
+      server.close();
+      await js('window.teachtime.navigate("settings")');
+      await wait(500);
+      check('discord : carte dans les Réglages', await js('document.body.innerText.includes("Statut Discord")'));
+    }
 
     // Page Profil : avatar dessiné par Marine, niveau, badges, calendrier ; le prénom choisi passe sur l'accueil.
     const pf = await js(`(async () => {

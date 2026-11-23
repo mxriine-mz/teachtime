@@ -32,6 +32,7 @@ const store = require('./lib/store');
 const stt = require('./lib/stt');
 const voice = require('./lib/voice');
 const cloud = require('./lib/cloud');
+const discord = require('./lib/discord');
 
 const ARGV = process.argv;
 const BACKGROUND = ARGV.includes('--background');
@@ -88,6 +89,28 @@ function getState() {
 function pushState() {
   if (win && !win.isDestroyed()) win.webContents.send('state', getState());
   updateTray();
+  updateDiscord();
+}
+
+// ---------- Statut Discord ----------
+// Ce que Marine fait (envoyé par l'interface à chaque écran) et ses points du jour.
+let discordView = 'Ouvre TEAch Time';
+const DISCORD_IMAGE = 'https://teach-time.mxrine-mz.dev/assets/icon-512.png';
+function levelOf(total) { // même calcul que la page Profil : niveau n à 150 × n × (n − 1) points
+  let n = 1;
+  while (150 * (n + 1) * n <= total) n++;
+  return n;
+}
+function updateDiscord() {
+  if (!discord.status().configured) return;
+  const c = config.get();
+  const points = store.pointsOn(store.dayKey());
+  const total = Object.values(store.stats().byDay).reduce((a, b) => a + b, 0);
+  const lv = `Niveau ${levelOf(total)}`;
+  let details = discordView;
+  let state = points >= c.dailyQuota ? `Quota du jour atteint · ${lv}` : `${points} / ${c.dailyQuota} points aujourd'hui · ${lv}`;
+  if (locked) { details = 'C\'est l\'heure de l\'anglais'; state = `Encore ${Math.max(0, c.dailyQuota - points)} points · ${lv}`; }
+  discord.setActivity({ details, state, image: DISCORD_IMAGE, imageText: 'TEAch Time · My Cup of English' });
 }
 
 // ---------- Règle du verrou ----------
@@ -193,6 +216,9 @@ function ensureWindow() {
     if (!locked) win.hide(); // fermer = rester en arrière-plan
   });
   win.on('minimize', () => { if (locked) setTimeout(() => win.restore(), 50); });
+  // Statut Discord seulement quand la fenêtre est à l'écran (pas quand l'app attend dans la zone de notification).
+  const discordVisible = () => discord.setVisible(!win.isDestroyed() && win.isVisible() && !win.isMinimized());
+  for (const ev of ['show', 'hide', 'minimize', 'restore']) win.on(ev, discordVisible);
   win.on('blur', () => {
     if (locked && !SELFTEST) setTimeout(() => { if (locked) { win.show(); win.focus(); } }, 200);
   });
@@ -312,6 +338,9 @@ function registerIpc() {
     return getState();
   });
   ipcMain.handle('stats:get', () => store.stats());
+  ipcMain.handle('discord:view', (_e, label) => { discordView = String(label || 'Ouvre TEAch Time').slice(0, 100); updateDiscord(); return true; });
+  ipcMain.handle('discord:status', () => discord.status());
+  ipcMain.handle('settings:discord', (_e, on) => { config.update({ discord: !!on }); discord.setEnabled(!!on); return discord.status(); });
   ipcMain.handle('points:countToday', (_e, ref) => store.countToday(String(ref)));
 
   ipcMain.handle('items:get', (_e, key) => store.getItem(String(key)));
@@ -433,6 +462,7 @@ function start() {
     // Modèles : dossier de l'utilisateur (téléchargés au premier usage), dossier du projet, ou TEACHTIME_MODELS (tests).
     stt.init(path.join(app.getPath('userData'), 'models'), path.join(__dirname, 'models'), process.env.TEACHTIME_MODELS || null);
     voice.init(path.join(app.getPath('userData'), 'models'), path.join(__dirname, 'models'), process.env.TEACHTIME_MODELS || null);
+    discord.init({ envFile: SELFTEST ? null : path.join(__dirname, '.env'), on: config.get().discord !== false });
     cloud.init(app.getPath('userData'), { store, config, onChange: () => pushState(), envFile: SELFTEST ? null : path.join(__dirname, '.env') });
     lastRefresh = Date.now();
     registerAppProtocol();
@@ -443,7 +473,7 @@ function start() {
     registerIpc();
 
     if (SELFTEST) {
-      require('./scripts/selftest').run({ app, ensureWindow, getState, shouldLock, tick, config, store, stt, isLocked: () => locked });
+      require('./scripts/selftest').run({ app, ensureWindow, getState, shouldLock, tick, config, store, stt, discord, updateDiscord, isLocked: () => locked });
       return;
     }
 
@@ -475,6 +505,7 @@ function start() {
     if (locked && !DEV) { e.preventDefault(); return; }
     quitting = true;
     try { store.flush(); } catch { /* rien */ }
+    try { discord.shutdown(); } catch { /* rien */ }
   });
   app.on('window-all-closed', (e) => e.preventDefault());
 }
